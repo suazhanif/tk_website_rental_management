@@ -47,6 +47,7 @@
         'views/my_portal.xml',
         'views/map_view.xml',
         'views/website_layout_inherit.xml',
+        'views/waqf_pages.xml',
         # Snippets
         'views/snippets/static_snippets.xml',
         'views/snippets/popular_properties.xml',
@@ -66,6 +67,7 @@
             'tk_website_rental_management/static/src/css/color.css',
             'tk_website_rental_management/static/src/css/skeleton.css',
             'tk_website_rental_management/static/src/css/extra.css',
+            'tk_website_rental_management/static/src/css/waqf_theme.css',
             'tk_website_rental_management/static/src/js/plugin_loader.js',
             'tk_website_rental_management/static/src/js/map-listing.js',
             'tk_website_rental_management/static/src/js/scripts.js',
