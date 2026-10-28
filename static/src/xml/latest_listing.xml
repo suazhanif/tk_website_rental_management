@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_latest_listing" owl="1">
+        <div class="listing-slider-wrap fl-wrap snippet-latest-listing">
+            <t t-if="latest_listing.latest_listing &amp;&amp; latest_listing.is_latest_listing_visible">
+                <div class="listing-slider fl-wrap">
+                    <div class="swiper-container dynamic-listing-slider">
+                        <div class="swiper-wrapper">
+                            <!--  swiper-slide  -->
+                            <t t-foreach="latest_listing.latest_listing" t-as="ll" t-key="ll.id">
+                                <div class="swiper-slide w-33">
+                                    <div class="listing-slider-item fl-wrap listing-card-parent">
+                                        <!-- listing-item  -->
+                                        <div class="listing-item listing_carditem listing-card-child">
+                                            <article class="geodir-category-listing fl-wrap latest-listing-article">
+                                                <div class="geodir-category-img">
+                                                    <div t-attf-class="geodir-js-favorite_btn #{latest_listing.book_properties.includes(ll.id) ? ' liked' : ''}"
+                                                        t-att-data-access="ll.access_token"
+                                                        t-if="latest_listing.logged_user"><i class="fal fa-heart"></i>
+                                                    </div>
+                                                    <a t-attf-href="/property-details/#{ll.slug_data}"
+                                                        class="geodir-category-img-wrap fl-wrap skeleton">
+                                                        <img class="lazy" t-att-data-src="ll.image"
+                                                            src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                            t-att-alt="ll.name" loading="lazy" />
+                                                    </a>
+                                                    <div class="geodir_status_date gsd_open">Available</div>
+                                                    <div class="geodir-category-opt">
+                                                        <div
+                                                            class="geodir-category-opt_title w-100 d-flex align-items-center justify-content-between">
+                                                            <h4 class="mb-0"><a
+                                                                    t-attf-href="/property-details/#{ll.slug_data}">
+                                                                    <t t-esc="ll.name" />
+                                                                </a><span t-if="ll.is_verify" class="verified-badge"><i
+                                                                        class="fal fa-check"></i></span></h4>
+                                                            <div class="geodir-category-location"><a
+                                                                    t-attf-href="https://maps.google.com/maps?q=loc:#{ll.latitude},#{ll.longitude}"
+                                                                    target="_blank"><i
+                                                                        class="fas fa-map-marker-alt"></i>
+                                                                    <t t-if="ll.street">
+                                                                        <t t-esc="ll.street" />,
+                                                                    </t>
+                                                                    <t t-if="ll.city">
+                                                                        <t t-esc="ll.city" />,
+                                                                    </t>
+                                                                    <t t-if="ll.state">
+                                                                        <t t-esc="ll.state" />
+                                                                        ,
+                                                                    </t>
+                                                                    <t t-esc="ll.country" />
+                                                                </a></div>
+                                                        </div>
+                                                        <div class="listing_carditem_footer fl-wrap">
+                                                            <t t-if="ll.type == 'residential'">
+                                                                <a class="listing-item-category-wrap">
+                                                                    <div
+                                                                        class="listing-item-category green-gradient-bg ">
+                                                                        <i class="fal fa-building"></i>
+                                                                    </div>
+                                                                    <strong class="card-style">
+                                                                        <t t-esc="ll.property_subtype_name" />
+                                                                    </strong>
+                                                                </a>
+                                                            </t>
+                                                            <t t-if="ll.type == 'land'">
+                                                                <a class="listing-item-category-wrap">
+                                                                    <div class="listing-item-category purp-gradient-bg">
+                                                                        <i class="fal fa-map"></i>
+                                                                    </div>
+                                                                    <strong class="card-style">
+                                                                        <t t-esc="ll.property_subtype_name" />
+                                                                    </strong>
+                                                                </a>
+                                                            </t>
+                                                            <t t-if="ll.type == 'commercial'">
+                                                                <a class="listing-item-category-wrap">
+                                                                    <div class="listing-item-category coral-bg"><i
+                                                                            class="fal fa-dumpster"></i></div>
+                                                                    <strong class="card-style">
+                                                                        <t t-esc="ll.property_subtype_name" />
+                                                                    </strong>
+                                                                </a>
+                                                            </t>
+                                                            <t t-if="ll.type == 'industrial'">
+                                                                <a class="listing-item-category-wrap">
+                                                                    <div class="listing-item-category yellow-bg"><i
+                                                                            class="fal fa-industry"></i></div>
+                                                                    <strong class="card-style">
+                                                                        <t t-esc="ll.property_subtype_name" />
+                                                                    </strong>
+                                                                </a>
+                                                            </t>
+                                                            <div class="price-level geodir-category_price">
+                                                                <span class="price-level-item">
+                                                                    <t t-if="ll.sale_lease == 'for_sale'">
+                                                                        <t t-esc="ll.price" />
+                                                                    </t>
+                                                                    <t t-else="">
+                                                                        <t t-esc="ll.price" />
+                                                                        <t t-if="ll.rent_unit">/
+                                                                            <t t-esc="ll.rent_unit" />
+                                                                        </t>
+                                                                    </t>
+                                                                </span>
+                                                                <span class="price-name-tooltip">
+                                                                    <t t-if="ll.sale_lease == 'for_sale'">Buy</t>
+                                                                    <t t-else="">Rent</t>
+                                                                </span>
+                                                            </div>
+                                                            <t t-if="latest_listing.display_landlord">
+                                                                <div class="post-author"><a href="#"><img
+                                                                            t-att-src="ll.landlord_id.image"
+                                                                            t-att-alt="ll.landlord_id.name"
+                                                                            loading="lazy" /></a></div>
+                                                            </t>
+                                                            <div class="listing-rating-count-wrap">
+                                                                <div
+                                                                    t-attf-class="review-score #{ll.sale_lease == 'for_sale' ? 'sale-bg' : 'rent-bg'}">
+                                                                    <t t-if="ll.sale_lease == 'for_sale'">Buy</t>
+                                                                    <t t-else="">Rent</t>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <!-- listing-item end -->
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                    <div
+                        class="listing-carousel-button listing-carousel-button-next2 dynamic-listing-carousel-button-next2">
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+                    <div
+                        class="listing-carousel-button listing-carousel-button-prev2 dynamic-listing-carousel-button-prev2">
+                        <i class="fas fa-caret-left"></i>
+                    </div>
+                </div>
+                <div class="tc-pagination_wrap">
+                    <div class="dynamic-tc-pagination2 tc-pagination2"></div>
+                </div>
+            </t>
+        </div>
+    </t>
+</templates>

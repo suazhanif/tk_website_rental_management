@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_popular_properties" owl="1">
+        <div>
+            <t t-if="popular_listing.popular_listing &amp;&amp; popular_listing.is_popular_properties_visible">
+                <div class="grid-item-holder gallery-items fl-wrap">
+                    <t t-foreach="popular_listing.popular_listing" t-as="ll" t-key="ll.id">
+                        <!--  gallery-item-->
+                        <div t-attf-class="gallery-item #{ll.type} listing-card-parent">
+                            <!-- listing-item  -->
+                            <div class="listing-item listing-card-child">
+                                <article class="geodir-category-listing fl-wrap">
+                                    <div class="geodir-category-img">
+                                        <div t-attf-class="geodir-js-favorite_btn #{popular_listing.book_properties.includes(ll.id) ? ' liked' : ''}"
+                                            t-att-data-access="ll.access_token" t-if="popular_listing.logged_user"><i
+                                                class="fal fa-heart"></i></div>
+                                        <a t-attf-href="/property-details/#{ll.slug_data}"
+                                            class="geodir-category-img-wrap fl-wrap property-skeleton">
+                                            <img class="popular_property lazy" t-att-data-src="ll.image"
+                                                t-att-alt="ll.name" loading="lazy" />
+                                        </a>
+                                        <t t-if="popular_listing.display_landlord">
+                                            <div class="listing-avatar">
+                                                <a href="#"><img t-att-src="ll.landlord_id.image"
+                                                        t-att-alt="ll.landlord_id.name" loading="lazy" /></a>
+                                            </div>
+                                        </t>
+                                        <div class="geodir_status_date gsd_open">Available</div>
+                                        <div class="geodir-category-opt">
+                                            <div class="listing-rating-count-wrap">
+                                                <div t-attf-class="review-score #{ll.sale_lease == 'for_sale' ? 'sale-bg' : 'rent-bg'}">
+                                                    <t t-if="ll.sale_lease == 'for_sale'">Buy</t>
+                                                    <t t-else="">Rent</t>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-content fl-wrap title-sin_item">
+                                        <div class="geodir-category-content-title fl-wrap">
+                                            <div class="geodir-category-content-title-item">
+                                                <h3 class="title-sin_map"><a
+                                                        t-attf-href="/property-details/#{ll.slug_data}">
+                                                        <t t-esc="ll.name" />
+                                                    </a><span t-if="ll.is_verify" class="verified-badge"><i
+                                                            class="fal fa-check"></i></span></h3>
+                                                <div class="geodir-category-location fl-wrap">
+                                                    <a t-attf-href="https://maps.google.com/maps?q=loc:#{ll.latitude},#{ll.longitude}"
+                                                        target="_blank">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <t t-if="ll.street">
+                                                            <t t-esc="ll.street" />,
+                                                        </t>
+                                                        <t t-if="ll.city">
+                                                            <t t-esc="ll.city" />,
+                                                        </t>
+                                                        <t t-if="ll.state">
+                                                            <t t-esc="ll.state" />,
+                                                        </t>
+                                                        <t t-if="ll.country">
+                                                            <t t-esc="ll.country" />
+                                                        </t>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="geodir-category-text fl-wrap">
+                                            <p class="small-text" t-esc="ll.short_description">Lorem Ipsum is simply
+                                                dummy text of the printing and typesetting industry.</p>
+                                            <div class="facilities-list fl-wrap">
+                                                <div class="facilities-list-title p-price">
+                                                    <t t-if="ll.sale_lease == 'for_sale'">
+                                                        <t t-esc="ll.price" />
+                                                    </t>
+                                                    <t t-else="">
+                                                        <t t-esc="ll.price" />
+                                                        <t t-if="ll.rent_unit">/
+                                                            <t t-esc="ll.rent_unit" />
+                                                        </t>
+                                                    </t>
+                                                </div>
+                                            </div>
+                                            <div class="facilities-list fl-wrap">
+                                                <div class="facilities-list-title">Facilities : </div>
+                                                <ul class="no-list-style">
+                                                    <li class="tolt" data-microtip-position="top" data-tooltip="Gym"
+                                                        t-if="ll.web_gym"><i class="fal fa-dumbbell"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Internet Available" t-if="ll.web_wifi"><i
+                                                            class="fal fa-wifi"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Parking Available" t-if="ll.web_parking"><i
+                                                            class="fal fa-parking"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Air Conditioned" t-if="ll.web_air_condition"><i
+                                                            class="fal fa-cloud"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Semi Furnished" t-if="ll.web_semi_furnish"><i
+                                                            class="fal fa-couch"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Full Furnished" t-if="ll.web_full_furnish"><i
+                                                            class="fal fa-loveseat"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Security" t-if="ll.web_security"><i
+                                                            class="fal fa-cctv"></i></li>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Laundry Room" t-if="ll.web_laundry"><i
+                                                            class="fal fa-washer"></i></li>
+                                                    <t
+                                                        t-if="ll.website_amenity_ids &amp;&amp; ll.website_amenity_ids.length &gt; 0">
+                                                        <t t-foreach="ll.website_amenity_ids" t-as="dm" t-key="dm.id">
+                                                            <li class="tolt" data-microtip-position="top"
+                                                                t-att-data-tooltip="dm.title"><i
+                                                                    t-attf-class="fal #{dm.fa_class ? dm.fa_class : ''}"></i>
+                                                            </li>
+                                                        </t>
+                                                    </t>
+                                                    <li class="tolt" data-microtip-position="top"
+                                                        data-tooltip="Not Available"
+                                                        t-if="!ll.web_equip_kitchen &amp;&amp; !ll.web_wifi &amp;&amp; !ll.web_parking &amp;&amp; !ll.web_air_condition &amp;&amp; !ll.web_semi_furnish &amp;&amp; !ll.web_full_furnish &amp;&amp; !ll.web_security &amp;&amp; !ll.web_laundry &amp;&amp; ll.website_amenity_ids &amp;&amp; ll.website_amenity_ids.length &lt;= 0">
+                                                        <i class="fal fa-ban"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="geodir-category-footer fl-wrap">
+                                            <t t-if="ll.type == 'residential'">
+                                                <a class="listing-item-category-wrap">
+                                                    <div class="listing-item-category green-gradient-bg "><i
+                                                            class="fal fa-building"></i></div>
+                                                    <strong class="popular-card-style">
+                                                        <t t-esc="ll.property_subtype_name" />
+                                                    </strong>
+                                                </a>
+                                            </t>
+                                            <t t-if="ll.type == 'land'">
+                                                <a class="listing-item-category-wrap">
+                                                    <div class="listing-item-category purp-gradient-bg"><i
+                                                            class="fal fa-map"></i></div>
+                                                    <strong class="popular-card-style">
+                                                        <t t-esc="ll.property_subtype_name" />
+                                                    </strong>
+                                                </a>
+                                            </t>
+                                            <t t-if="ll.type == 'commercial'">
+                                                <a class="listing-item-category-wrap">
+                                                    <div class="listing-item-category coral-bg"><i
+                                                            class="fal fa-dumpster"></i></div>
+                                                    <strong class="popular-card-style">
+                                                        <t t-esc="ll.property_subtype_name" />
+                                                    </strong>
+                                                </a>
+                                            </t>
+                                            <t t-if="ll.type == 'industrial'">
+                                                <a class="listing-item-category-wrap">
+                                                    <div class="listing-item-category yellow-bg"><i
+                                                            class="fal fa-industry"></i></div>
+                                                    <strong class="popular-card-style">
+                                                        <t t-esc="ll.property_subtype_name" />
+                                                    </strong>
+                                                </a>
+                                            </t>
+                                            <div class="geodir-opt-list">
+                                                <ul class="no-list-style">
+                                                    <li><a t-attf-href="https://www.google.com/maps?q=loc:#{ll.latitude},#{ll.longitude}"
+                                                            class="single-map-item" target="_blank"
+                                                            t-if="ll.latitude &amp;&amp; ll.longitude"><i
+                                                                class="fal fa-map-marker-alt"></i><span
+                                                                class="geodir-opt-tooltip">On the map
+                                                                <strong>1</strong></span> </a></li>
+                                                    <li
+                                                        t-if="ll.property_images_ids &amp;&amp; ll.property_images_ids.length &gt; 0">
+                                                        <div class="dynamic-gal gdop-list-link snippets-gal"
+                                                            t-att-data-dynamicPath="ll.access_token"><i
+                                                                class="fal fa-search-plus"></i><span
+                                                                class="geodir-opt-tooltip">Gallery</span></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="geodir-category_contacts">
+                                                <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- listing-item end -->
+                        </div>
+                    </t>
+                </div>
+            </t>
+        </div>
+    </t>
+</templates>

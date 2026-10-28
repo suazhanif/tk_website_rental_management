@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_testimonials" owl="1">
+        <div class="testimonilas-carousel-wrap fl-wrap">
+            <div class="listing-carousel-button listing-carousel-button-next"><i class="fas fa-caret-right"></i>
+            </div>
+            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fas fa-caret-left"></i>
+            </div>
+            <div class="testimonilas-carousel">
+                <div class="swiper-container dynamic-testimonilas-carousel">
+                    <div class="swiper-wrapper">
+                        <t t-if="review_ids">
+                            <t t-foreach="review_ids" t-as="ll" t-key="ll">
+                                <div class="swiper-slide">
+                                    <div class="testi-item fl-wrap">
+                                        <div class="testi-avatar"><img t-att-src="ll.image_1920" t-att-alt="ll.name"
+                                                loading="lazy" /></div>
+                                        <div class="testimonilas-text fl-wrap">
+                                            <div class="listing-rating card-popup-rainingvis"
+                                                t-att-data-starrating2="ll.rate"></div>
+                                            <p>"
+                                                <t t-esc="ll.reviews" />"
+                                            </p>
+                                            <div class="testimonilas-avatar fl-wrap">
+                                                <h3 t-esc="ll.name">Andy Dimasky</h3>
+                                                <h4 t-esc="ll.role">Restaurant Owner</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                        </t>
+                    </div>
+                </div>
+            </div>
+            <div class="tc-pagination"></div>
+        </div>
+    </t>
+</templates>

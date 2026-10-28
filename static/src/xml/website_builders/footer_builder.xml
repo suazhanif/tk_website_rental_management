@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="website.FooterTemplateOption" t-inherit-mode="extension">
+        <BuilderSelect position="inside">
+            <BuilderSelectItem
+                    title.translate="Techkhedut Footer"
+                    actionParam="{
+                    view: 'tk_website_rental_management.theme_tk_footer',
+                    vars: { 'footer-template': 'techkhedut_footer' }
+                }"
+            >
+                <Img
+                        attrs="{ style: 'width: 234px;' }"
+                        src="'/tk_website_rental_management/static/src/img/footer-1.png'"
+                />
+            </BuilderSelectItem>
+        </BuilderSelect>
+    </t>
+</templates>

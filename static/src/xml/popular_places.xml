@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_popular_places" owl="1">
+        <div class="listing-item-grid_container fl-wrap">
+            <div class="row">
+                <!--  listing-item-grid  -->
+                <t t-if="city_ids">
+                    <t t-foreach="city_ids" t-as="city" t-key="city">
+                        <div t-attf-class="col-sm-#{city.size}">
+                            <div class="listing-item-grid">
+                                <div class="bg" t-att-data-bg="city.cover_image"></div>
+                                <div class="d-gr-sec"></div>
+                                <div class="listing-counter color2-bg"><span t-esc="city.property_count" />
+                                    Properties</div>
+                                <div class="listing-item-grid_title">
+                                    <h3><a t-attf-href="/properties/city/#{city.city_slug}/">
+                                            <t t-esc="city.city_name" />
+                                        </a></h3>
+                                    <p t-esc="city.tag_line" />
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </div>
+        </div>
+    </t>
+</templates>

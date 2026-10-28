@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_partners" owl="1">
+        <div class="clients-carousel-wrap fl-wrap">
+            <div class="cc-btn   cc-prev"><i class="fal fa-angle-left"></i></div>
+            <div class="cc-btn cc-next"><i class="fal fa-angle-right"></i></div>
+            <div class="clients-carousel">
+                <div class="swiper-container dynamic-clients-carousel">
+                    <div class="swiper-wrapper">
+                        <t t-if="partner_ids">
+                            <t t-foreach="partner_ids" t-as="ll" t-key="ll">
+                                <!--client-item-->
+                                <div class="swiper-slide">
+                                    <a href="#" class="client-item"><img t-att-src="ll.partner_logo" t-att-alt="ll.name"
+                                            loading="lazy" /></a>
+                                </div>
+                            </t>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

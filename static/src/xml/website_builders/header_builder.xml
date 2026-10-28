@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="techkhedut_header_inherit"
+       t-inherit="website.HeaderTemplateOption"
+       t-inherit-mode="extension">
+
+        <xpath expr="//BuilderRow[1]/BuilderSelect/BuilderSelectItem[last()]" position="after">
+            <BuilderSelectItem
+                id="'techkhedut_header_default_opt'"
+                title.translate="Default"
+                actionParam="[
+                    {
+                        action: 'websiteConfig',
+                        actionParam: {
+                            views: ['tk_website_rental_management.techkhedut_header'],
+                            vars: { 'header-template': 'default' },
+                            checkVars: false
+                        }
+                    }
+                ]">
+                <Img attrs="{ style: 'width: 234px' }"
+                     src="'/tk_website_rental_management/static/src/img/header-1.png'"/>
+            </BuilderSelectItem>
+        </xpath>
+    </t>
+</templates>

@@ -1,1 +1,71 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_counter" owl="1">
+        <section class="p-section parallax-section small-par" data-scrollax-parent="true">
+            <div class="bg par-elem "
+                t-att-data-bg="home_config.sec_img_2 ? home_config.sec_img_2 : '/tk_website_rental_management/static/src/images/bg/hero/22.jpg'"
+                data-scrollax="properties: { translateY: '30%' }"></div>
+            <div class="overlay  op7"></div>
+            <div class="p-container container">
+                <div class=" single-facts single-facts_2 fl-wrap">
+                    <!-- inline-facts -->
+                    <div class="inline-facts-wrap">
+                        <div class="inline-facts">
+                            <div class="milestone-counter">
+                                <div class="dynamic-stats stats animaper">
+                                    <div class="dynamic-num num" data-content="0" t-att-data-num="home_config.hs_one">
+                                        <t t-esc="home_config.hs_one" />
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>New Visiters Every Week</h6>
+                        </div>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts-wrap">
+                        <div class="inline-facts">
+                            <div class="milestone-counter">
+                                <div class="dynamic-stats stats animaper">
+                                    <div class="dynamic-num num" data-content="0" t-att-data-num="home_config.hs_two">
+                                        <t t-esc="home_config.hs_two" />
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Happy customers every year</h6>
+                        </div>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts-wrap">
+                        <div class="inline-facts">
+                            <div class="milestone-counter">
+                                <div class="dynamic-stats stats animaper">
+                                    <div class="dynamic-num num" data-content="0" t-att-data-num="home_config.hs_three">
+                                        <t t-esc="home_config.hs_three" />
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Won Amazing Awards</h6>
+                        </div>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts-wrap">
+                        <div class="inline-facts">
+                            <div class="milestone-counter">
+                                <div class="dynamic-stats stats animaper">
+                                    <div class="dynamic-num num" data-content="0" t-att-data-num="home_config.hs_four">
+                                        <t t-esc="home_config.hs_four" />
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>New Listing Every Week</h6>
+                        </div>
+                    </div>
+                    <!-- inline-facts end -->
+                </div>
+            </div>
+        </section>
+    </t>
+</templates>

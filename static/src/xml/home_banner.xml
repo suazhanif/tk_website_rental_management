@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="tk_website_rental_management.dynamic_home_banner" owl="1">
+        <t t-if="home_config">
+            <section class="p-section hero-section" data-scrollax-parent="true">
+                <div class="bg-tabs-wrap">
+                    <div class="bg-parallax-wrap" data-scrollax="properties: { translateY: '200px' }">
+                        <t
+                            t-if="home_config.home_config.hero_choice &amp;&amp; ['vid', 'youtube'].includes(home_config.home_config.hero_choice) &amp;&amp; (home_config.home_config.video_bg_url || home_config.home_config.youtube_bg_video)">
+                            <div class="video-container"
+                                t-if="home_config.home_config.hero_choice == 'vid' &amp;&amp; home_config.home_config.video_bg_url">
+                                <video autoplay="autoplay" playsinline="playsinline" loop="loop" muted="muted"
+                                    class="bgvid">
+                                    <source t-att-src="home_config.home_config.video_bg_url" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div t-attf-class="background-youtube-wrapper youtube-wrapper dynamic-background-youtube-wrapper-{{home_config.dynamicVal}}"
+                                t-att-data-vid="home_config.home_config.youtube_bg_video"
+                                t-att-data-wraper-id="home_config.dynamicVal" data-mv="1" t-else=""> </div>
+                            <div class="bg mob_bg"
+                                t-att-data-bg="home_config.home_config.mob_background ? home_config.home_config.mob_background : '/tk_website_rental_management/static/src/images/bg/hero/1.jpg'">
+                            </div>
+                        </t>
+                        <t t-else="">
+                            <div class="bg bg_tabs"
+                                t-att-data-bg="home_config.home_config.image_1920_0 ? home_config.home_config.image_1920_0 : '/tk_website_rental_management/static/src/images/bg/hero/1.jpg'">
+                            </div>
+                        </t>
+                        <div class="overlay op7"></div>
+                    </div>
+                </div>
+                <div class="p-container container small-container">
+                    <div class="intro-item fl-wrap">
+                        <span class="section-separator"></span>
+                        <div class="bubbles">
+                            <h1>Explore Best Property In City</h1>
+                        </div>
+                        <h3>Find some of the best tips from around the city from our partners and friends.</h3>
+                    </div>
+                    <!-- main-search-input-tabs-->
+                    <div class="main-search-input-tabs  tabs-act fl-wrap">
+                        <ul class="tabs-menu change_bg no-list-style">
+                            <li id="snippet-tab-li1" t-att-data-tab-id="home_config.dynamicVal"
+                                class="snippet-tab-li current"><a role="tab" href="#"
+                                    t-att-data-bgtab="home_config.home_config.image_1920_1 ? home_config.home_config.image_1920_1 : '/tk_website_rental_management/static/src/images/bg/hero/1.jpg'">Any
+                                    Status</a></li>
+                            <li id="snippet-tab-li2" t-att-data-tab-id="home_config.dynamicVal" class="snippet-tab-li">
+                                <a role="tab" href="#"
+                                    t-att-data-bgtab="home_config.home_config.image_1920_2 ? home_config.home_config.image_1920_2 : '/tk_website_rental_management/static/src/images/bg/hero/1.jpg'">For
+                                    Rent</a>
+                            </li>
+                            <li id="snippet-tab-li3" t-att-data-tab-id="home_config.dynamicVal" class="snippet-tab-li">
+                                <a role="tab" href="#"
+                                    t-att-data-bgtab="home_config.home_config.image_1920_3 ? home_config.home_config.image_1920_3 : '/tk_website_rental_management/static/src/images/bg/hero/1.jpg'">For
+                                    Buy</a>
+                            </li>
+                        </ul>
+                        <!--tabs -->
+                        <div class="tabs-container fl-wrap">
+                            <!--tab -->
+                            <div class="tab">
+                                <div t-attf-id="snippet-tab-inpt1-{{home_config.dynamicVal}}"
+                                    class="tab-content home-skeleton dynamic-tab first-tab">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <form method="GET" action="/properties-list"
+                                                t-attf-id="general-{{home_config.dynamicVal}}">
+                                                <input type="hidden" name="st"
+                                                    t-attf-class="advance_any_status-{{home_config.dynamicVal}}"
+                                                    value="Any Status" />
+                                                <div class="row ml0 margin-right-media">
+                                                    <div
+                                                        class="main-search-input-item location autocomplete-container col-md-4 col-sm-4">
+                                                        <label><i class="fal fa-keyboard"></i></label>
+                                                        <input type="text" placeholder="What you are looking for ?"
+                                                            name="search_term"
+                                                            t-attf-class="autocomplete-input advance_any_search_term-{{home_config.dynamicVal}}"
+                                                            id="autocompleteid" value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-3 col-sm-3">
+                                                        <label><i class="fal fa-money-bill"></i></label>
+                                                        <input type="number" placeholder="Max Price" name="max_prc"
+                                                            t-attf-class="advance_any_max_prc-{{home_config.dynamicVal}}"
+                                                            value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-4 col-sm-3">
+                                                        <select data-placeholder="City" name="cn"
+                                                            t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}} advance_any_city-{{home_config.dynamicVal}}">
+                                                            <option selected="selected">All Cities</option>
+                                                            <t t-if="home_config.home_config.cities">
+                                                                <t t-foreach="home_config.home_config.cities"
+                                                                    t-as="city" t-key="city">
+                                                                    <option t-att-value="city">
+                                                                        <t t-esc="city" />
+                                                                    </option>
+                                                                </t>
+                                                            </t>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-1 col-sm-2 p2p media-width">
+                                                        <button
+                                                            t-attf-class="color2-bg advance-button modal-open dynamic-modal-open-{{home_config.dynamicVal}} advance_any_filter_button media-width h-97"
+                                                            type="button"><i class="fa fa-sliders fs-5"
+                                                                style="color: #4db7ef;"></i></button>
+                                                    </div>
+                                                    <button type="submit"
+                                                        t-attf-form="general-{{home_config.dynamicVal}}"
+                                                        class="main-search-button color2-bg">Search <i
+                                                            class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
+                            <!--tab -->
+                            <div class="tab">
+                                <div t-attf-id="snippet-tab-inpt2-{{home_config.dynamicVal}}" class="tab-content">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <form method="GET" action="/properties-list"
+                                                t-attf-id="rent-properties-{{home_config.dynamicVal}}">
+                                                <input type="hidden" name="st"
+                                                    t-attf-class="advance_rent_status-{{home_config.dynamicVal}}"
+                                                    value="rent" />
+                                                <div class="row ml0 margin-right-media">
+                                                    <div
+                                                        class="main-search-input-item location autocomplete-container col-md-4 col-sm-4">
+                                                        <label><i class="fal fa-keyboard"></i></label>
+                                                        <input type="text" placeholder="What you are looking for ?"
+                                                            name="search_term"
+                                                            t-attf-class="autocomplete-input advance_rent_search_term-{{home_config.dynamicVal}}"
+                                                            id="autocompleteid" value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-3 col-sm-3">
+                                                        <label><i class="fal fa-money-bill"></i></label>
+                                                        <input type="number" placeholder="Max Price" name="max_prc"
+                                                            t-attf-class="advance_rent_max_prc-{{home_config.dynamicVal}}"
+                                                            value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-4 col-sm-3">
+                                                        <select data-placeholder="City" name="cn"
+                                                            t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}} advance_rent_city-{{home_config.dynamicVal}}">
+                                                            <option selected="selected">All Cities</option>
+                                                            <t t-if="home_config.home_config.cities">
+                                                                <t t-foreach="home_config.home_config.cities"
+                                                                    t-as="city" t-key="city">
+                                                                    <option t-att-value="city">
+                                                                        <t t-esc="city" />
+                                                                    </option>
+                                                                </t>
+                                                            </t>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-1 col-sm-2 p2p media-width">
+                                                        <button
+                                                            t-attf-class="color2-bg advance-button modal-open dynamic-modal-open-{{home_config.dynamicVal}} advance_rent_filter_button media-width h-97"
+                                                            type="button"><i class="fa fa-sliders fs-5"
+                                                                style="color: #4db7ef;"></i></button>
+                                                    </div>
+                                                    <button class="main-search-button color2-bg"
+                                                        t-attf-form="rent-properties-{{home_config.dynamicVal}}"
+                                                        type="submit">Search
+                                                        <i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
+                            <!--tab -->
+                            <div class="tab">
+                                <div t-attf-id="snippet-tab-inpt3-{{home_config.dynamicVal}}" class="tab-content">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <form method="GET" action="/properties-list"
+                                                t-attf-id="sale-properties-{{home_config.dynamicVal}}">
+                                                <input type="hidden" name="st"
+                                                    t-attf-class="advance_sale_status-{{home_config.dynamicVal}}"
+                                                    value="sale" />
+                                                <div class="row ml0 margin-right-media">
+                                                    <div
+                                                        class="main-search-input-item location autocomplete-container col-md-4 col-sm-4">
+                                                        <label><i class="fal fa-keyboard"></i></label>
+                                                        <input type="text" placeholder="What you are looking for ?"
+                                                            name="search_term"
+                                                            t-attf-class="autocomplete-input advance_sale_search_term-{{home_config.dynamicVal}}"
+                                                            id="autocompleteid" value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-3 col-sm-3">
+                                                        <label><i class="fal fa-money-bill"></i></label>
+                                                        <input type="number" placeholder="Max Price" name="max_prc"
+                                                            t-attf-class="advance_sale_max_prc-{{home_config.dynamicVal}}"
+                                                            value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-4 col-sm-3">
+                                                        <select data-placeholder="City" name="cn"
+                                                            t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}} advance_sale_city-{{home_config.dynamicVal}}">
+                                                            <option selected="selected">All Cities</option>
+                                                            <t t-if="home_config.home_config.cities">
+                                                                <t t-foreach="home_config.home_config.cities"
+                                                                    t-as="city" t-key="city">
+                                                                    <option t-att-value="city">
+                                                                        <t t-esc="city" />
+                                                                    </option>
+                                                                </t>
+                                                            </t>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-1 col-sm-2 p2p media-width">
+                                                        <button
+                                                            t-attf-class="color2-bg advance-button modal-open dynamic-modal-open-{{home_config.dynamicVal}} advance_sale_filter_button media-width h-97"
+                                                            type="button"><i class="fa fa-sliders fs-5"
+                                                                style="color: #4db7ef;"></i></button>
+                                                    </div>
+                                                    <button class="main-search-button color2-bg"
+                                                        t-attf-form="sale-properties-{{home_config.dynamicVal}}"
+                                                        type="submit">Search
+                                                        <i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
+                        </div>
+                        <!--tabs end-->
+                    </div>
+                    <!-- main-search-input-tabs end-->
+                    <div class="hero-categories fl-wrap">
+                        <h4 class="hero-categories_title">Just looking around ? Use quick search by category :</h4>
+                        <ul class="d-flex flex-wrap justify-content-center no-list-style">
+                            <t t-if="home_config.home_config.hero_categories">
+                                <t t-foreach="home_config.home_config.hero_categories" t-as="ll" t-key="ll.id">
+                                    <!-- <li class="col-2 w25" t-if="ll.display_on_home"><a
+                                        t-attf-href="/properties-list/#{ll.name}"><i class="far fa-building"></i><span>
+                                            <t t-esc="ll.name" />
+                                        </span></a></li> -->
+                                    <li class="d-flex col-2 w25" t-if="ll.display_on_home">
+                                        <a class=" " t-attf-href="/properties-list?categ=#{ll.type}&amp;dc=0#{ll.id}">
+                                            <img class="w10" t-att-src="ll.image" t-att-alt="ll.name" loading="lazy" />
+                                            <p><span>
+                                                    <t t-esc="ll.name" />
+                                                </span></p>
+                                        </a>
+                                    </li>
+                                </t>
+                            </t>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-sec-link">
+                    <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
+                </div>
+                <div
+                    t-attf-class="main-register-wrap modal dynamic-modal-{{home_config.dynamicVal}} advance-search-model">
+                    <div t-attf-class="reg-overlay dynamic-reg-overlay-{{home_config.dynamicVal}}"></div>
+                    <div class="main-register-holder tabs-act">
+                        <div
+                            t-attf-class="main-register fl-wrap  modal_main dynamic-modal_main-{{home_config.dynamicVal}}">
+                            <div class="main-register_title">Property Filters Options</div>
+                            <div t-attf-class="close-reg dynamic-close-reg-{{home_config.dynamicVal}}"><i
+                                    class="fal fa-times"></i></div>
+                            <div class="tabs-container">
+                                <div class="tab">
+                                    <div id="tab-1" class="tab-content first-tab">
+                                        <div class="custom-form">
+                                            <form method="GET" class="search-filters" action="/properties-list">
+                                                <input type="hidden" name="search_term" class="advance_search_term" />
+                                                <input type="hidden" name="st" class="advance_st" />
+                                                <input type="hidden" name="max_prc" class="advance_max_prd" />
+                                                <input type="hidden" name="cn" class="advance_cn" />
+                                                <div class="listsearch-input-item">
+                                                    <select data-placeholder="Categories" name="categ" id="categ"
+                                                        t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}} no-search-select advance_category-{{home_config.dynamicVal}}">
+                                                        <option selected="selected">All Categories</option>
+                                                        <option value="lands">Lands</option>
+                                                        <option value="residential">Residential</option>
+                                                        <option value="commercial">Commercial</option>
+                                                        <option value="industrial">Industrials</option>
+                                                    </select>
+                                                </div>
+                                                <div id="sub_category_div" class="listsearch-input-item d-none">
+                                                    <select data-placeholder="All Sub Categories" name="dc"
+                                                        t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}} advance_sub_category"></select>
+                                                </div>
+                                                <div class="listsearch-input-item">
+                                                    <div class="price-rage-wrap fl-wrap">
+                                                        <input type="hidden" id="price_start" />
+                                                        <input type="hidden" id="price_end" />
+                                                        <div class="price-rage-wrap-title"><i
+                                                                class="fal fa-hand-holding-usd"></i> Price :</div>
+                                                        <div class="price-rage-item fl-wrap">
+                                                            <input type="range" class="price-range display-none"
+                                                                t-att-data-min="home_config.home_config.price_start"
+                                                                t-att-data-max="home_config.home_config.price_end"
+                                                                id="price-range" data-step="1" value="1" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="listsearch-input-item area-filter">
+                                                    <div class="price-rage-wrap fl-wrap">
+                                                        <input type="hidden" id="area_start" />
+                                                        <input type="hidden" id="area_end" />
+                                                        <div class="price-rage-wrap-title"><i
+                                                                class="fal fa-hand-holding-usd"></i> Area :</div>
+                                                        <div class="price-rage-item fl-wrap">
+                                                            <input type="range" class="area-range display-none"
+                                                                t-att-data-min="home_config.home_config.area_start"
+                                                                t-att-data-max="home_config.home_config.area_end"
+                                                                id="area-range" data-step="1" value="1" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    t-attf-class="listsearch-input-item w49 mr4 rooms advance_rooms-{{home_config.dynamicVal}} d-none">
+                                                    <select data-placeholder="Rooms" id="rooms" name="rooms"
+                                                        t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}}">
+                                                        <option selected="selected">Bedrooms</option>
+                                                        <t t-foreach="Array.from({ length: 10 }, (_, i) => i + 1)"
+                                                            t-as="r" t-key="r">
+                                                            <option t-att-value="r">
+                                                                <t t-esc="r" />
+                                                            </option>
+                                                        </t>
+                                                    </select>
+                                                </div>
+                                                <div
+                                                    t-attf-class="listsearch-input-item w49 bathrooms advance_bathrooms-{{home_config.dynamicVal}} d-none">
+                                                    <select data-placeholder="Beds" id="bathroom" name="bathrooms"
+                                                        t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}}">
+                                                        <option selected="selected">Bathrooms</option>
+                                                        <t t-foreach="Array.from({ length: 10 }, (_, i) => i + 1)"
+                                                            t-as="r" t-key="r">
+                                                            <option t-att-value="r">
+                                                                <t t-esc="r" />
+                                                            </option>
+                                                        </t>
+                                                    </select>
+                                                </div>
+                                                <div
+                                                    t-attf-class="listsearch-input-item w49 floor advance_floors-{{home_config.dynamicVal}} d-none">
+                                                    <select data-placeholder="Floors" id="floor"
+                                                        t-attf-class="chosen-select dynamic-chosen-select-{{home_config.dynamicVal}}">
+                                                        <option selected="selected">Floors</option>
+                                                        <t t-foreach="Array.from({ length: 10 }, (_, i) => i + 1)"
+                                                            t-as="r" t-key="r">
+                                                            <option t-att-value="r">
+                                                                <t t-esc="r" />
+                                                            </option>
+                                                        </t>
+                                                    </select>
+                                                </div>
+                                                <div class="listsearch-input-item clact">
+                                                    <div class=" fl-wrap filter-tags">
+                                                        <ul class="no-list-style row">
+                                                            <li class="gym col-4 m-0">
+                                                                <input id="check-gym" class="check-gym" type="checkbox"
+                                                                    value="gym" />
+                                                                <label for="check-gym">Fitness Gym</label>
+                                                            </li>
+
+                                                            <li class="wifi col-4 m-0">
+                                                                <input id="check-wifi" class="check-wifi"
+                                                                    type="checkbox" value="wifi" />
+                                                                <label for="check-wifi">WiFi</label>
+                                                            </li>
+
+                                                            <li class="parking col-4 m-0">
+                                                                <input id="check-parking" class="check-parking"
+                                                                    type="checkbox" value="parking" />
+                                                                <label for="check-parking">Parking</label>
+                                                            </li>
+
+                                                            <li class="pool col-4 m-0">
+                                                                <input id="check-pool" class="check-pool"
+                                                                    type="checkbox" value="pool" />
+                                                                <label for="check-pool">Swimming Pool</label>
+                                                            </li>
+
+                                                            <li class="security col-4 m-0">
+                                                                <input id="check-security" class="check-security"
+                                                                    type="checkbox" value="security" />
+                                                                <label for="check-security">Security</label>
+                                                            </li>
+
+                                                            <li class="laundry col-4 m-0">
+                                                                <input id="check-laundry" class="check-laundry"
+                                                                    type="checkbox" value="laundry" />
+                                                                <label for="check-laundry">Laundry</label>
+                                                            </li>
+
+                                                            <li class="eq_kitchen col-4 m-0">
+                                                                <input id="check-eq-kitchen" class="check-eq-kitchen"
+                                                                    type="checkbox" value="kitchen" />
+                                                                <label for="check-eq-kitchen">Equipped Kitchen</label>
+                                                            </li>
+
+                                                            <li class="air_condition col-4 m-0">
+                                                                <input id="check-air-condition"
+                                                                    class="check-air-condition" type="checkbox"
+                                                                    value="air" />
+                                                                <label for="check-air-condition">Air Conditioned</label>
+                                                            </li>
+
+                                                            <li class="s_furnish col-4 m-0">
+                                                                <input id="check-semi-furnish"
+                                                                    class="check-semi-furnish" type="checkbox"
+                                                                    value="sfur" />
+                                                                <label for="check-semi-furnish">Semi Furnished</label>
+                                                            </li>
+
+                                                            <li class="f_furnish col-4 m-0">
+                                                                <input id="check-full-furnish"
+                                                                    class="check-full-furnish" type="checkbox"
+                                                                    value="fuf" />
+                                                                <label for="check-full-furnish">Full Furnished</label>
+                                                            </li>
+
+                                                            <li class="alarm col-4 m-0">
+                                                                <input id="check-alarm" class="check-alarm"
+                                                                    type="checkbox" value="alarm" />
+                                                                <label for="check-alarm">Safety Alarm</label>
+                                                            </li>
+
+                                                            <li class="wc col-4 m-0">
+                                                                <input id="check-wc" class="check-wc" type="checkbox"
+                                                                    value="window" />
+                                                                <label for="check-wc">Window Covering</label>
+                                                            </li>
+                                                            <input type="hidden" name="da" t-att-value="param_da"
+                                                                t-if="param_da" id="da" />
+                                                            <input type="hidden" name="da" t-else="" id="da" />
+                                                            <t t-if="home_config.home_config.da_ids">
+                                                                <t t-foreach="home_config.home_config.da_ids" t-as="da"
+                                                                    t-key="da">
+                                                                    <li class="col-4 m0">
+                                                                        <input t-attf-id="da-#{da.id}"
+                                                                            t-att-data-id="da.id" class="da"
+                                                                            type="checkbox" t-attf-value="0#{da.id}" />
+                                                                        <label t-attf-for="da-#{da.id}">
+                                                                            <t t-esc="da.title" />
+                                                                        </label>
+                                                                    </li>
+                                                                </t>
+                                                            </t>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="listsearch-input-item w49 mr4">
+                                                    <button class="header-search-button color-bg mt0"><i
+                                                            class="far fa-search"></i><span>Search</span></button>
+                                                </div>
+                                            </form>
+                                            <a href="/" class="clear-filter-btn w49 mr4"><i class="far fa-redo"></i>
+                                                Reset
+                                                Filters</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </t>
+</templates>
