@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (C) 2023-TODAY TechKhedut (<https://www.techkhedut.com>)
+    Part of TechKhedut. See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <data>
+        <record id="property_crm_lead_inherit_form_view" model="ir.ui.view">
+            <field name="name">crm.lead.inherit.form.view</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='ask_price']" position="after">
+                    <field name="is_public_lead" invisible="not is_public_lead" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

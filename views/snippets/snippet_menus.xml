@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//t[@snippet-group='custom']" position="before">
+            <t snippet-group="website_rental_management" t-snippet="website.s_snippet_group"
+                string="Website Rental Management"
+                t-thumbnail="/tk_website_rental_management/static/src/images/property-placeholder.jpg" />
+        </xpath>
+
+        <xpath expr="//t[@t-snippet='website.s_banner']" position="before">
+            <t t-snippet="tk_website_rental_management.popular_properties" string="Popular Properties"
+                group="website_rental_management">
+                <keywords>custom, slider, popular properties, popular</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.latest_listing" string="Latest Listing"
+                group="website_rental_management">
+                <keywords>custom, slider, latest listing, latest</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.home_banner" string="Home page banner"
+                group="website_rental_management">
+                <keywords>custom, home, home banner, banner</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.counter" string="Counter" group="website_rental_management">
+                <keywords>custom, counter, coounters</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.testimonials" string="Testimonials"
+                group="website_rental_management">
+                <keywords>custom, testimonials, reviews</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.partners" string="Partners" group="website_rental_management">
+                <keywords>custom, partners</keywords>
+            </t>
+            <t t-snippet="tk_website_rental_management.popular_places" string="Popular Places"
+                group="website_rental_management">
+                <keywords>custom, popular, places, popular places, cities, city</keywords>
+            </t>
+
+            <t t-snippet="tk_website_rental_management.discuss" string="Discuss" group="website_rental_management">
+                <keywords>custom, discuss</keywords>
+            </t>
+        </xpath>
+    </template>
+</odoo>

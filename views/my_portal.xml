@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (C) 2023-TODAY TechKhedut (<https://www.techkhedut.com>)
+    Part of TechKhedut. See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <data>
+        <template id="portal_my_enquiry" inherit_id="portal.portal_my_home" name="My Portal">
+            <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+                <div class="o_portal_category row g-2 mt-3" id="proprety_enquiries">
+                    <t t-call="portal.portal_docs_entry">
+                        <t t-set="title">Property Enquiries</t>
+                        <t t-set="url" t-value="'/property/enquiries'"/>
+                        <t t-set="placeholder_count" t-value="'enquiry_count'"/>
+                        <t t-set="text">View Property Enquiry Details</t>
+                        <t t-set="icon" t-value="'/tk_website_rental_management/static/src/images/property_enquiries.png'"/>
+                    </t>
+                </div>
+                <div class="o_portal_category row g-2 mt-3" id="broker_commission">
+                    <t t-call="portal.portal_docs_entry">
+                        <t t-set="title">Broker Contract</t>
+                        <t t-set="url" t-value="'/broker/contracts/commission'"/>
+                        <t t-set="placeholder_count" t-value="'broker_commission_count'"/>
+                        <t t-set="text">View Your Contract Commission</t>
+                        <t t-set="icon" t-value="'/tk_website_rental_management/static/src/images/commission.png'"/>
+                    </t>
+                </div>
+            </xpath>
+        </template>
+        <template id="portal_my_home_menu_enquiry" name="Portal layout : enquiry menu entries" inherit_id="portal.portal_breadcrumbs" priority="30">
+            <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+                <li t-if="page_name == 'enquiry'" t-attf-class="breadcrumb-item #{'active ' if not enquiry else ''}">
+                    <a t-if="enquiry" href="/property/enquiries">Property Enquiries</a>
+                    <t t-else="">Property Enquiries</t>
+                </li>
+                <li t-if="enquiry" class="breadcrumb-item active">
+                  <t t-esc="enquiry.property_id.name"/>
+                </li>
+
+                <!-- For Broker Contract -->
+                <li t-if="page_name == 'broker_commission_list_view'" class="breadcrumb-item">Contracts</li>
+                <li t-if="page_name == 'broker_commission_form_view'" class="breadcrumb-item color-primary">
+                    <a href="/broker/contracts/commission">
+                        Contracts
+                    </a>
+                </li>
+                <li t-if="page_name == 'broker_commission_form_view'" class="breadcrumb-item">
+                    <t t-if="contract_type == 'rent'" t-esc="contract_details.tenancy_seq"/>
+                    <t t-if="contract_type == 'sale'" t-esc="contract_details.sold_seq"/>
+                </li>
+            </xpath>
+        </template>
+        <template id="enquiry_list" name="Property Enquiries">
+            <t t-call="portal.portal_layout">
+                <t t-set="breadcrumbs_searchbar" t-value="True"/>
+                <t t-call="portal.portal_searchbar">
+                    <t t-set="title">Property Enquiry</t>
+                </t>
+                <t t-if="not enqs">
+                    <p>Currently, there is not any Enquiry in your account..</p>
+                </t>
+                <t t-else="" t-call="portal.portal_table">
+                    <thead style="background-color: #7C7BAD;color: white;">
+                        <tr class="p-3 mb-2 bg-info text-white text-left">
+                            <th style="width:100%;" class="text-left">Property List</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="enqs" t-as="en">
+                            <tr>
+                                <td class="text-left">
+                                    <a t-attf-href="/property/enquiry/details/{{ slug(en) }}">
+                                        <t t-esc="en.property_id.name"/>
+                                    </a>
+                                </td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </t>
+            </t>
+        </template>
+        <template id="enquiry_details" name="Property Enquiry Details">
+            <t t-call="portal.portal_layout">
+                <t t-set="breadcrumbs_searchbar" t-value="True"/>
+                <t t-call="portal.portal_searchbar">
+                    <t t-set="title">Property Enquiry</t>
+                </t>
+                <div class="container bg-white">
+                    <div class="col-md-12 text-center mt64 mb64">
+                        <h3>Your Enquiry
+                            <span t-field="enquiry.property_id.name"/>
+                            has been submitted.
+                        </h3>
+                        <p>
+                            We will contact you soon.
+                            Thank you for your patience.
+                        </p>
+                        <br />
+                        <strong>If you have any questions then please write them down.</strong>
+                    </div>
+                </div>
+                <!-- Page Content -->
+                <div id="enquiry_content" class="col-12 col-lg">
+                    <!-- chatter -->
+                    <div id="enquiry_communication" class="mt-4">
+                        <h2>History</h2>
+                        <t t-call="portal.message_thread">
+                            <t t-set="object" t-value="enquiry"/>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <!-- For Broker Contract -->
+        <template id="broker_contracts_commission" name="Broker Contract Commission">
+            <t t-call="portal.portal_layout">
+                <t t-set="breadcrumbs_searchbar" t-value="True"/>
+                <t t-call="portal.portal_searchbar">
+                    <t t-set="title">Broker Contracts</t>
+                </t>
+                <t t-if="not is_any_contract_available">
+                    <p>No records found. It seems you haven't assisted with any sales or rentals yet.</p>
+                </t>
+                <t t-else="" t-call="portal.portal_table">
+                    <thead>
+                        <tr class="active">
+                            <th class="float-start">
+                                Contract Ref #
+                            </th>
+                            <th>
+                                Property Ref
+                            </th>
+                            <th class="float-end">
+                                Commission Amount
+                            </th>
+                            <th>
+                                Bill Status
+                            </th>
+                            <th>
+                                Contract Type
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="booking_list_tabel">
+                        <t t-foreach="broker_rent_contracts" t-as="rent">
+                            <tr>
+                                <td class="float-start">
+                                    <a t-attf-href="/broker/contracts/commission/details/rent/{{ slug(rent) }}">
+                                        <span t-field="rent.tenancy_seq"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <span t-field="rent.property_id" />
+                                </td>
+                                <td class="float-end">
+                                    <span t-field="rent.commission"/>
+                                </td>
+                                <td>
+                                    <t t-if="rent.broker_invoice_id.state == 'posted' and rent.broker_invoice_id.payment_state not in ('in_payment', 'paid', 'reversed')">
+                                        <span class="badge text-bg-danger px-2 py-1">Not Paid</span>
+                                    </t>
+                                    <t t-if="rent.broker_invoice_id.state == 'posted' and rent.broker_invoice_id.payment_state in ('paid', 'in_payment')">
+                                        <span class="badge text-bg-success px-2 py-1">Paid</span>
+                                    </t>
+                                    <t t-if="rent.broker_invoice_id.state == 'posted' and rent.broker_invoice_id.payment_state == 'reversed'">
+                                        <span class="badge text-bg-info px-2 py-1">Reversed</span>
+                                    </t>
+                                    <t t-if="rent.broker_invoice_id.state == 'cancel'">
+                                        <span class="badge text-bg-danger px-2 py-1">Cancel</span>
+                                    </t>
+                                </td>
+                                <td>
+                                    <span class="badge text-bg-primary broker-badge">Rent</span>
+                                </td>
+                            </tr>
+                        </t>
+                        <t t-foreach="broker_sale_contracts" t-as="sale" t-if="sale.broker_bill_id and sale.broker_bill_id.state != 'draft'">
+                            <tr>
+                                <td class="float-start">
+                                    <a t-attf-href="/broker/contracts/commission/details/sale/{{ slug(sale) }}">
+                                        <span t-field="sale.sold_seq"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <span t-field="sale.property_id" />
+                                </td>
+                                <td class="float-end">
+                                    <span t-field="sale.broker_final_commission"/>
+                                </td>
+                                <td>
+                                    <t t-if="sale.broker_bill_id.state == 'posted' and sale.broker_bill_payment_state not in ('in_payment', 'paid', 'reversed')">
+                                        <span class="badge text-bg-danger px-2 py-1">Not Paid</span>
+                                    </t>
+                                    <t t-if="sale.broker_bill_id.state == 'posted' and sale.broker_bill_payment_state in ('paid', 'in_payment')">
+                                        <span class="badge text-bg-success px-2 py-1">Paid</span>
+                                    </t>
+                                    <t t-if="sale.broker_bill_id.state == 'posted' and sale.broker_bill_payment_state == 'reversed'">
+                                        <span class="badge text-bg-info px-2 py-1">Reversed</span>
+                                    </t>
+                                    <t t-if="sale.broker_bill_id.state == 'cancel'">
+                                        <span class="badge text-bg-danger px-2 py-1">Cancel</span>
+                                    </t>
+                                </td>
+                                <td>
+                                    <span class="badge text-bg-info broker-badge">Sale</span>
+                                </td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </t>
+            </t>
+        </template>
+        <template id="broker_contracts_commission_details" name="Broker Contract Commission Details">
+            <t t-call="portal.portal_layout">
+                <div class="container py-4 text-left">
+                    <div class="row mt-3 align-items-center">
+                        <div class="col-md-5 col-sm-12 text-start">
+                            <h4 class="h4 fw-normal mb-0">
+                                <span t-field="contract_details.tenancy_seq" class="text-primary" t-if="contract_type == 'rent'"/>
+                                <span t-field="contract_details.sold_seq" class="text-primary" t-if="contract_type == 'sale'"/>
+                            </h4>
+                        </div>
+                        <div class="col-md-4 col-sm-12 text-start my-2">
+                            <a class="btn btn-primary" t-if="contract_type == 'rent'"
+                            t-attf-href="/my/invoices/{{contract_details.broker_invoice_id.id}}?access_token={{contract_details.broker_invoice_id.access_token}}">
+                                Commission Bill <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </a>
+                            <a class="btn btn-primary" t-if="contract_type == 'sale'"
+                            t-attf-href="/my/invoices/{{contract_details.broker_bill_id.id}}?access_token={{contract_details.broker_bill_id.access_token}}">
+                                Commission Bill <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-md-end">
+                            <t t-if="contract_type == 'rent'">
+                                <span class="badge text-bg-primary broker-badge">Rent</span>
+                            </t>
+                            <t t-if="contract_type == 'sale'">
+                                <span class="badge text-bg-info broker-badge">Sale</span>
+                            </t>
+                        </div>
+                    </div>
+
+                    <hr class="bgc-primary"/>
+
+                    <div class="row mb-4" t-if="contract_type == 'rent'">
+                        <div class="col-md-12 col-sm-12 mb-2">
+                            <p class="h6 mb-0 text-primary border-bottom border-primary pb-2 mb-2">
+                                <i class="fa fa-home me-1"/>Commission Details
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Commission Type</span>
+                                    <span class="c-value" t-field="contract_details.commission_type"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field" t-if="contract_details.commission_type == 'p'">
+                                    <span class="c-label text-muted">Percentage</span>
+                                    <span class="c-value" t-field="contract_details.broker_commission_percentage"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field" t-if="contract_details.commission_type == 'f'">
+                                    <span class="c-label text-muted">Commission</span>
+                                    <span class="c-value" t-field="contract_details.broker_commission"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Commission From</span>
+                                    <span class="c-value" t-field="contract_details.commission_from"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Brokerage Type</span>
+                                    <span class="c-value" t-field="contract_details.rent_type"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Total Commission</span>
+                                    <span class="c-value" t-field="contract_details.commission"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4" t-if="contract_type == 'sale'">
+                        <div class="col-md-12 col-sm-12 mb-2">
+                            <p class="h6 mb-0 text-primary border-bottom border-primary pb-2 mb-2">
+                                <i class="fa fa-home me-1"/>Commission Details
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Commission Type</span>
+                                    <span class="c-value" t-field="contract_details.commission_type"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field" t-if="contract_details.commission_type == 'p'">
+                                    <span class="c-label text-muted">Percentage</span>
+                                    <span class="c-value" t-field="contract_details.broker_commission_percentage"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field" t-if="contract_details.commission_type == 'f'">
+                                    <span class="c-label text-muted">Commission</span>
+                                    <span class="c-value" t-field="contract_details.broker_commission"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Commission From</span>
+                                    <span class="c-value" t-field="contract_details.commission_from"/>
+                                </div>
+                                <div class="col-md-3 col-sm-12 c-field">
+                                    <span class="c-label text-muted">Total Commission</span>
+                                    <span class="c-value" t-field="contract_details.broker_final_commission" t-if="contract_details.commission_type == 'p'"/>
+                                    <span class="c-value" t-field="contract_details.broker_commission" t-if="contract_details.commission_type == 'f'"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Page Content -->
+                <div id="broker_contract_commission_content" class="col-12 col-lg">
+                    <!-- chatter -->
+                    <div id="broker_contract_commission_communication" class="mt-4">
+                        <h2>History</h2>
+                        <t t-call="portal.message_thread">
+                            <t t-set="object" t-value="contract_details"/>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

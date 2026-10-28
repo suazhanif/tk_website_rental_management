@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Latest Listing -->
+    <template id="latest_listing" name="Latest Listing">
+        <section class="s_latest_listing slw-sec static-p-section overflow-hidden dynamic-latest-listing" id="sec1">
+            <div class="section-title">
+                <h2>The Latest Listings</h2>
+                <div class="section-subtitle">Newest Listings</div>
+                <span class="section-separator"></span>
+                <p>Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi varius, nulla sit amet
+                    rutrum elementum.</p>
+            </div>
+            <div class="listing-slider-wrap fl-wrap" id="static-latest-listing">
+                <div class="listing-slider fl-wrap">
+                    <div class="swiper-container swiper-container-horizontal"
+                        style="cursor: grab; height: auto !important;">
+                        <div class="swiper-wrapper"
+                            style="transition-duration: 0ms; transform: translate3d(-660px, 0px, 0px); height: auto !important;">
+                            <div class="swiper-slide w-33 swiper-slide-active" data-swiper-slide-index="0"
+                                style="width: 465px; margin-right: 15px;">
+                                <div class="listing-slider-item fl-wrap">
+                                    <div class="listing-item listing_carditem" style="height: 280px;">
+                                        <article class="geodir-category-listing fl-wrap">
+                                            <div class="geodir-category-img">
+                                                <div class="geodir-js-favorite_btn "
+                                                    data-access="f042362d-ea1a-4996-a58a-9ba9b0ea4caa"><i
+                                                        class="fal fa-heart"></i></div>
+                                                <a class="geodir-category-img-wrap fl-wrap"
+                                                    href="/property-details/novanest-properties-2">
+                                                    <img class=""
+                                                        src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        loading="lazy"
+                                                        data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        alt="NovaNest Properties" />
+                                                </a>
+                                                <div class="geodir_status_date gsd_open">
+                                                    Available</div>
+                                                <div class="geodir-category-opt">
+                                                    <div class="geodir-category-opt_title">
+                                                        <h4><a href="/property-details/novanest-properties-2">NovaNest
+                                                                Properties</a></h4>
+                                                        <div class="geodir-category-location"><a target="_blank"
+                                                                href="https://maps.google.com/maps?q=loc:,"><i
+                                                                    class="fas fa-map-marker-alt"></i>
+                                                                286 Bay St, Melbourne, VIC, AU</a></div>
+                                                    </div>
+                                                    <div class="listing-rating-count-wrap">
+                                                        <div class="review-score">Rent</div>
+                                                    </div>
+                                                    <div class="listing_carditem_footer fl-wrap">
+                                                        <a class="listing-item-category-wrap">
+                                                            <div class="listing-item-category coral-bg">
+                                                                <i class="fal fa-dumpster"></i>
+                                                            </div>
+                                                            <span>Retail Stores</span>
+                                                        </a>
+                                                        <div class="price-level geodir-category_price">
+                                                            <span class="price-level-item">
+                                                                $ <span class="oe_currency_value">2,345.00</span> /
+                                                                Month
+                                                            </span>
+                                                            <span class="price-name-tooltip">Rent</span>
+                                                        </div>
+                                                        <div class="post-author"><a href="#"><img loading="lazy"
+                                                                    src="/tk_website_rental_management/static/src/images/user.png"
+                                                                    alt="TEST" /></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-next" data-swiper-slide-index="1"
+                                style="width: 465px; margin-right: 15px;">
+                                <div class="listing-slider-item fl-wrap">
+                                    <div class="listing-item listing_carditem" style="height: 280px;">
+                                        <article class="geodir-category-listing fl-wrap">
+                                            <div class="geodir-category-img">
+                                                <div class="geodir-js-favorite_btn "
+                                                    data-access="2ef01c4b-f661-426f-af6c-f9ca92042cca"><i
+                                                        class="fal fa-heart"></i></div>
+                                                <a class="geodir-category-img-wrap fl-wrap"
+                                                    href="/property-details/infinitygrove-realty-1">
+                                                    <img class=""
+                                                        src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        loading="lazy"
+                                                        data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        alt="InfinityGrove Realty" />
+                                                </a>
+                                                <div class="geodir_status_date gsd_open">
+                                                    Available</div>
+                                                <div class="geodir-category-opt">
+                                                    <div class="geodir-category-opt_title">
+                                                        <h4><a href="/property-details/infinitygrove-realty-1">InfinityGrove
+                                                                Realty</a></h4>
+                                                        <div class="geodir-category-location"><a target="_blank"
+                                                                href="https://maps.google.com/maps?q=loc:-37.786016,145.311068"><i
+                                                                    class="fas fa-map-marker-alt"></i>
+                                                                48 Manchester Rd, Melbourne, VIC, AU</a></div>
+                                                    </div>
+                                                    <div class="listing-rating-count-wrap">
+                                                        <div class="review-score">Rent</div>
+                                                    </div>
+                                                    <div class="listing_carditem_footer fl-wrap">
+                                                        <a class="listing-item-category-wrap">
+                                                            <div class="listing-item-category green-gradient-bg ">
+                                                                <i class="fal fa-building"></i>
+                                                            </div>
+                                                            <span>Apartment</span>
+                                                        </a>
+                                                        <div class="price-level geodir-category_price">
+                                                            <span class="price-level-item">
+                                                                $ <span class="oe_currency_value">1,234.00</span> /
+                                                                Month
+                                                            </span>
+                                                            <span class="price-name-tooltip">Rent</span>
+                                                        </div>
+                                                        <div class="post-author"><a href="#"><img loading="lazy"
+                                                                    src="/tk_website_rental_management/static/src/images/user.png"
+                                                                    alt="TEST" /></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-active" data-swiper-slide-index="2"
+                                style="width: 465px; margin-right: 15px;">
+                                <div class="listing-slider-item fl-wrap">
+
+                                    <div class="listing-item listing_carditem" style="height: 280px;">
+                                        <article class="geodir-category-listing fl-wrap">
+                                            <div class="geodir-category-img">
+                                                <div class="geodir-js-favorite_btn "
+                                                    data-access="73be655c-6a73-4696-a27e-649adf17655a"><i
+                                                        class="fal fa-heart"></i></div>
+                                                <a class="geodir-category-img-wrap fl-wrap"
+                                                    href="/property-details/urbannest-pro-6">
+                                                    <img class=""
+                                                        src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        loading="lazy"
+                                                        data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        alt="UrbanNest Pro" />
+                                                </a>
+                                                <div class="geodir_status_date gsd_open">
+                                                    Available</div>
+                                                <div class="geodir-category-opt">
+                                                    <div class="geodir-category-opt_title">
+                                                        <h4><a href="/property-details/urbannest-pro-6">UrbanNest
+                                                                Pro</a></h4>
+                                                        <div class="geodir-category-location"><a target="_blank"
+                                                                href="https://maps.google.com/maps?q=loc:,"><i
+                                                                    class="fas fa-map-marker-alt"></i>
+                                                                96 Canterbury Rd, Melbourne, VIC, AU</a></div>
+                                                    </div>
+                                                    <div class="listing-rating-count-wrap">
+                                                        <div class="review-score sale-bg">Buy</div>
+                                                    </div>
+                                                    <div class="listing_carditem_footer fl-wrap">
+                                                        <a class="listing-item-category-wrap">
+                                                            <div class="listing-item-category yellow-bg">
+                                                                <i class="fal fa-industry"></i>
+                                                            </div>
+                                                            <span>Warehouses</span>
+                                                        </a>
+                                                        <div class="price-level geodir-category_price">
+                                                            <span class="price-level-item">
+                                                                $ <span class="oe_currency_value">500,000.00</span>
+                                                            </span>
+                                                            <span class="price-name-tooltip">Buy</span>
+                                                        </div>
+                                                        <div class="post-author"><a href="#"><img loading="lazy"
+                                                                    src="/tk_website_rental_management/static/src/images/user.png"
+                                                                    alt="TEST" /></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33" data-swiper-slide-index="3"
+                                style="width: 465px; margin-right: 15px;">
+                                <div class="listing-slider-item fl-wrap">
+                                    <div class="listing-item listing_carditem" style="height: 280px;">
+                                        <article class="geodir-category-listing fl-wrap">
+                                            <div class="geodir-category-img">
+                                                <div class="geodir-js-favorite_btn "
+                                                    data-access="48bf2f25-8f68-458d-9394-2ddb63b1b608"><i
+                                                        class="fal fa-heart"></i></div>
+                                                <a class="geodir-category-img-wrap fl-wrap"
+                                                    href="/property-details/excelestate-ventures-4">
+                                                    <img src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        loading="lazy"
+                                                        data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        alt="ExcelEstate Ventures" />
+                                                </a>
+                                                <div class="geodir_status_date gsd_open">
+                                                    Available</div>
+                                                <div class="geodir-category-opt">
+                                                    <div class="geodir-category-opt_title">
+                                                        <h4><a href="/property-details/excelestate-ventures-4">ExcelEstate
+                                                                Ventures</a></h4>
+                                                        <div class="geodir-category-location"><a target="_blank"
+                                                                href="https://maps.google.com/maps?q=loc:,"><i
+                                                                    class="fas fa-map-marker-alt"></i>
+                                                                Springvale Rd, Melbourne, VIC, AU</a></div>
+                                                    </div>
+                                                    <div class="listing-rating-count-wrap">
+                                                        <div class="review-score sale-bg">Buy</div>
+                                                    </div>
+                                                    <div class="listing_carditem_footer fl-wrap">
+                                                        <a class="listing-item-category-wrap">
+                                                            <div class="listing-item-category coral-bg">
+                                                                <i class="fal fa-dumpster"></i>
+                                                            </div>
+                                                            <span>Retail Stores</span>
+                                                        </a>
+                                                        <div class="price-level geodir-category_price">
+                                                            <span class="price-level-item">
+                                                                $ <span class="oe_currency_value">100,000.00</span>
+                                                            </span>
+                                                            <span class="price-name-tooltip">Buy</span>
+                                                        </div>
+                                                        <div class="post-author"><a href="#"><img loading="lazy"
+                                                                    src="/tk_website_rental_management/static/src/images/user.png"
+                                                                    alt="TEST" /></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33" data-swiper-slide-index="4"
+                                style="width: 465px; margin-right: 15px;">
+                                <div class="listing-slider-item fl-wrap">
+                                    <div class="listing-item listing_carditem" style="height: 280px;">
+                                        <article class="geodir-category-listing fl-wrap">
+                                            <div class="geodir-category-img">
+                                                <div class="geodir-js-favorite_btn "
+                                                    data-access="a5ee06c4-782a-4f92-a655-960e6a0a9d12"><i
+                                                        class="fal fa-heart"></i></div>
+                                                <a class="geodir-category-img-wrap fl-wrap"
+                                                    href="/property-details/premierpath-ventures-3">
+                                                    <img src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        loading="lazy"
+                                                        data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                                        alt="PremierPath Ventures" />
+                                                </a>
+                                                <div class="geodir_status_date gsd_open">
+                                                    Available</div>
+                                                <div class="geodir-category-opt">
+                                                    <div class="geodir-category-opt_title">
+                                                        <h4><a href="/property-details/premierpath-ventures-3">PremierPath
+                                                                Ventures</a></h4>
+                                                        <div class="geodir-category-location"><a target="_blank"
+                                                                href="https://maps.google.com/maps?q=loc:,"><i
+                                                                    class="fas fa-map-marker-alt"></i>
+                                                                348 Brunswick St, Melbourne, VIC, AU</a></div>
+                                                    </div>
+                                                    <div class="listing-rating-count-wrap">
+                                                        <div class="review-score">Rent</div>
+                                                    </div>
+                                                    <div class="listing_carditem_footer fl-wrap">
+                                                        <a class="listing-item-category-wrap">
+                                                            <div class="listing-item-category yellow-bg">
+                                                                <i class="fal fa-industry"></i>
+                                                            </div>
+                                                            <span>Warehouses</span>
+                                                        </a>
+                                                        <div class="price-level geodir-category_price">
+                                                            <span class="price-level-item">
+                                                                $ <span class="oe_currency_value">10,000.00</span>
+                                                                / Month
+                                                            </span>
+                                                            <span class="price-name-tooltip">Rent</span>
+                                                        </div>
+                                                        <div class="post-author"><a href="#"><img loading="lazy"
+                                                                    src="/tk_website_rental_management/static/src/images/user.png"
+                                                                    alt="TEST" /></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <div class="listing-carousel-button listing-carousel-button-next2" tabindex="0" role="button"
+                        aria-label="Next slide"><i class="fas fa-caret-right"></i></div>
+                    <div class="listing-carousel-button listing-carousel-button-prev2" tabindex="0" role="button"
+                        aria-label="Previous slide"><i class="fas fa-caret-left"></i></div>
+                </div>
+                <div class="tc-pagination_wrap">
+                    <div class="tc-pagination2 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic"
+                        style="width: 70px;"><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main"
+                            tabindex="0" role="button" aria-label="Go to slide 1" style="left: 28px;"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active-next" tabindex="0"
+                            role="button" aria-label="Go to slide 2" style="left: 28px;"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" tabindex="0"
+                            role="button" aria-label="Go to slide 3" style="left: 28px;"></span><span
+                            class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"
+                            style="left: 28px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 5" style="left: 28px;"></span><span class="swiper-pagination-bullet"
+                            tabindex="0" role="button" aria-label="Go to slide 6" style="left: 28px;"></span></div>
+                </div>
+            </div>
+
+
+            <owl-component name="tk_website_rental_management.dynamic_latest_listing" id="latest-listing" />
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+</odoo>

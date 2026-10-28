@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- For Counter -->
+    <template id="counter" name="Counter">
+        <section class="s_counter">
+            <div id="dynamic-counter">
+                <section class="static-p-section parallax-section small-par" data-scrollax-parent="true">
+                    <div class="bg par-elem" data-scrollax="properties: { translateY: '30%' }"
+                        style="background-image: url(&quot;/tk_website_rental_management/static/src/images/bg/hero/22.jpg&quot;); transform: translateZ(0px) translateY(-8.53955%);"
+                        data-bg="/tk_website_rental_management/static/src/images/bg/hero/22.jpg"></div>
+                    <div class="overlay  op7"></div>
+                    <div class="p-container container">
+                        <div class=" single-facts single-facts_2 fl-wrap">
+                            <div class="inline-facts-wrap">
+                                <div class="inline-facts">
+                                    <div class="milestone-counter">
+                                        <div class="stats animaper">
+                                            <div class="num" data-content="0" data-num="1254">1254</div>
+                                        </div>
+                                    </div>
+                                    <h6>
+                                        New Visiters Every Week</h6>
+                                </div>
+                            </div>
+                            <div class="inline-facts-wrap">
+                                <div class="inline-facts">
+                                    <div class="milestone-counter">
+                                        <div class="stats animaper">
+                                            <div class="num" data-content="0" data-num="12168">12168</div>
+                                        </div>
+                                    </div>
+                                    <h6>
+                                        Happy customers every year</h6>
+                                </div>
+                            </div>
+                            <div class="inline-facts-wrap">
+                                <div class="inline-facts">
+                                    <div class="milestone-counter">
+                                        <div class="stats animaper">
+                                            <div class="num" data-content="0" data-num="2172">2172</div>
+                                        </div>
+                                    </div>
+                                    <h6>
+                                        Won Amazing Awards</h6>
+                                </div>
+                            </div>
+                            <div class="inline-facts-wrap">
+                                <div class="inline-facts">
+                                    <div class="milestone-counter">
+                                        <div class="stats animaper">
+                                            <div class="num" data-content="0" data-num="732">732</div>
+                                        </div>
+                                    </div>
+                                    <h6>
+                                        New Listing Every Week</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <owl-component name="tk_website_rental_management.dynamic_counter" id="counter" />
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+
+    <!-- For Testimonials -->
+    <template id="testimonials" name="Testimonials">
+        <section class="s_testimonials static-p-section overflow-hidden" id="dynamic-testimonials">
+            <div class="p-container container">
+                <div class="section-title">
+                    <h2>What Our Clients Say</h2>
+                    <div class="section-subtitle">Clients Reviews</div>
+                    <span class="section-separator"></span>
+                    <p>Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="testimonilas-carousel-wrap fl-wrap" id="static-testimonials">
+                <div class="listing-carousel-button listing-carousel-button-next" tabindex="0" role="button"
+                    aria-label="Next slide"><i class="fas fa-caret-right"></i></div>
+                <div class="listing-carousel-button listing-carousel-button-prev" tabindex="0" role="button"
+                    aria-label="Previous slide"><i class="fas fa-caret-left"></i></div>
+                <div class="testimonilas-carousel">
+                    <div class="swiper-container swiper-container-horizontal"
+                        style="cursor: grab; height: auto !important;">
+                        <div class="swiper-wrapper"
+                            style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); height: auto !important;">
+                            <div class="swiper-slide w-33 swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+                                data-swiper-slide-index="0" style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img loading="lazy"
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"These website is good and i like all property which is listing on these."
+                                        </p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>John</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-duplicate swiper-slide-active"
+                                data-swiper-slide-index="1" style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"This website is very good and user interface is very simple."</p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>Jack</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-next swiper-slide-duplicate-prev"
+                                data-swiper-slide-index="0" style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img loading="lazy"
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"These website is good and i like all property which is listing on these."
+                                        </p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>John</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-duplicate-active" data-swiper-slide-index="1"
+                                style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img loading="lazy"
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"This website is very good and user interface is very simple."</p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>Jack</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-duplicate swiper-slide-duplicate-next"
+                                data-swiper-slide-index="0" style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img loading="lazy"
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"These website is good and i like all property which is listing on these."
+                                        </p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>John</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-33 swiper-slide-duplicate" data-swiper-slide-index="1"
+                                style="width: 621.667px; margin-right: 20px;">
+                                <div class="testi-item fl-wrap">
+                                    <div class="testi-avatar"><img loading="lazy"
+                                            src="/tk_website_rental_management/static/src/images/user.png" alt="" />
+                                    </div>
+                                    <div class="testimonilas-text fl-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i>
+                                            <div class="card-popup-rainingvis_bg"><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span><span
+                                                    class="card-popup-rainingvis_bg_item"></span>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <p>"This website is very good and user interface is very simple."</p>
+                                        <div class="testimonilas-avatar fl-wrap">
+                                            <h3>Jack</h3>
+                                            <h4>Customer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+                <div class="tc-pagination_wrap">
+                    <div class="tc-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic"
+                        style="width: 70px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev"
+                            tabindex="0" role="button" aria-label="Go to slide 1" style="left: -7px;"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main"
+                            tabindex="0" role="button" aria-label="Go to slide 2" style="left: -7px;"></span></div>
+                </div>
+            </div>
+            <owl-component name="tk_website_rental_management.dynamic_testimonials" id="testimonials-cards" />
+            <div class="waveWrapper waveAnimation">
+                <div class="waveWrapperInner bgMiddle">
+                    <div class="wave-bg-anim waveMiddle"
+                        style="background-image: url('/tk_website_rental_management/static/src/images/wave-top.png')">
+                    </div>
+                </div>
+                <div class="waveWrapperInner bgBottom">
+                    <div class="wave-bg-anim waveBottom"
+                        style="background-image: url('/tk_website_rental_management/static/src/images/wave-top.png')">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+
+    <!-- For Partners -->
+    <template id="partners" name="Partners">
+        <section class="s_partners" style="height: 285px;" id="dynamic-partners">
+            <div class="p-section gray-bg">
+                <div class="p-container container">
+                    <div class="clients-carousel-wrap fl-wrap" id="static-partners">
+                        <div class="clients-carousel">
+                            <div class="swiper-container swiper-container-horizontal"
+                                style="cursor: grab; height: auto !important;">
+                                <div class="swiper-wrapper"
+                                    style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); height: auto !important;">
+                                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-active"
+                                        data-swiper-slide-index="0" style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="1" /></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                                        data-swiper-slide-index="1" style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="2" /></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0"
+                                        style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="1" /></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate-next swiper-slide-duplicate-prev"
+                                        data-swiper-slide-index="1" style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="2" /></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+                                        style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="1" /></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                        data-swiper-slide-index="1" style="width: 222.8px; margin-right: 10px;">
+                                        <a href="#" class="client-item"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/client.png"
+                                                alt="2" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <owl-component name="tk_website_rental_management.dynamic_partners" id="partners" />
+                </div>
+            </div>
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+
+    <!-- For Popular Places -->
+    <template id="popular_places" name="Popular Places">
+        <section class="s_popular_places">
+            <section class="static-p-section gray-bg hidden-section particles-wrapper" id="dynamic-popular-places">
+                <div class="p-container container">
+                    <div class="section-title">
+                        <h2>Most Popular Places</h2>
+                        <div class="section-subtitle">Properties In Most Popular Places</div>
+                        <span class="section-separator"></span>
+                        <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus.</p>
+                    </div>
+                    <div class="listing-item-grid_container fl-wrap" id="static-places">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="listing-item-grid">
+                                    <div class="bg"
+                                        style="background-image: url('/tk_website_rental_management/static/src/images/bg/03.jpg');">
+                                    </div>
+                                    <div class="d-gr-sec">
+                                    </div>
+                                    <div class="listing-counter color2-bg"><span>5</span> Properties</div>
+                                    <div class="listing-item-grid_title">
+                                        <h3><a href="/properties/city/melbourne-3/">Melbourne</a></h3>
+                                        <p>Constant care and attention to the patients makes good record</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="listing-item-grid">
+                                    <div class="bg"
+                                        style="background-image: url('/tk_website_rental_management/static/src/images/bg/04.jpg');">
+                                    </div>
+                                    <div class="d-gr-sec">
+                                    </div>
+                                    <div class="listing-counter color2-bg"><span>1</span> Properties</div>
+                                    <div class="listing-item-grid_title">
+                                        <h3><a href="/properties/city/western-creek-4/">Western Creek</a></h3>
+                                        <p>Constant care and attention to the patients makes good record</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <owl-component name="tk_website_rental_management.dynamic_popular_places"
+                        id="popular_places_component" />
+                    <a href="/properties-list" class="btn dec_btn color2-bg">View All Properties<i
+                            class="fal fa-arrow-alt-right"></i></a>
+                </div>
+            </section>
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+</odoo>

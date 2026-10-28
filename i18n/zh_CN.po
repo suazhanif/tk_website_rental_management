@@ -1,0 +1,4058 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tk_website_rental_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-29 11:32+0000\n"
+"PO-Revision-Date: 2025-04-29 11:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid ""
+"\"These website is good and i like all property which is listing on these.\""
+msgstr ""
+"\"这些网站很好，我喜欢上面列出的所有房产。\""
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "\"This website is very good and user interface is very simple.\""
+msgstr "\"这个网站非常好，用户界面非常简单。\""
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "$ <span class=\"oe_currency_value\">10,000.00</span> / Month"
+msgstr "$ <span class=\"oe_currency_value\">10,000.00</span> / 月"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "$ <span class=\"oe_currency_value\">100,000.00</span>"
+msgstr "$ <span class=\"oe_currency_value\">100,000.00</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "$ <span class=\"oe_currency_value\">120,000.00</span>"
+msgstr "$ <span class=\"oe_currency_value\">120,000.00</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "$ <span class=\"oe_currency_value\">500,000.00</span>"
+msgstr "$ <span class=\"oe_currency_value\">500,000.00</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "-180.00000000"
+msgstr "-180.00000000"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "-90.00000000"
+msgstr "-90.00000000"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid ". All rights reserved."
+msgstr "。 版权所有。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_website_reviews__rate__1
+msgid "1 Star"
+msgstr "1 星"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_by_city__size__10
+msgid "10"
+msgstr "10"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_by_city__size__12
+msgid "12"
+msgstr "12"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+msgid "12168"
+msgstr "12168"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+msgid "1254"
+msgstr "1254"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_website_reviews__rate__2
+msgid "2 Stars"
+msgstr "2 星"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+msgid "2172"
+msgstr "2172"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_website_reviews__rate__3
+msgid "3 Stars"
+msgstr "3 星"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "360° Virtual Tour"
+msgstr "360°虚拟游览"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__three_sixty_view_link
+msgid "360° Virtual Tour Link"
+msgstr "360°虚拟游览链接"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_website_reviews__rate__4
+msgid "4 Stars"
+msgstr "4 星"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_website_reviews__rate__5
+msgid "5 Stars"
+msgstr "5 星"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+msgid "732"
+msgstr "732"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<br/>\n"
+"                                                        or\n"
+"                                                        <br/>"
+msgstr ""
+"<br/>\n"
+"                                                        或者\n"
+"                                                        <br/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+msgid ""
+"<br/>\n"
+"                        <strong>If you have any questions then please write them down.</strong>"
+msgstr ""
+"<br/>\n"
+"                        <strong>如果您有任何疑问，请写下来。</strong>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-bars\"/>\n"
+"                                                            <span class=\"list-title\">Type: </span>"
+msgstr ""
+"<i class=\"fa fa-bars\"/>\n"
+"                                                            <span class=\"list-title\">类型： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-bath\"/>\n"
+"                                                            <span class=\"list-title\">Bathrooms: </span>"
+msgstr ""
+"<i class=\"fa fa-bath\"/>\n"
+"                                                            <span class=\"list-title\">浴室： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-bed\"/>\n"
+"                                                            <span class=\"list-title\">Bed Rooms: </span>"
+msgstr ""
+"<i class=\"fa fa-bed\"/>\n"
+"                                                            <span class=\"list-title\">卧室： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-building\"/>\n"
+"                                                            <span class=\"list-title\">Floors: </span>"
+msgstr ""
+"<i class=\"fa fa-building\"/>\n"
+"                                                            <span class=\"list-title\">楼层： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fa fa-cloud\"/> Air Conditioned"
+msgstr "<i class=\"fa fa-cloud\"/> 空调"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-compass\"/>\n"
+"                                                            <span class=\"list-title\">Facing: </span>"
+msgstr ""
+"<i class=\"fa fa-compass\"/>\n"
+"                                                            <span class=\"list-title\">面对： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<i class=\"fa fa-home me-1\"/>Commission Details"
+msgstr "<i class=\"fa fa-home me-1\"/>佣金详情"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-info\"/>\n"
+"                                                            <span class=\"list-title\">Property ID: </span>"
+msgstr ""
+"<i class=\"fa fa-info\"/>\n"
+"                                                            <span class=\"list-title\">物业编号： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-info\"/>\n"
+"                                                            <span class=\"list-title\">Property Name: </span>"
+msgstr ""
+"<i class=\"fa fa-info\"/>\n"
+"                                                            <span class=\"list-title\">物业名称： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" "
+"title=\"LinkedIn\"/>"
+msgstr ""
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"领英\" "
+"title=\"领英\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fa fa-twitter text-twitter\" aria-label=\"Twitter\" title=\"Twitter\"/>"
+msgstr "<i class=\"fa fa-twitter text-twitter\" aria-label=\"叽叽喳喳\" title=\"叽叽喳喳\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-alarm-exclamation\"/> Safety Alarm"
+msgstr "<i class=\"fal fa-alarm-exclamation\"/> 安全警报"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-bars\"/>Features"
+msgstr "<i class=\"fal fa-bars\"/>特征"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-cctv\"/> Security"
+msgstr "<i class=\"fal fa-cctv\"/> 安全"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-couch\"/> Semi Furnished"
+msgstr "<i class=\"fal fa-couch\"/> 半家具"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-dumbbell\"/>Gym"
+msgstr "<i class=\"fal fa-dumbbell\"/>健身房"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "<i class=\"fal fa-filter\"/>  Filters"
+msgstr "<i class=\"fal fa-filter\"/>  过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-globe\"/>Near by Connectivity"
+msgstr "<i class=\"fal fa-globe\"/>附近的连接"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<i class=\"fal fa-hand-holding-usd\"/> Area :"
+msgstr "<i class=\"fal fa-hand-holding-usd\"/> 区域 ："
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<i class=\"fal fa-hand-holding-usd\"/> Price :"
+msgstr "<i class=\"fal fa-hand-holding-usd\"/> 价格 ："
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-image\"/>360° Virtual Tour"
+msgstr "<i class=\"fal fa-image\"/>360°虚拟游览"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-images\"/> Gallery"
+msgstr "<i class=\"fal fa-images\"/> 画廊"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-info\"/>Details"
+msgstr "<i class=\"fal fa-info\"/>细节"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-location\"/>Location"
+msgstr "<i class=\"fal fa-location\"/>地点"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fal fa-map\"/>\n"
+"                                                            <span class=\"list-title\">Total Area: </span>"
+msgstr ""
+"<i class=\"fal fa-map\"/>\n"
+"                                                            <span class=\"list-title\">总面积： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fal fa-map\"/>\n"
+"                                                            <span class=\"list-title\">Usable Area: </span>"
+msgstr ""
+"<i class=\"fal fa-map\"/>\n"
+"                                                            <span class=\"list-title\">使用面积： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-map\"/>Plans"
+msgstr "<i class=\"fal fa-map\"/>计划"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "<i class=\"fal fa-map-marker-alt\"/>  View on map"
+msgstr "<i class=\"fal fa-map-marker-alt\"/>  在地图上查看"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"<i class=\"fal fa-map-marker-alt\"/><span class=\"geodir-opt-tooltip\">On "
+"the map <strong>1</strong></span>"
+msgstr ""
+"<i class=\"fal fa-map-marker-alt\"/><span class=\"geodir-opt-tooltip\">在 "
+"地图 <strong>1</strong></span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "<i class=\"fal fa-play\"/><span>Promo Video</span>"
+msgstr "<i class=\"fal fa-play\"/><span>宣传视频</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-play\"/><span>Property Video</span>"
+msgstr "<i class=\"fal fa-play\"/><span>楼盘视频</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid ""
+"<i class=\"fal fa-search\"/>\n"
+"                    <span>Search</span>"
+msgstr ""
+"<i class=\"fal fa-search\"/>\n"
+"                    <span>搜索</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"<i class=\"fal fa-search-plus\"/><span class=\"geodir-opt-"
+"tooltip\">Gallery</span>"
+msgstr ""
+"<i class=\"fal fa-search-plus\"/><span class=\"geodir-opt-"
+"tooltip\">画廊</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "<i class=\"fal fa-sliders-h\"/> Filters"
+msgstr "<i class=\"fal fa-sliders-h\"/> 过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-swimmer\"/> Swimming Pool"
+msgstr "<i class=\"fal fa-swimmer\"/> 游泳池"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "<i class=\"fal fa-tags\"/>Facilities"
+msgstr "<i class=\"fal fa-tags\"/>设施"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "<i class=\"fal fa-tasks\"/>More Filters"
+msgstr "<i class=\"fal fa-tasks\"/>更多筛选条件"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "<i class=\"fal fa-user\"/>Sign In"
+msgstr "<i class=\"fal fa-user\"/>登入"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-utensils\"/> Equipped Kitchen"
+msgstr "<i class=\"fal fa-utensils\"/> 设备齐全的厨房"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-video\"/>Property Detail Video"
+msgstr "<i class=\"fal fa-video\"/>物业详情视频"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-washer\"/> Laundry Room"
+msgstr "<i class=\"fal fa-washer\"/> 洗衣房"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-wifi\"/> Free Wi Fi"
+msgstr "<i class=\"fal fa-wifi\"/> 免费无线网络"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fal fa-window\"/> Window Covering"
+msgstr "<i class=\"fal fa-window\"/> 窗帘"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "<i class=\"far fa-plus\"/> <span>More Options</span>"
+msgstr "<i class=\"far fa-plus\"/> <span>更多选择</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<i class=\"far fa-redo\"/> Reset Filters"
+msgstr "<i class=\"far fa-redo\"/> 重置过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid ""
+"<i class=\"far fa-search\"/>\n"
+"                                    Search"
+msgstr ""
+"<i class=\"far fa-search\"/>\n"
+"                                    搜索"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<i class=\"far fa-search\"/><span>Search</span>"
+msgstr "<i class=\"far fa-search\"/><span>搜索</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.pager
+msgid "<i class=\"fas fa-caret-left\"/><span>Prev</span>"
+msgstr "<i class=\"fas fa-caret-left\"/><span>上一篇</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fas fa-flag-alt\"/> Report"
+msgstr "<i class=\"fas fa-flag-alt\"/> 报告"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fas fa-heart\"/> Bookmarks -"
+msgstr "<i class=\"fas fa-heart\"/> 书签 -"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fas fa-loveseat\"/> Full Furnished"
+msgstr "<i class=\"fas fa-loveseat\"/> 家具齐全"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                286 Bay St, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                286 Bay St, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                348 Brunswick St, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                348 Brunswick St, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                48 Manchester Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                48 Manchester Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                96 Canterbury Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                96 Canterbury Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                Springvale Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                                Springvale Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    348 Brunswick St, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    348 Brunswick St, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    855 Springvale Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    855 Springvale Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    96 Canterbury Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    96 Canterbury Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    Springvale Rd, Melbourne, VIC, AU"
+msgstr ""
+"<i class=\"fas fa-map-marker-alt\"/>\n"
+"                                                    Springvale Rd, 墨尔本, VIC, AU"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"<i class=\"fas fa-parking\"/>\n"
+"                                                            <span class=\"list-title\">Parking: </span>"
+msgstr ""
+"<i class=\"fas fa-parking\"/>\n"
+"                                                            <span class=\"list-title\">停車處：</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<i class=\"fas fa-parking\"/> Free Parking"
+msgstr "<i class=\"fas fa-parking\"/> 免费停车"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option disabled=\"disabled\" selected=\"selected\">Property Price</option>\n"
+"                                                    <option value=\"lh\">Price: low to high</option>\n"
+"                                                    <option value=\"hl\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\" selected=\"selected\">楼价</option>\n"
+"                                                    <option value=\"lh\">价格：从低到高</option>\n"
+"                                                    <option value=\"hl\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option disabled=\"disabled\" selected=\"selected\">Property Price</option>\n"
+"                            <option value=\"lh\">Price: low to high</option>\n"
+"                            <option value=\"hl\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\" selected=\"selected\">楼价</option>\n"
+"                            <option value=\"lh\">价格：从低到高</option>\n"
+"                            <option value=\"hl\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option disabled=\"disabled\">Property Price</option>\n"
+"                                                    <option value=\"lh\" selected=\"selected\">Price: low to high</option>\n"
+"                                                    <option value=\"hl\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\">楼价</option>\n"
+"                                                    <option value=\"lh\" selected=\"selected\">价格：从低到高</option>\n"
+"                                                    <option value=\"hl\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option disabled=\"disabled\">Property Price</option>\n"
+"                                                    <option value=\"lh\">Price: low to high</option>\n"
+"                                                    <option value=\"hl\" selected=\"selected\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\">楼价</option>\n"
+"                                                    <option value=\"lh\">价格：从低到高</option>\n"
+"                                                    <option value=\"hl\" selected=\"selected\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option disabled=\"disabled\">Property Price</option>\n"
+"                            <option value=\"lh\" selected=\"selected\">Price: low to high</option>\n"
+"                            <option value=\"hl\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\">楼价</option>\n"
+"                            <option value=\"lh\" selected=\"selected\">价格：从低到高</option>\n"
+"                            <option value=\"hl\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option disabled=\"disabled\">Property Price</option>\n"
+"                            <option value=\"lh\">Price: low to high</option>\n"
+"                            <option value=\"hl\" selected=\"selected\">Price: high to low</option>"
+msgstr ""
+"<option disabled=\"disabled\">楼价</option>\n"
+"                            <option value=\"lh\">价格：从低到高</option>\n"
+"                            <option value=\"hl\" selected=\"selected\">价格：从高到低</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option disabled=\"disabled\">Property Type</option>\n"
+"                                                    <option value=\"rent\" selected=\"selected\">Property for Rent</option>\n"
+"                                                    <option value=\"sale\">Property for Buy</option>"
+msgstr ""
+"<option disabled=\"disabled\">物业类型</option>\n"
+"                                                    <option value=\"rent\" selected=\"selected\">出租物业</option>\n"
+"                                                    <option value=\"sale\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option disabled=\"disabled\">Property Type</option>\n"
+"                                                    <option value=\"rent\">Property for Rent</option>\n"
+"                                                    <option value=\"sale\" selected=\"selected\">Property for Buy</option>"
+msgstr ""
+"<option disabled=\"disabled\">物业类型</option>\n"
+"                                                    <option value=\"rent\">出租物业</option>\n"
+"                                                    <option value=\"sale\" selected=\"selected\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option disabled=\"disabled\">Property Type</option>\n"
+"                            <option value=\"rent\" selected=\"selected\">Property for Rent</option>\n"
+"                            <option value=\"sale\">Property for Buy</option>"
+msgstr ""
+"<option disabled=\"disabled\">物业类型</option>\n"
+"                            <option value=\"rent\" selected=\"selected\">出租物业</option>\n"
+"                            <option value=\"sale\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option disabled=\"disabled\">Property Type</option>\n"
+"                            <option value=\"rent\">Property for Rent</option>\n"
+"                            <option value=\"sale\" selected=\"selected\">Property for Buy</option>"
+msgstr ""
+"<option disabled=\"disabled\">物业类型</option>\n"
+"                            <option value=\"rent\">出租物业</option>\n"
+"                            <option value=\"sale\" selected=\"selected\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option selected=\"selected\" disabled=\"disabled\">Property Type</option>\n"
+"                                                    <option value=\"rent\">Property for Rent</option>\n"
+"                                                    <option value=\"sale\">Property for Buy</option>"
+msgstr ""
+"<option selected=\"selected\" disabled=\"disabled\">物业类型</option>\n"
+"                                                    <option value=\"rent\">出租物业</option>\n"
+"                                                    <option value=\"sale\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid ""
+"<option selected=\"selected\" disabled=\"disabled\">Property Type</option>\n"
+"                            <option value=\"rent\">Property for Rent</option>\n"
+"                            <option value=\"sale\">Property for Buy</option>"
+msgstr ""
+"<option selected=\"selected\" disabled=\"disabled\">物业类型</option>\n"
+"                            <option value=\"rent\">出租物业</option>\n"
+"                            <option value=\"sale\">待售房产</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option selected=\"selected\">All Categories</option>\n"
+"                                                                    <option value=\"lands\">Lands</option>\n"
+"                                                                    <option value=\"residential\">Residential</option>\n"
+"                                                                    <option value=\"commercial\">Commercial</option>\n"
+"                                                                    <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option selected=\"selected\">所有类别</option>\n"
+"                                                                    <option value=\"lands\">土地</option>\n"
+"                                                                    <option value=\"residential\">住宅</option>\n"
+"                                                                    <option value=\"commercial\">商业的</option>\n"
+"                                                                    <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option selected=\"selected\">All Categories</option>\n"
+"                                            <option value=\"lands\">Lands</option>\n"
+"                                            <option value=\"residential\">Residential</option>\n"
+"                                            <option value=\"commercial\">Commercial</option>\n"
+"                                            <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option selected=\"selected\">所有类别</option>\n"
+"                                            <option value=\"lands\">土地</option>\n"
+"                                            <option value=\"residential\">住宅</option>\n"
+"                                            <option value=\"commercial\">商业的</option>\n"
+"                                            <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "<option selected=\"selected\">All Cities</option>"
+msgstr "<option selected=\"selected\">所有城市</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option selected=\"selected\">Any Status</option>\n"
+"                                                                <option value=\"rent\">For Rent</option>\n"
+"                                                                <option value=\"sale\">For Buy</option>"
+msgstr ""
+"<option selected=\"selected\">任何状态</option>\n"
+"                                                                <option value=\"rent\">出租</option>\n"
+"                                                                <option value=\"sale\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option selected=\"selected\">Any Status</option>\n"
+"                                            <option value=\"rent\">For Rent</option>\n"
+"                                            <option value=\"sale\">For Buy</option>"
+msgstr ""
+"<option selected=\"selected\">任何状态</option>\n"
+"                                            <option value=\"rent\">出租</option>\n"
+"                                            <option value=\"sale\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<option selected=\"selected\">Bathrooms</option>"
+msgstr "<option selected=\"selected\">浴室</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<option selected=\"selected\">Bedrooms</option>"
+msgstr "<option selected=\"selected\">浴室</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "<option selected=\"selected\">Floors</option>"
+msgstr "<option selected=\"selected\">楼层</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>All Categories</option>\n"
+"                                                                    <option value=\"lands\" selected=\"selected\">Lands</option>\n"
+"                                                                    <option value=\"residential\">Residential</option>\n"
+"                                                                    <option value=\"commercial\">Commercial</option>\n"
+"                                                                    <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                                                    <option value=\"lands\" selected=\"selected\">土地</option>\n"
+"                                                                    <option value=\"residential\">住宅</option>\n"
+"                                                                    <option value=\"commercial\">商业的</option>\n"
+"                                                                    <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>All Categories</option>\n"
+"                                                                    <option value=\"lands\">Lands</option>\n"
+"                                                                    <option value=\"residential\" selected=\"selected\">Residential</option>\n"
+"                                                                    <option value=\"commercial\">Commercial</option>\n"
+"                                                                    <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                                                    <option value=\"lands\">土地</option>\n"
+"                                                                    <option value=\"residential\" selected=\"selected\">住宅</option>\n"
+"                                                                    <option value=\"commercial\">商业的</option>\n"
+"                                                                    <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>All Categories</option>\n"
+"                                                                    <option value=\"lands\">Lands</option>\n"
+"                                                                    <option value=\"residential\">Residential</option>\n"
+"                                                                    <option value=\"commercial\" selected=\"selected\">Commercial</option>\n"
+"                                                                    <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                                                    <option value=\"lands\">土地</option>\n"
+"                                                                    <option value=\"residential\">住宅</option>\n"
+"                                                                    <option value=\"commercial\" selected=\"selected\">商业的</option>\n"
+"                                                                    <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>All Categories</option>\n"
+"                                                                    <option value=\"lands\">Lands</option>\n"
+"                                                                    <option value=\"residential\">Residential</option>\n"
+"                                                                    <option value=\"commercial\">Commercial</option>\n"
+"                                                                    <option value=\"industrial\" selected=\"selected\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                                                    <option value=\"lands\">土地</option>\n"
+"                                                                    <option value=\"residential\">住宅</option>\n"
+"                                                                    <option value=\"commercial\">商业的</option>\n"
+"                                                                    <option value=\"industrial\" selected=\"selected\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>All Categories</option>\n"
+"                                            <option value=\"lands\" selected=\"selected\">Lands</option>\n"
+"                                            <option value=\"residential\">Residential</option>\n"
+"                                            <option value=\"commercial\">Commercial</option>\n"
+"                                            <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                            <option value=\"lands\" selected=\"selected\">土地</option>\n"
+"                                            <option value=\"residential\">住宅</option>\n"
+"                                            <option value=\"commercial\">商业的</option>\n"
+"                                            <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>All Categories</option>\n"
+"                                            <option value=\"lands\">Lands</option>\n"
+"                                            <option value=\"residential\" selected=\"selected\">Residential</option>\n"
+"                                            <option value=\"commercial\">Commercial</option>\n"
+"                                            <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                            <option value=\"lands\">土地</option>\n"
+"                                            <option value=\"residential\" selected=\"selected\">住宅</option>\n"
+"                                            <option value=\"commercial\">商业的</option>\n"
+"                                            <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>All Categories</option>\n"
+"                                            <option value=\"lands\">Lands</option>\n"
+"                                            <option value=\"residential\">Residential</option>\n"
+"                                            <option value=\"commercial\" selected=\"selected\">Commercial</option>\n"
+"                                            <option value=\"industrial\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                            <option value=\"lands\">土地</option>\n"
+"                                            <option value=\"residential\">住宅</option>\n"
+"                                            <option value=\"commercial\" selected=\"selected\">商业的</option>\n"
+"                                            <option value=\"industrial\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>All Categories</option>\n"
+"                                            <option value=\"lands\">Lands</option>\n"
+"                                            <option value=\"residential\">Residential</option>\n"
+"                                            <option value=\"commercial\">Commercial</option>\n"
+"                                            <option value=\"industrial\" selected=\"selected\">Industrials</option>"
+msgstr ""
+"<option>所有类别</option>\n"
+"                                            <option value=\"lands\">土地</option>\n"
+"                                            <option value=\"residential\">住宅</option>\n"
+"                                            <option value=\"commercial\">商业的</option>\n"
+"                                            <option value=\"industrial\" selected=\"selected\">工业</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "<option>All Cities</option>"
+msgstr "<option>所有城市</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>Any Status</option>\n"
+"                                                                <option value=\"rent\" selected=\"selected\">For Rent</option>\n"
+"                                                                <option value=\"sale\">For Buy</option>"
+msgstr ""
+"<option>任何状态</option>\n"
+"                                                                <option value=\"rent\" selected=\"selected\">出租</option>\n"
+"                                                                <option value=\"sale\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid ""
+"<option>Any Status</option>\n"
+"                                                                <option value=\"rent\">For Rent</option>\n"
+"                                                                <option value=\"sale\" selected=\"selected\">For Buy</option>"
+msgstr ""
+"<option>任何状态</option>\n"
+"                                                                <option value=\"rent\">出租</option>\n"
+"                                                                <option value=\"sale\" selected=\"selected\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>Any Status</option>\n"
+"                                            <option value=\"rent\" selected=\"selected\">For Rent</option>\n"
+"                                            <option value=\"sale\">For Buy</option>"
+msgstr ""
+"<option>任何状态</option>\n"
+"                                            <option value=\"rent\" selected=\"selected\">出租</option>\n"
+"                                            <option value=\"sale\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid ""
+"<option>Any Status</option>\n"
+"                                            <option value=\"rent\">For Rent</option>\n"
+"                                            <option value=\"sale\" selected=\"selected\">For Buy</option>"
+msgstr ""
+"<option>任何状态</option>\n"
+"                                            <option value=\"rent\">出租</option>\n"
+"                                            <option value=\"sale\" selected=\"selected\">购买</option>"
+
+#. module: tk_website_rental_management
+#: model:mail.template,body_html:tk_website_rental_management.landlord_enquiry_notification_mail_template
+msgid ""
+"<p>Dear <strong t-esc=\"object.property_id.landlord_id.name\"/>,</p>\n"
+"\n"
+"                <p>We are pleased to inform you that a potential tenant has submitted an inquiry regarding your property, <strong t-esc=\"object.property_id.name\"/>. Below are the details of the inquiry:</p>\n"
+"\n"
+"                <h4>Inquiry Details:</h4>\n"
+"\n"
+"                <strong>Name:</strong> <span t-field=\"object.contact_name\"/>\n"
+"                <br/>\n"
+"                <strong>Email:</strong> <span t-field=\"object.email_from\"/>\n"
+"                <br/>\n"
+"                <strong>Phone:</strong> <span t-field=\"object.mobile\"/>\n"
+"                <br/>\n"
+"                <strong>Message:</strong> <span t-field=\"object.description\"/>\n"
+"                <br/>\n"
+"                <strong>Inquiry Date:</strong> <span t-field=\"object.create_date\" t-options=\"{ 'format': 'MM/dd/YYYY' }\"/>\n"
+"\n"
+"                <p>Please reach out to the interested party at your earliest convenience to discuss further details or schedule a property viewing.</p>\n"
+"\n"
+"                <p>If you have any questions or need assistance, feel free to contact us at <strong><a t-attf-href=\"tel://{{ object.company_id.phone }}\" t-esc=\"object.company_id.phone\"/></strong>.</p>\n"
+"\n"
+"                <p>Thank you for using <strong t-esc=\"object.company_id.name\"/> to manage your property. We look forward to helping you secure a tenant soon!</p>\n"
+"\n"
+"                <h4>\n"
+"                    Best regards\n"
+"                </h4>\n"
+"                <h5>\n"
+"                    <strong>\n"
+"                        <t t-esc=\"object.company_id.name\"/>\n"
+"                    </strong>\n"
+"                </h5>\n"
+"                <hr/>\n"
+"                <span>\n"
+"                    <h4>\n"
+"                        <t t-esc=\"object.company_id.name\"/>\n"
+"                    </h4>\n"
+"                    <t t-esc=\"object.company_id.phone\"/>\n"
+"                    <br/>\n"
+"                    <t t-esc=\"object.company_id.email\"/>\n"
+"                    <br/>\n"
+"                    <t t-esc=\"object.company_id.website\"/>\n"
+"                </span>\n"
+"            "
+msgstr ""
+"<p>亲爱的 <strong t-esc=\"object.property_id.landlord_id.name\"/>,</p>\n"
+"\n"
+"                <p>我们很高兴地通知您，一位潜在租户已提交了有关您房产的询问， <strong t-esc=\"object.property_id.name\"/>。以下是询价详情：</p>\n"
+"\n"
+"                <h4>询问详情：</h4>\n"
+"\n"
+"                <strong>姓名：</strong> <span t-field=\"object.contact_name\"/>\n"
+"                <br/>\n"
+"                <strong>电子邮件：</strong> <span t-field=\"object.email_from\"/>\n"
+"                <br/>\n"
+"                <strong>电话：</strong> <span t-field=\"object.mobile\"/>\n"
+"                <br/>\n"
+"                <strong>信息：</strong> <span t-field=\"object.description\"/>\n"
+"                <br/>\n"
+"                <strong>询价日期：</strong> <span t-field=\"object.create_date\" t-options=\"{ 'format': 'MM/dd/YYYY' }\"/>\n"
+"\n"
+"                <p>请尽快联系感兴趣的方，讨论进一步的细节或安排查看房产。</p>\n"
+"\n"
+"                <p>如果您有任何疑问或需要帮助，请随时联系我们<strong><a t-attf-href=\"tel://{{ object.company_id.phone }}\" t-esc=\"object.company_id.phone\"/></strong>.</p>\n"
+"\n"
+"                <p>感谢您使用<strong t-esc=\"object.company_id.name\"/> 管理您的房产。我们期待尽快帮助您找到租客！</p>\n"
+"\n"
+"                <h4>\n"
+"                    此致\n"
+"                </h4>\n"
+"                <h5>\n"
+"                    <strong>\n"
+"                        <t t-esc=\"object.company_id.name\"/>\n"
+"                    </strong>\n"
+"                </h5>\n"
+"                <hr/>\n"
+"                <span>\n"
+"                    <h4>\n"
+"                        <t t-esc=\"object.company_id.name\"/>\n"
+"                    </h4>\n"
+"                    <t t-esc=\"object.company_id.phone\"/>\n"
+"                    <br/>\n"
+"                    <t t-esc=\"object.company_id.email\"/>\n"
+"                    <br/>\n"
+"                    <t t-esc=\"object.company_id.website\"/>\n"
+"                </span>\n"
+"            "
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid ""
+"<select data-placeholder=\"All Categories\" name=\"categ\" class=\"chosen-select no-radius no-search-select\">\n"
+"                                        <option selected=\"selected\">All Categories</option>\n"
+"                                        <option value=\"lands\">Lands</option>\n"
+"                                        <option value=\"residential\">Residential</option>\n"
+"                                        <option value=\"commercial\">Commercial</option>\n"
+"                                        <option value=\"industrial\">Industrials</option>\n"
+"                                    </select>"
+msgstr ""
+"<select data-placeholder=\"所有类别\" name=\"categ\" class=\"chosen-select no-radius no-search-select\">\n"
+"                                        <option selected=\"selected\">所有类别</option>\n"
+"                                        <option value=\"lands\">土地</option>\n"
+"                                        <option value=\"residential\">住宅</option>\n"
+"                                        <option value=\"commercial\">商业的</option>\n"
+"                                        <option value=\"industrial\">工业</option>\n"
+"                                    </select>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"<select data-placeholder=\"Categories\" name=\"categ\" id=\"categ\" class=\"chosen-select no-search-select advance_category skeleton-select\">\n"
+"                                                    <option selected=\"selected\">All Categories</option>\n"
+"                                                    <option value=\"lands\">Lands</option>\n"
+"                                                    <option value=\"residential\">Residential</option>\n"
+"                                                    <option value=\"commercial\">Commercial</option>\n"
+"                                                    <option value=\"industrial\">Industrials</option>\n"
+"                                                </select>"
+msgstr ""
+"<select data-placeholder=\"类别\" name=\"categ\" id=\"categ\" class=\"chosen-select no-search-select advance_category skeleton-select\">\n"
+"                                                    <option selected=\"selected\">所有类别</option>\n"
+"                                                    <option value=\"lands\">土地</option>\n"
+"                                                    <option value=\"residential\">住宅</option>\n"
+"                                                    <option value=\"commercial\">商业的</option>\n"
+"                                                    <option value=\"industrial\">工业</option>\n"
+"                                                </select>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"<select data-placeholder=\"City\" name=\"cn\" class=\"chosen-select advance_any_city\" style=\"display: none;\">\n"
+"                                                            <option selected=\"selected\">\n"
+"                                                                All Cities</option>\n"
+"                                                            <option value=\"Melbourne\">Melbourne</option>\n"
+"                                                            <option value=\"Western Creek\">Western Creek</option>\n"
+"                                                        </select>"
+msgstr ""
+"<select data-placeholder=\"城市\" name=\"cn\" class=\"chosen-select advance_any_city\" style=\"display: none;\">\n"
+"                                                            <option selected=\"selected\">\n"
+"                                                                所有城市</option>\n"
+"                                                            <option value=\"Melbourne\">墨尔本</option>\n"
+"                                                            <option value=\"Western Creek\">西溪</option>\n"
+"                                                        </select>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "<span class=\"badge text-bg-danger px-2 py-1\">Cancel</span>"
+msgstr "<span class=\"badge text-bg-danger px-2 py-1\">取消</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "<span class=\"badge text-bg-danger px-2 py-1\">Not Paid</span>"
+msgstr "<span class=\"badge text-bg-danger px-2 py-1\">未付款</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"badge text-bg-info broker-badge\">Sale</span>"
+msgstr "<span class=\"badge text-bg-info broker-badge\">销售</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "<span class=\"badge text-bg-info px-2 py-1\">Reversed</span>"
+msgstr "<span class=\"badge text-bg-info px-2 py-1\">反转</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"badge text-bg-primary broker-badge\">Rent</span>"
+msgstr "<span class=\"badge text-bg-primary broker-badge\">租</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "<span class=\"badge text-bg-success px-2 py-1\">Paid</span>"
+msgstr "<span class=\"badge text-bg-success px-2 py-1\">有薪酬的</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Brokerage Type</span>"
+msgstr "<span class=\"c-label text-muted\">经纪类型</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Commission From</span>"
+msgstr "<span class=\"c-label text-muted\">佣金来自</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Commission Type</span>"
+msgstr "<span class=\"c-label text-muted\">佣金类型</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Commission</span>"
+msgstr "<span class=\"c-label text-muted\">委员会</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Percentage</span>"
+msgstr "<span class=\"c-label text-muted\">百分比</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "<span class=\"c-label text-muted\">Total Commission</span>"
+msgstr "<span class=\"c-label text-muted\">佣金总额</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid "<span class=\"current\">All Cities</span>"
+msgstr "<span class=\"current\">所有城市</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid ""
+"<span class=\"me-2 fw-bold\" invisible=\"not property_brochure_qr\">Property"
+" Brochure QR</span>"
+msgstr ""
+"<span class=\"me-2 fw-bold\" invisible=\"not property_brochure_qr\">财产"
+" 宣传册二维码</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"<span class=\"one-col-grid tolt\" data-microtip-position=\"bottom\" data-"
+"tooltip=\"List View\"><i class=\"fal fa-list\"/></span>"
+msgstr ""
+"<span class=\"one-col-grid tolt\" data-microtip-position=\"bottom\" data-"
+"tooltip=\"列表视图\"><i class=\"fal fa-list\"/></span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">1,234.00</span> /\n"
+"                                                                Month\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">Rent</span>"
+msgstr ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">1,234.00</span> /\n"
+"                                                                月\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">租</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">10,000.00</span>\n"
+"                                                                / Month\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">Rent</span>"
+msgstr ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">10,000.00</span>\n"
+"                                                                / 月\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">租</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">100,000.00</span>\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">Buy</span>"
+msgstr ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">100,000.00</span>\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">买</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">2,345.00</span> /\n"
+"                                                                Month\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">Rent</span>"
+msgstr ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">2,345.00</span> /\n"
+"                                                                月\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">租</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">500,000.00</span>\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">Buy</span>"
+msgstr ""
+"<span class=\"price-level-item\">\n"
+"                                                                $ <span class=\"oe_currency_value\">500,000.00</span>\n"
+"                                                            </span>\n"
+"                                                            <span class=\"price-name-tooltip\">买</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.sorting_filters
+msgid "<span class=\"price-opt-title\">Sort by:</span>"
+msgstr "<span class=\"price-opt-title\">排序方式：</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "<span class=\"process-count\">01 </span>"
+msgstr "<span class=\"process-count\">01 </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "<span class=\"process-count\">02</span>"
+msgstr "<span class=\"process-count\">02</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "<span class=\"process-count\">03</span>"
+msgstr "<span class=\"process-count\">03</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"<span class=\"swiper-pagination-bullet swiper-pagination-bullet-active "
+"swiper-pagination-bullet-active-main\" tabindex=\"0\" role=\"button\" aria-"
+"label=\"Go to slide 1\" style=\"left: 28px;\"/><span class=\"swiper-"
+"pagination-bullet swiper-pagination-bullet-active-next\" tabindex=\"0\" "
+"role=\"button\" aria-label=\"Go to slide 2\" style=\"left: 28px;\"/><span "
+"class=\"swiper-pagination-bullet swiper-pagination-bullet-active-next-next\""
+" tabindex=\"0\" role=\"button\" aria-label=\"Go to slide 3\" style=\"left: "
+"28px;\"/><span class=\"swiper-pagination-bullet\" tabindex=\"0\" "
+"role=\"button\" aria-label=\"Go to slide 4\" style=\"left: 28px;\"/><span "
+"class=\"swiper-pagination-bullet\" tabindex=\"0\" role=\"button\" aria-"
+"label=\"Go to slide 5\" style=\"left: 28px;\"/><span class=\"swiper-"
+"pagination-bullet\" tabindex=\"0\" role=\"button\" aria-label=\"Go to slide "
+"6\" style=\"left: 28px;\"/>"
+msgstr ""
+"<span class=\"swiper-pagination-bullet swiper-pagination-bullet-active "
+"swiper-pagination-bullet-active-main\" tabindex=\"0\" role=\"button\" aria-"
+"label=\"转到幻灯片 1\" style=\"left: 28px;\"/><span class=\"swiper-"
+"pagination-bullet swiper-pagination-bullet-active-next\" tabindex=\"0\" "
+"role=\"button\" aria-label=\"转到幻灯片 2\" style=\"left: 28px;\"/><span "
+"class=\"swiper-pagination-bullet swiper-pagination-bullet-active-next-next\""
+" tabindex=\"0\" role=\"button\" aria-label=\"转到幻灯片 3\" style=\"left: "
+"28px;\"/><span class=\"swiper-pagination-bullet\" tabindex=\"0\" "
+"role=\"button\" aria-label=\"转到幻灯片 4\" style=\"left: 28px;\"/><span "
+"class=\"swiper-pagination-bullet\" tabindex=\"0\" role=\"button\" aria-"
+"label=\"转到幻灯片 5\" style=\"left: 28px;\"/><span class=\"swiper-"
+"pagination-bullet\" tabindex=\"0\" role=\"button\" aria-label=\"转到幻灯片 "
+"6\" style=\"left: 28px;\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid ""
+"<span class=\"swiper-pagination-bullet swiper-pagination-bullet-active-"
+"prev\" tabindex=\"0\" role=\"button\" aria-label=\"Go to slide 1\" "
+"style=\"left: -7px;\"/><span class=\"swiper-pagination-bullet swiper-"
+"pagination-bullet-active swiper-pagination-bullet-active-main\" "
+"tabindex=\"0\" role=\"button\" aria-label=\"Go to slide 2\" style=\"left: "
+"-7px;\"/>"
+msgstr ""
+"<span class=\"swiper-pagination-bullet swiper-pagination-bullet-active-"
+"prev\" tabindex=\"0\" role=\"button\" aria-label=\"转到幻灯片 1\" "
+"style=\"left: -7px;\"/><span class=\"swiper-pagination-bullet swiper-"
+"pagination-bullet-active swiper-pagination-bullet-active-main\" "
+"tabindex=\"0\" role=\"button\" aria-label=\"转到幻灯片 2\" style=\"left: "
+"-7px;\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<span class=\"title\">Price : </span>"
+msgstr "<span class=\"title\">价格 ： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"<span class=\"two-col-grid act-grid-opt tolt\" data-microtip-"
+"position=\"bottom\" data-tooltip=\"Grid View\"><i class=\"fal fa-"
+"th\"/></span>"
+msgstr ""
+"<span class=\"two-col-grid act-grid-opt tolt\" data-microtip-"
+"position=\"bottom\" data-tooltip=\"网格视图\"><i class=\"fal fa-"
+"th\"/></span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "<span>1</span> Properties"
+msgstr "<span>1</span> 特性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "<span>5</span> Properties"
+msgstr "<span>5</span> 特性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "<span><i class=\"fal fa-envelope\"/> Mail :</span>"
+msgstr "<span><i class=\"fal fa-envelope\"/> 邮件 ：</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "<span><i class=\"fal fa-phone\"/> Phone :</span>"
+msgstr "<span><i class=\"fal fa-phone\"/> 电话 ：</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "<span>Apartment</span>"
+msgstr "<span>公寓</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<span>Commercial</span>"
+msgstr "<span>商业的</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "<span>Find  us on: </span>"
+msgstr "<span>找到我们： </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<span>Industrial</span>"
+msgstr "<span>工业的</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<span>Land</span>"
+msgstr "<span>土地</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.pager
+msgid "<span>Next</span><i class=\"fas fa-caret-right\"/>"
+msgstr "<span>下一个</span><i class=\"fas fa-caret-right\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "<span>Popular Properties</span>"
+msgstr "<span>热门房产</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "<span>Residential</span>"
+msgstr "<span>住宅</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "<span>Retail Stores</span>"
+msgstr "<span>零售店</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "<span>Warehouses</span>"
+msgstr "<span>仓库</span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "About"
+msgstr "关于"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "About this listing"
+msgstr "关于此列表"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__access_token
+msgid "Access Token"
+msgstr "访问令牌"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__accommodation
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Accommodation"
+msgstr "住宿"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Added By"
+msgstr "添加者"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Additional Information:"
+msgstr "附加信息："
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_air_condition
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Air Conditioned"
+msgstr "空调"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Alarm"
+msgstr "警报"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Aliquam erat volutpat interdum"
+msgstr "安排起来很容易。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"All\n"
+"                                                                    Cities"
+msgstr ""
+"All\n"
+"                                                                    城市"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "All Categories"
+msgstr "所有类别"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "All Cities"
+msgstr "所有城市"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "All Sub Categories"
+msgstr "所有子类别"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/property_details.py:0
+msgid "Amazing property: %(name)s! Check it live: %(url)s"
+msgstr "惊人的财产： %(name)s! 实时查看： %(url)s"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/js/property_share.js:0
+msgid "Amazing property: %s! Check it live: %s"
+msgstr "惊人的财产： %s! 实时查看： %s"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/testimonials.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Andy Dimasky"
+msgstr "安迪·迪马斯基"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"Any\n"
+"                                    Status"
+msgstr ""
+"Any\n"
+"                                    地位"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Any Status"
+msgstr "任何状态"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__image_1920_1
+msgid "Any Status BG Image"
+msgstr "任何状态背景图像"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Are you sure you want to reset theme color?"
+msgstr "您确定要重置主题颜色吗？"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "Area :"
+msgstr "区域 ："
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__area_end
+msgid "Area End Range"
+msgstr "区域结束范围"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Area Range Filters"
+msgstr "面积范围过滤器"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__area_start
+msgid "Area Start Range"
+msgstr "区域起始范围"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Area end range is not negative"
+msgstr "区域结束范围不为负数"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Area start range is not negative"
+msgstr "区域起始范围不为负数"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Assign Access Token"
+msgstr "分配访问令牌"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_author
+msgid "Author"
+msgstr "作者"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/latest_listing.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Available"
+msgstr "可用的"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Back to filters <i class=\"fas fa-caret-up\"/>"
+msgstr "返回过滤器 <i class=\"fas fa-caret-up\"/>"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "Bathrooms"
+msgstr "浴室"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "Bedrooms"
+msgstr "卧室"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Bill Status"
+msgstr "账单状态"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Blog"
+msgstr "博客"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Book Property"
+msgstr "预订房产"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_enquiry
+msgid "Broker Contract"
+msgstr "经纪合约"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Broker Contracts"
+msgstr "经纪合约"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Broker Details"
+msgstr "经纪商详情"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Button Colors"
+msgstr "按钮颜色"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/latest_listing.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Buy"
+msgstr "买"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Check Out All Listings<i class=\"fal fa-arrow-alt-right\"/>"
+msgstr "查看所有列表<i class=\"fal fa-arrow-alt-right\"/>"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__city_ids
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Cities"
+msgstr "城市"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__city_id
+msgid "City"
+msgstr "城市"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "Clients Reviews"
+msgstr "客户评价"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Commercial"
+msgstr "商业的"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Commission Amount"
+msgstr "佣金金额"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+msgid "Commission Bill <i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"/>"
+msgstr "佣金法案 <i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"/>"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__config_id
+msgid "Config"
+msgstr "配置"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "Constant care and attention to the patients makes good record"
+msgstr "持续的关怀和关注病人，创造良好的记录"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Contact Us"
+msgstr "联系我们"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Contact a Few Owners"
+msgstr "联系一些业主"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Contacts"
+msgstr "联系方式"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Contract Ref #"
+msgstr "合同参考号 #"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Contract Type"
+msgstr "合约类型"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_home_menu_enquiry
+msgid "Contracts"
+msgstr "合约"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Counter"
+msgstr "柜台"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Create 360° Virtual Home Tour"
+msgstr "创建 360° 虚拟家居之旅"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__create_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__create_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__create_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__create_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__create_uid
+msgid "Created by"
+msgstr "创建者："
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__create_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__create_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__create_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__create_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__filter_currency_id
+msgid "Currency For Pricing Filter"
+msgstr "定价货币过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_list
+msgid "Currently, there is not any Enquiry in your account.."
+msgstr "目前您的帐户中还没有任何询价。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "Customer"
+msgstr "顾客"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__pricing_type__decimal
+msgid "Decimal"
+msgstr "十进制"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Default Amenities"
+msgstr "默认便利设施"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_description
+msgid "Description"
+msgstr "描述"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Details"
+msgstr "细节"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_amenities
+msgid "Details About Property Amenities"
+msgstr "物业设施详情"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Discover &amp; Connect"
+msgstr "发现 &amp; 连接"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Discuss"
+msgstr "讨论"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__display_landlord
+msgid "Display Landlord on Property ?"
+msgstr "在房产上显示房东？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__display_name
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__display_name
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__display_name
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__display_name
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_sub_type__display_on_home
+msgid "Display On Home Page?"
+msgstr "显示在主页上吗？"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Download Property Brochure"
+msgstr "下载房产手册"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Dynamic Amenities"
+msgstr "动态便利设施"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "East (E)"
+msgstr "东（东）"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Email Address *"
+msgstr "电子邮件 *"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Enable Scrolling"
+msgstr "启用滚动"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__pricing_display_type__english_pricing
+msgid "English Pricing"
+msgstr "英文定价"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Enquiry already submitted."
+msgstr "询问已提交。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Enquiry of Property"
+msgstr "物业查询"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__enquiry_submitted_on_logged_out
+msgid "Enquiry without login?"
+msgstr "无需登录即可查询？"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Enter Your Email"
+msgstr "输入您的电子邮件"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Equip Kitchen"
+msgstr "设备厨房"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_equip_kitchen
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Equipped Kitchen"
+msgstr "设备齐全的厨房"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"ExcelEstate\n"
+"                                                                Ventures"
+msgstr ""
+"卓越地产\n"
+"                                                                风险投资"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"ExcelEstate\n"
+"                                                    Ventures"
+msgstr ""
+"卓越地产\n"
+"                                                    风险投资"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "ExcelEstate Ventures"
+msgstr "卓越地产 风险投资"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Explore Best Property In City"
+msgstr "探索城市最佳房产"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "FT²"
+msgstr "FT²"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "FT³"
+msgstr "FT³"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_amenities__fa_class
+msgid "Fa Class"
+msgstr "法班"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Facilities :"
+msgstr "设施 ："
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+msgid ""
+"Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus\n"
+"                                        sollicitudin feugiat pharetra consectetur."
+msgstr ""
+"强调前端，容器布局也柔和。标题格式流畅\n"
+"                                        连接之箭中的焦虑力量。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus "
+"lectus sollicitudin feugiat pharetra consectetur."
+msgstr ""
+"由于焦点在前，容器布局也较为柔和。版块的格式也较为流畅。 "
+"焦点、强度和对齐的选定布局。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Featured Listings"
+msgstr "精选房源"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Find Interesting Property"
+msgstr "寻找有趣的房产"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Find some of the best tips from around the city from our partners and "
+"friends."
+msgstr ""
+"从我们的合作伙伴那里找到一些关于城市的最佳建议， "
+"朋友们。"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Fitness Gym"
+msgstr "健身馆"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Floor Plans -"
+msgstr "平面图 -"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "Floors"
+msgstr "楼层"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_amenity_inherit_form_view
+msgid "Font Awsome Class"
+msgstr "Font Awsome 类"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"For\n"
+"                                    Buy"
+msgstr ""
+"为了\n"
+"                                    买"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"For\n"
+"                                    Rent"
+msgstr ""
+"为了\n"
+"                                    租"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "For Buy"
+msgstr "购买"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "For Rent"
+msgstr "出租"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__image_1920_3
+msgid "For Rent BG Image"
+msgstr "出租 BG 图片"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__image_1920_2
+msgid "For Sale BG Image"
+msgstr "出售背景图片"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_full_furnish
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Full Furnished"
+msgstr "家具齐全"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+msgid "Gallery"
+msgstr "画廊"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Generate Property Brochure QR"
+msgstr "生成房产宣传册二维码"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_generator
+msgid "Generator"
+msgstr "发电机"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_amenity_inherit_form_view
+msgid "Get Your Fa Icon"
+msgstr "获取你的 Fa 图标"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Get ready to start your exciting journey. <br/> Our agency will lead you "
+"through the amazing digital world"
+msgstr ""
+"准备好开始您激动人心的旅程。 <br/> 我们的机构将带领您 "
+"通过令人惊叹的数字世界"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Go to website"
+msgstr "前往网站"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__google_map_api
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Google Map API Key"
+msgstr "谷歌地图 API 密钥"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_gym
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Gym"
+msgstr "健身房"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/counter.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Happy customers every year"
+msgstr "每年快乐的客户"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Have a query? Chat with us on WhatsApp!"
+msgstr "有疑问？通过 WhatsApp 联系我们！"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__header_color
+msgid "Header Color"
+msgstr "标题颜色"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+msgid "History"
+msgstr "历史"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Home"
+msgstr "家"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Home Page Backgrounds"
+msgstr "主页背景"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Home Video Link"
+msgstr "家庭视频链接"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Home page banner"
+msgstr "主页横幅"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__hs_one
+msgid "Home stats 1"
+msgstr "主页统计 1"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Home stats 1 is not negative"
+msgstr "主场数据 1 不为负"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__hs_two
+msgid "Home stats 2"
+msgstr "主场数据 2"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Home stats 2 is not negative"
+msgstr "主场数据 2 并非负面"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__hs_three
+msgid "Home stats 3"
+msgstr "主场数据 3"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Home stats 3 is not negative"
+msgstr "主场数据 3 并非负面"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__hs_four
+msgid "Home stats 4"
+msgstr "主场数据 4"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Home stats 4 is not negative"
+msgstr "主场数据 4 并非负面"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Home stats figure"
+msgstr "家庭统计数据"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "How it works"
+msgstr "它是如何运作的"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__id
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__id
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__id
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__id
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__id
+msgid "ID"
+msgstr "ID"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__cover_image
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_sub_type__image
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__partner_logo
+msgid "Image"
+msgstr "图像"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__hero_choice__img
+msgid "Image Background"
+msgstr "图像背景"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid ""
+"In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis "
+"cursus."
+msgstr ""
+"陷入自由的仇恨，但正处于表达的阶段。我的运动没有一个是结构牢固的。 "
+"课程"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid ""
+"In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis "
+"cursus. Nulla eu mi magna. Etiam suscipit commodo gravida."
+msgstr ""
+"自由进入，不带敌意，注重表达。我的布局中每个元素都结构严谨。 "
+"当然。我没什么特别好的。而且，舒适的重量也会带来支撑。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__pricing_display_type__indian_pricing
+msgid "Indian Pricing"
+msgstr "印度定价"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Industrial"
+msgstr "工业的"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "Industrials"
+msgstr "工业"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"InfinityGrove\n"
+"                                                                Realty"
+msgstr ""
+"无限树丛\n"
+"                                                                房地产"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid "InfinityGrove Realty"
+msgstr "无限树丛 房地产"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Internet Available"
+msgstr "可以上网"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__is_latest_listing
+msgid "Is Latest Listing ?"
+msgstr "是最新上市吗？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__is_latest_listing_visible
+msgid "Is Latest Listing Visible"
+msgstr "最新房源是否可见"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__is_popular_list
+msgid "Is Popular Listing ?"
+msgstr "是热门房源吗？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__is_popular_properties_visible
+msgid "Is Popular Properties Visible"
+msgstr "热门房产是否可见"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_amenities__is_on_website
+msgid "Is Published on Website?"
+msgstr "是否已在网站上发布？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__is_rtl
+msgid "Is RTL Enable ?"
+msgstr "RTL 是否启用？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__is_verify
+msgid "Is Verified ?"
+msgstr "已验证？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_crm_lead__is_public_lead
+msgid "Is public lead"
+msgstr "是否是公众主导"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "Jack"
+msgstr "杰克"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "John"
+msgstr "约翰"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"Just looking around\n"
+"                            ? Use quick search by category :"
+msgstr ""
+"只是环顾四周\n"
+"                            ? 使用按类别快速搜索："
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Just looking around ? Use quick search by category :"
+msgstr "只是随便看看？使用类别快速搜索："
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_keyword
+msgid "Keywords"
+msgstr "关键词"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Land"
+msgstr "土地"
+
+#. module: tk_website_rental_management
+#: model:mail.template,name:tk_website_rental_management.landlord_enquiry_notification_mail_template
+msgid "Landlord Inquiry Notification Email Template"
+msgstr "房东问询通知邮件模板"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "Lands"
+msgstr "土地"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__write_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__write_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__write_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__write_uid
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__write_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__write_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__write_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__write_date
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Latest Listing"
+msgstr "最新上市"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__latitude
+msgid "Latitude"
+msgstr "纬度"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Laundry"
+msgstr "洗衣店"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_laundry
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Laundry Room"
+msgstr "洗衣房"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "线索/商机"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__lead_count
+msgid "Leads"
+msgstr "潜在客户"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__link_color
+msgid "Link Color"
+msgstr "链接颜色"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "LinkedIn"
+msgstr "领英"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Lisiting Filters"
+msgstr "列表过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Listing"
+msgstr "上市"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Listing Features"
+msgstr "上市特点"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__list_property_per_page
+msgid "Listing Properties per Page"
+msgstr "每页列出属性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Listing Property per page"
+msgstr "每页列出属性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Listing Type"
+msgstr "列表类型"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Listing properties per page should be greater than 0"
+msgstr "每页列出的属性应大于 0"
+
+#. module: tk_website_rental_management
+#: model:website.menu,name:tk_website_rental_management.properties_list_menu
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Listings"
+msgstr "房源"
+
+#. module: tk_website_rental_management
+#: model:website.menu,name:tk_website_rental_management.properties_list_map_menu
+msgid "Listings on Map"
+msgstr "地图上的房源"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Location"
+msgstr "地点"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "Log Out"
+msgstr "退出"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Login"
+msgstr "登录"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__longitude
+msgid "Longitude"
+msgstr "经度"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+msgid ""
+"Lorem Ipsum is simply\n"
+"                                                dummy text of the printing and typesetting industry."
+msgstr ""
+"Lorem Ipsum 只是\n"
+"                                                印刷排版行业的虚拟文本。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"Lorem Ipsum is simply dummy text of\n"
+"                                            the printing and typesetting industry."
+msgstr ""
+"Lorem Ipsum 只是以下的虚拟文本\n"
+"                                            印刷排版行业。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+"Lorem Ipsum 只是印刷和排版行业的虚拟文本。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in "
+"pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. "
+"Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. "
+"Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed "
+"tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a "
+"consequat purus viverra."
+msgstr ""
+"Lorem ipsum dolor sat amet，consectetur adipiscing elit。梅塞纳斯在"
+"普尔维纳尔内克。 Nulla finibus lobortis pulvinar。 Donec a consectetur nulla。"
+"Nulla posuere sapien vitae lectus suscipit, et pulvinar nisitincidunt。 "
+"Aliquam 时代。 Curabitur convallis fringilla diam sed aliquam。塞德 "
+"Tempor iaculis Massa Faucibus feugiat。在 facilisis Massa 中， "
+"consequat purus viverra。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec tincidunt "
+"arcu, sit amet fermentum sem."
+msgstr ""
+"Lorem ipsum dolor sat amet，consectetur adipiscing elit。一切都已结束 "
+"arcu，坐下不要发酵。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid ""
+"Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a "
+"consectetur nulla."
+msgstr ""
+"Maecenas in pulvinar neque。 Nulla finibus lobortis pulvinar。多内克 "
+"consectetur nulla。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+msgid ""
+"Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id\n"
+"                                        vestibulum metus nullam viverra porta."
+msgstr ""
+"Maecenas pulvinar、 facilisis dignissim 中的 risus、 quam nisi hendrerit nulla、 id\n"
+"                                        前庭metus nullam viverra porta。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, "
+"id vestibulum metus nullam viverra porta."
+msgstr ""
+"Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, "
+"id前庭metus nullam viverra porta。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__image_1920_0
+msgid "Main BG Image"
+msgstr "主要背景图像"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__map_center_address
+msgid "Map Center Address"
+msgstr "地图中心地址"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Map Center Coordination"
+msgstr "地图中心协调"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi varius, nulla sit amet\n"
+"                    rutrum elementum."
+msgstr ""
+"莫里斯·马克西姆斯·内克。 Nam in mauris quis libero sodales eleifend。 Morbi varius，nulla sat amet\n"
+"                    rutrum elementum。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi "
+"varius, nulla sit amet rutrum elementum."
+msgstr ""
+"莫里斯·马克西姆斯·内克。 Nam in mauris quis libero sodales eleifend。莫尔比 "
+"varius，nulla sat amet rutrum elementum。"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Max Price"
+msgstr "最高价格"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "Melbourne"
+msgstr "墨尔本"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__mob_background
+msgid "Mobile BG Image for video"
+msgstr "视频的移动背景图像"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+msgid ""
+"Morbi varius, nulla sit amet rutrum elementum, est elit finibus tellus, ut tristique elit\n"
+"                            risus\n"
+"                            at metus."
+msgstr ""
+"Morbi varius，nulla sat amet rutrum elementum，est elit finibustellus，ut tristique elit\n"
+"                            里苏斯\n"
+"                            在梅图斯。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Morbi varius, nulla sit amet rutrum elementum, est elit finibus tellus, ut "
+"tristique elit risus at metus."
+msgstr ""
+"Morbi varius, nulla sat amet rutrum elementum, est elit finibustellus, ut "
+"梅图斯 (metus) 的 tristique elit risus。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "Most Popular Places"
+msgstr "最受欢迎的地方"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "My Account"
+msgstr "我的账户"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "M²"
+msgstr "平方米"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "M³"
+msgstr "立方米"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_partner__name
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__name
+msgid "Name"
+msgstr "姓名"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Near by Connectivity"
+msgstr "附近的连接"
+
+#. module: tk_website_rental_management
+#: model:mail.template,subject:tk_website_rental_management.landlord_enquiry_notification_mail_template
+msgid "New Inquiry Received for Your Property - {{object.property_id.name}}"
+msgstr "收到有关您房产的新询问 - {{object.property_id.name}}"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/counter.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "New Listing Every Week"
+msgstr "每周都有新上市"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/counter.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "New Visiters Every Week"
+msgstr "每周都有新访客"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Newest  Listings"
+msgstr "最新房源"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid "Newest Listings"
+msgstr "最新房源"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__mailling_list_id
+msgid "Newsletter"
+msgstr "通讯"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "Next slide"
+msgstr "下一张幻灯片"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "No Results Found. Don’t Worry! We will find the best property for you."
+msgstr "未找到任何结果。别担心！我们会为您找到最合适的房源。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid ""
+"No records found. It seems you haven't assisted with any sales or rentals "
+"yet."
+msgstr ""
+"未找到记录。您似乎尚未协助任何销售或租赁 "
+"然而。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__no_latest_list
+msgid "No. of Latest Listing"
+msgstr "最新上市编号"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "No. of Latest Listing should be greater than 0"
+msgstr "最新列表数量应大于0"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__no_popular_list
+msgid "No. of Popular Listing"
+msgstr "热门房源数量"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "No. of Popular Listing should be greater than 0"
+msgstr "热门房源数量应大于0"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__property_count
+msgid "No. of Properties"
+msgstr "物业数量"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__pricing_display_type__normal_pricing
+msgid "Normal Pricing"
+msgstr "正常定价"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "North (N)"
+msgstr "北 (N)"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "North-East (NE)"
+msgstr "东北（NE）"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Not Available"
+msgstr "无法使用"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"NovaNest\n"
+"                                                                Properties"
+msgstr ""
+"诺瓦巢\n"
+"                                                                特性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid "NovaNest Properties"
+msgstr "诺瓦巢 属性"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+msgid "On the map"
+msgstr "在地图上"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Other Colors"
+msgstr "其他颜色"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Other Details"
+msgstr "其他细节"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Our Latest News"
+msgstr "我们的最新消息"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Parking"
+msgstr "停車處"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_parking
+msgid "Parking "
+msgstr "停車處 "
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Parking Available"
+msgstr "提供停车位"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__partner_ids
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Partners"
+msgstr "合作伙伴"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Phone *"
+msgstr "电话 *"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_pool
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Pool"
+msgstr "水池"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Popular Places"
+msgstr "热门地点"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Popular Properties"
+msgstr "热门房产"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid ""
+"Praesent eros turpis, commodo vel justo at, pulvinar mollis eros. Mauris "
+"aliquet eu quam id ornare. Morbi ac quam enim. Cras vitae nulla condimentum,"
+" semper dolor non, faucibus dolor. Vivamus adipiscing eros quis orci "
+"fringilla, sed pretium lectus viverra. Pellentesque habitant morbi tristique"
+" senectus et netus et malesuada fames ac turpis egestas. Donec nec velit non"
+" odio aliquam suscipit. Sed non neque faucibus, condimentum lectus at, "
+"accumsan enim."
+msgstr ""
+"这是一个美丽的地方，舒适或者只是一个柔软的垫子。莫里斯 "
+"我宁愿装饰它，也不愿装饰它。疾病及其原因。明天不是生命的季节，"
+" 这并不总是疼痛，而是喉咙痛。住在医院里的肥胖爱神。 "
+"很可爱，但是价格就是一张生活床。孩子们生活在一种令人悲伤的疾病中"
+" 老年和贫困，以及饥饿和可耻的贫困。直到他不想"
+" 他受到了一些憎恨。但甚至没有味觉，酱汁就在床上， "
+"对于图层"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"PremierPath\n"
+"                                                                Ventures"
+msgstr ""
+"高级路径\n"
+"                                                                风险投资"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"PremierPath\n"
+"                                                    Ventures"
+msgstr ""
+"高级路径\n"
+"                                                    风险投资"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "PremierPath Ventures"
+msgstr "高级路径 风险投资"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "Previous slide"
+msgstr "上一张幻灯片"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "Price :"
+msgstr "价格 ："
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__price_end
+msgid "Price End Range"
+msgstr "价格结束范围"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Price Range"
+msgstr "价格范围"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Price Range Filters"
+msgstr "价格范围过滤器"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__price_start
+msgid "Price Start Range"
+msgstr "起价范围"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Price end range is not negative"
+msgstr "价格结束范围不为负数"
+
+#. module: tk_website_rental_management
+#. odoo-python
+#: code:addons/tk_website_rental_management/models/rental_config.py:0
+msgid "Price start range is not negative"
+msgstr "价格起始范围不为负数"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__pricing_display_type
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Pricing Display Type"
+msgstr "定价显示类型"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Pricing Format"
+msgstr "定价格式"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__pricing_type
+msgid "Pricing Type"
+msgstr "定价类型"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__primary_background
+msgid "Primary Background"
+msgstr "主要背景"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__btn_primary
+msgid "Primary Background "
+msgstr "主要背景 "
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__btn_primary_text
+msgid "Primary Text "
+msgstr "主要文本 "
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__image_1920
+msgid "Profile Image"
+msgstr "个人资料图片"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.discuss
+msgid ""
+"Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus\n"
+"                                        tellus\n"
+"                                        ut, convallis eros sollicitudin turpis."
+msgstr ""
+"Proin dapibus nisl ornare diam varius tempus。埃涅阿斯，从此悲伤终结\n"
+"                                        土地\n"
+"                                        作为，山谷 eros sollicitudin turpis。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis\n"
+"                        eros sollicitudin turpis."
+msgstr ""
+"Proin dapibus nisl ornare diam varius tempus。埃涅阿斯的悲伤，天涯海角，山谷\n"
+"                        关怀的爱欲"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid ""
+"Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus "
+"tellus ut, convallis eros sollicitudin turpis."
+msgstr ""
+"Proin dapibus nisl ornare diam varius tempus。埃涅阿斯，从此悲伤终结 "
+"大地如同山谷，爱神是悲伤的源泉。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__sec_img_3
+msgid "Promo Video BG Image"
+msgstr "宣传视频背景图片"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/popular_places.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Properties"
+msgstr "特性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "Properties In Most Popular Places"
+msgstr "最热门地点的房产"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_by_city
+msgid "Properties by city"
+msgstr "按城市划分的房产"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__property_id
+msgid "Property"
+msgstr "财产"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_bookmark
+msgid "Property Bookmark"
+msgstr "物业书签"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Property Brochure QR"
+msgstr "房产宣传册二维码"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__property_brochure_qr
+msgid "Property Brochure Qr"
+msgstr "房产宣传册（Q版）"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__broker_id
+msgid "Property Broker"
+msgstr "房产经纪人"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Property Detail Video"
+msgstr "物业详情视频"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_details
+msgid "Property Details and for registration new Property"
+msgstr "房产详情及新房产登记"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_enquiry
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_home_menu_enquiry
+msgid "Property Enquiries"
+msgstr "物业查询"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_list
+msgid "Property Enquiry"
+msgstr "物业查询"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Property Filters Options"
+msgstr "属性过滤器选项"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_list
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Property List"
+msgstr "房产清单"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Property Listing Configurations"
+msgstr "属性列表配置"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.broker_contracts_commission
+msgid "Property Ref"
+msgstr "房产参考"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_website_reviews
+msgid "Property Rental Website Reviews"
+msgstr "房产租赁网站评论"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_sub_type
+msgid "Property Sub Type"
+msgstr "属性子类型"
+
+#. module: tk_website_rental_management
+#: model:ir.ui.menu,name:tk_website_rental_management.menu_property_theme_config
+msgid "Property Theme Config"
+msgstr "属性主题配置"
+
+#. module: tk_website_rental_management
+#: model:ir.actions.act_window,name:tk_website_rental_management.property_theme_config_action
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Property Theme Configuration"
+msgstr "属性主题配置"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_website_partner
+msgid "Property Website Partners"
+msgstr "房地产网站合作伙伴"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Property Website SEO"
+msgstr "房地产网站SEO"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header_switches
+msgid "Property Website: Header"
+msgstr "房产网站：标题"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__rate
+msgid "Rating"
+msgstr "等级"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Read all <i class=\"fal fa-long-arrow-right\"/>"
+msgstr "阅读全部 <i class=\"fal fa-long-arrow-right\"/>"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/latest_listing.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Rent"
+msgstr "租"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid ""
+"Reset\n"
+"                                                Filters"
+msgstr ""
+"重置\n"
+"                                                过滤器"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Reset Colors"
+msgstr "重置颜色"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "Residential"
+msgstr "住宅"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/testimonials.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Restaurant Owner"
+msgstr "餐厅老板"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__reviews
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Reviews"
+msgstr "评论"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_website_reviews__role
+msgid "Role"
+msgstr "角色"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__pricing_type__round
+msgid "Round"
+msgstr "圆形的"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_alarm
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Safety Alarm"
+msgstr "安全警报"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "Search"
+msgstr "搜索"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"Search\n"
+"                                                        <i class=\"far fa-search\"/>"
+msgstr ""
+"搜索\n"
+"                                                        <i class=\"far fa-search\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Search <i class=\"far fa-search\"/>"
+msgstr "搜索 <i class=\"far fa-search\"/>"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__hero_choice
+msgid "Search Section Background Type"
+msgstr "搜索部分背景类型"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Search Section Backgrounds"
+msgstr "搜索部分背景"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid "Search..."
+msgstr "搜索..."
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__secondary_background
+msgid "Secondary Background"
+msgstr "次要背景"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__emphasis_background
+msgid "Secondary Background "
+msgstr "次要背景 "
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__btn_secondary_text
+msgid "Secondary Text "
+msgstr "次要文本 "
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_security
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Security"
+msgstr "安全"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: code:addons/tk_website_rental_management/static/src/xml/popular_properties.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_semi_furnish
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_list
+msgid "Semi Furnished"
+msgstr "半家具"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Send Enquiry"
+msgstr "发送询问"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Send Mail To Landlord While Enquiry"
+msgstr "询问时向房东发送邮件"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__is_mail_send_to_landlord
+msgid "Send mail to landlord while enquiry ?"
+msgstr "询问时向房东发送邮件？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__sequence
+msgid "Sequence"
+msgstr "顺序"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Share on Facebook"
+msgstr "在脸书上分享"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Share on LinkedIn"
+msgstr "在领英上分享"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Share on Twitter"
+msgstr "在推特上分享"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Share property"
+msgstr "分享财产"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Share this property"
+msgstr "分享此房产"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__short_description
+msgid "Short Description"
+msgstr "简短描述"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Show Landlord on Property"
+msgstr "向房产业主出示"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Show Landlord on Property in Website"
+msgstr "在网站上显示房产上的房东"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Signup"
+msgstr "报名"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__similar_properties
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Similar Properties"
+msgstr "类似的属性"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Similar listings :"
+msgstr "类似房源："
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__size
+msgid "Size"
+msgstr "尺寸"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid ""
+"SkywardSails\n"
+"                                                    Estates"
+msgstr ""
+"天空之帆\n"
+"                                                    庄园"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "SkywardSails Estates"
+msgstr "天空之帆 庄园"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "South (S)"
+msgstr "南 (S)"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "South-East (SE)"
+msgstr "东南（SE）"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "South-West (SW)"
+msgstr "西南（SW）"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Stats BG & Promo Video BG"
+msgstr "统计背景和宣传视频背景"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__sec_img_2
+msgid "Stats BG Image"
+msgstr "统计背景图像"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Subscribe For a <span>Newsletter</span>"
+msgstr "订阅一个 <span>通讯</span>"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Swimming Pool"
+msgstr "游泳池"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "TEST"
+msgstr "测试"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_by_city__tag_line
+msgid "Tag Line"
+msgstr "标语"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Tags"
+msgstr "标签"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Terms of use"
+msgstr "使用条款"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Testimonials"
+msgstr "感言"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__text_color
+msgid "Text Color"
+msgstr "文字颜色"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid "The Latest Listings"
+msgstr "最新房源"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Theme Color Configuration"
+msgstr "主题颜色配置"
+
+#. module: tk_website_rental_management
+#: model:ir.model,name:tk_website_rental_management.model_property_theme_config
+msgid "Theme Config"
+msgstr "主题配置"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Theme Main Background"
+msgstr "主题主要背景"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_title
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__name
+msgid "Title"
+msgstr "标题"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Twitter"
+msgstr "叽叽喳喳"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__seo_type
+msgid "Type"
+msgstr "类型"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+msgid ""
+"UrbanNest\n"
+"                                                                Pro"
+msgstr ""
+"城市之巢\n"
+"                                                                专业版"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.latest_listing
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_properties
+msgid "UrbanNest Pro"
+msgstr "都市巢专业版"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_bookmark__partner_id
+msgid "User"
+msgstr "用户"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__is_user_send_whatsapp_messages
+msgid "User Send Whatsapp Messages ?"
+msgstr "用户发送 Whatsapp 消息？"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "VIDEO LINK"
+msgstr "视频链接"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__hero_choice__vid
+msgid "Video Background"
+msgstr "视频背景"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__video_background_image
+msgid "Video Background Image"
+msgstr "视频背景图片"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__video_url
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__video_link
+msgid "Video Link"
+msgstr "视频链接"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__video_bg_url
+msgid "Video URL"
+msgstr "视频网址"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "View All Properties<i class=\"fal fa-arrow-alt-right\"/>"
+msgstr "查看所有属性<i class=\"fal fa-arrow-alt-right\"/>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_enquiry
+msgid "View Property Enquiry Details"
+msgstr "查看房产查询详情"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.portal_my_enquiry
+msgid "View Your Contract Commission"
+msgstr "查看您的合同佣金"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__visible_three_sixty_view
+msgid "Visible 360° Virtual Tour"
+msgstr "360°虚拟游览"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__visible_accommodation
+msgid "Visible Accommodation ?"
+msgstr "可见的住宿？"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__visible_broker_on_property
+msgid "Visible Broker on Property"
+msgstr "可见的房地产经纪人"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__visible_floor_plans
+msgid "Visible Floor Plans"
+msgstr "可见的平面图"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.theme_tk_footer
+msgid "Want to be notified about new properties ?  Just subscribe it."
+msgstr "想要收到新房源的通知吗？快来订阅吧！"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+msgid ""
+"We will contact you soon.\n"
+"                            Thank you for your patience."
+msgstr ""
+"我们将尽快与您联系。\n"
+"                            感谢您的耐心。"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__website_description
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Website Description"
+msgstr "网站说明"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__website_amenity_ids
+msgid "Website Extra Amenities"
+msgstr "网站额外设施"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Website Newsletter"
+msgstr "网站通讯"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "Website Property Details"
+msgstr "网站属性详情"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Website RTL Config"
+msgstr "网站 RTL 配置"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "Website Rental Management"
+msgstr "网站租赁管理"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__review_ids
+msgid "Website Reviews"
+msgstr "网站评论"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_sub_type_inherit_form_view
+msgid "Website Section"
+msgstr "网站栏目"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Website Visibility"
+msgstr "网站可见度"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "West (W)"
+msgstr "西 (W)"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+msgid ""
+"Western\n"
+"                                                                    Creek"
+msgstr ""
+"西\n"
+"                                                                    溪"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.popular_places
+msgid "Western Creek"
+msgstr "西溪"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.testimonials
+msgid "What Our Clients Say"
+msgstr "客户评价"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "What are you looking for ?"
+msgstr "你要买什么 ？"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.home_banner
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_filters
+msgid "What you are looking for ?"
+msgstr "您在寻找什么？"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "Whatsapp Message Configuration"
+msgstr "Whatsapp 消息配置"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__whatsapp_number
+msgid "Whatsapp Number"
+msgstr "Whatsapp 号码"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_wifi
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "WiFi"
+msgstr "无线上网"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Window Cover"
+msgstr "窗罩"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_details__web_window_cover
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homepage_amenities_filters
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Window Covering"
+msgstr "窗帘"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/counter.xml:0
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.counter
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.homes
+msgid "Won Amazing Awards"
+msgstr "荣获惊人奖项"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "YD²"
+msgstr "YD²"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+msgid "Your Enquiry"
+msgstr "您的询问"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_details
+msgid "Your Name *"
+msgstr "你的名字 *"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid "Your Wishlist"
+msgstr "您的愿望清单"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_header
+msgid ""
+"Your Wishlist :\n"
+"                            <span>\n"
+"                                <strong/>\n"
+"                                Properties\n"
+"                            </span>"
+msgstr ""
+"您的愿望清单：\n"
+"                            <span>\n"
+"                                <strong/>\n"
+"                                特性\n"
+"                            </span>"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.map_view
+msgid "Your location"
+msgstr "您的位置"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields.selection,name:tk_website_rental_management.selection__property_theme_config__hero_choice__youtube
+msgid "Youtube Video"
+msgstr "Youtube 视频"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__youtube_bg_video
+msgid "Youtube Video ID"
+msgstr "YouTube 视频 ID"
+
+#. module: tk_website_rental_management
+#: model:ir.model.fields,field_description:tk_website_rental_management.field_property_theme_config__zoom_level
+msgid "Zoom Level"
+msgstr "缩放级别"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "air"
+msgstr "空气"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "alarm"
+msgstr "警报"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "commercial"
+msgstr "商业的"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, counter, coounters"
+msgstr "定制，柜台，柜台"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, discuss"
+msgstr "定制、讨论"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, home, home banner, banner"
+msgstr "定制, 首页, 首页横幅, 横幅"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, partners"
+msgstr "定制、合作伙伴"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, popular, places, popular places, cities, city"
+msgstr "习俗, 热门, 地点, 热门地点, 城市, 城市"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, slider, latest listing, latest"
+msgstr "自定义、滑块、最新列表、最新"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, slider, popular properties, popular"
+msgstr "自定义、滑块、热门属性、热门"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.custom_snippets
+msgid "custom, testimonials, reviews"
+msgstr "定制、推荐、评论"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_amenity_inherit_form_view
+msgid "fa-home"
+msgstr "发家"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "facebook"
+msgstr "Facebook"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "fuf"
+msgstr "呸"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "gym"
+msgstr "健身房"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.enquiry_details
+msgid "has been submitted."
+msgstr "已提交。"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "https://your-site.com/video/bg-video.mp4"
+msgstr "https://your-site.com/video/bg-video.mp4"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_theme_config_view_form
+msgid "iTPtpU-IpiM"
+msgstr "磷酸二酯酶"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "industrial"
+msgstr "工业的"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "kitchen"
+msgstr "厨房"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "lands"
+msgstr "土地"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "laundry"
+msgstr "洗衣店"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.property_management_inherit_form_view
+msgid "linkedin"
+msgstr "链接"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "parking"
+msgstr "停車處"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "pool"
+msgstr "水池"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "rent"
+msgstr "租"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "residential"
+msgstr "住宅"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "sale"
+msgstr "销售"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "security"
+msgstr "安全"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "sfur"
+msgstr "斯富尔"
+
+#. module: tk_website_rental_management
+#: model_terms:ir.ui.view,arch_db:tk_website_rental_management.techkhedut_footer_switch
+msgid "theme_tk_footer"
+msgstr "theme_tk_footer"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "wifi"
+msgstr "无线上网"
+
+#. module: tk_website_rental_management
+#. odoo-javascript
+#: code:addons/tk_website_rental_management/static/src/xml/home_banner.xml:0
+msgid "window"
+msgstr "窗户"

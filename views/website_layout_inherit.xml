@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Copyright (C) 2023-TODAY TechKhedut (<https://www.techkhedut.com>)
+    Part of TechKhedut. See LICENSE file for full copyright and licensing details.
+-->
+<odoo>
+    <template id="website_layout_meta_inherit" inherit_id="website.layout" name="Layout" active="True">
+        <xpath expr="//head/meta" position="before">
+            <link rel="stylesheet" href="/colors/style.css" />
+        </xpath>
+
+        <xpath expr="//t[@t-set='twitter_meta']" position="replace">
+            <t t-if="seo_data and 'meta_data' in seo_data and '/property-details' in request.httprequest.path">
+                <t t-set="twitter_meta" t-value="seo_data['meta_data']"/>
+            </t>
+            <t t-else="">
+                <t t-set="twitter_meta" t-value="website_meta.get('twitter_meta')"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//t[@t-set='opengraph_meta']" position="replace">
+            <t t-if="seo_data and 'opengraph_data' in seo_data and '/property-details' in request.httprequest.path">
+                <t t-set="opengraph_meta" t-value="seo_data['opengraph_data']"/>
+            </t>
+            <t t-else="">
+                <t t-set="opengraph_meta" t-value="website_meta.get('opengraph_meta')"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//meta[@name='default_title']" position="replace">
+            <t t-if="seo_data and 'title' in seo_data and '/property-details' in request.httprequest.path">
+                <meta name="default_title" t-att-content="seo_data['title']" groups="website.group_website_designer"/>
+            </t>
+            <t t-else="">
+                <meta name="default_title" t-att-content="default_title" groups="website.group_website_designer"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//t[@t-set='meta_description']" position="replace">
+            <t t-if="seo_data and 'description' in seo_data and '/property-details' in request.httprequest.path">
+                <t t-set="meta_description" t-value="seo_data['description']"/>
+            </t>
+            <t t-else="">
+                <t t-set="meta_description" t-value="seo_object and 'website_meta_description' in seo_object
+                    and seo_object.website_meta_description or website_meta_description or website_meta.get('meta_description', '')"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//meta[@name='generator']" position="after">
+            <t t-if="seo_data and 'author' in seo_data and '/property-details' in request.httprequest.path">
+                <meta name="author" t-att-content="seo_data['author']" />
+            </t>
+        </xpath>
+
+        <xpath expr="//meta[@name='generator']" position="replace">
+            <t t-if="seo_data and 'generator' in seo_data and '/property-details' in request.httprequest.path">
+                <meta name="generator" t-att-content="seo_data['generator']"/>
+            </t>
+            <t t-else="">
+                <meta name="generator" content="Odoo"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//t[@t-set='meta_keywords']" position="replace">
+            <t t-if="seo_data and 'keywords' in seo_data and '/property-details' in request.httprequest.path">
+                <t t-set="meta_keywords" t-value="seo_data['keywords']"/>
+            </t>
+            <t t-else="">
+                <t t-set="meta_keywords" t-value="seo_object and 'website_meta_keywords' in seo_object and seo_object.website_meta_keywords or website_meta_keywords"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//meta[@name='default_description']" position="replace">
+            <t t-if="seo_data and 'description' in seo_data and '/property-details' in request.httprequest.path">
+                <meta name="default_description" t-att-content="seo_data['description']" groups="website.group_website_designer"/>
+            </t>
+            <t t-else="">
+                <meta name="default_description" t-att-content="website_meta_description or website_meta.get('meta_description')" groups="website.group_website_designer"/>
+            </t>
+        </xpath>
+
+        <xpath expr="//title" position="replace">
+            <t t-if="seo_data and 'title' in seo_data and '/property-details' in request.httprequest.path">
+                <title t-esc="seo_data['title'] or default_title" />
+            </t>
+            <t t-else="">
+                <t t-set="default_title" t-translation="off"> <t t-if="additional_title"><t t-out="additional_title"/> | </t><t t-out="(website or res_company).name"/> </t>
+                <title t-esc="title or 'Odoo'"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

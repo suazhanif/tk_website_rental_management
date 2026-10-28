@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- For Home Banner -->
+    <template id="home_banner" name="Home Banner">
+        <section class="s_home_banner" style="height: 42.5rem;">
+            <div class="p-section hero-section" data-scrollax-parent="true" id="static-home-banner">
+                <div class="bg-tabs-wrap">
+                    <div class="bg-parallax-wrap" data-scrollax="properties: { translateY: '200px' }"
+                        style="transform: translateZ(0px) translateY(-27.1647px);">
+                        <div class="bg bg_tabs" data-bg="/tk_website_rental_management/static/src/images/bg/hero/1.jpg"
+                            style="background-image: url(&quot;/tk_website_rental_management/static/src/images/bg/hero/1.jpg&quot;);">
+                        </div>
+                        <div class="overlay op7"></div>
+                    </div>
+                </div>
+                <div class="p-container container small-container">
+                    <div class="intro-item fl-wrap" data-oe-model="ir.ui.view" data-oe-id="2309" data-oe-field="arch"
+                        data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/section[1]/div[2]/div[1]">
+                        <span class="section-separator"></span>
+                        <div class="bubbles">
+                            <h1>Explore Best Property In City</h1>
+                        </div>
+                        <h3>Find some of the best tips from around the city from our partners and friends.</h3>
+                    </div>
+                    <div class="main-search-input-tabs  tabs-act fl-wrap">
+                        <ul class="tabs-menu change_bg no-list-style">
+                            <li class="current"><a href="#tab-inpt1"
+                                    data-bgtab="/tk_website_rental_management/static/src/images/bg/hero/1.jpg">Any
+                                    Status</a></li>
+                            <li><a href="#tab-inpt2"
+                                    data-bgtab="/tk_website_rental_management/static/src/images/bg/hero/1.jpg">For
+                                    Rent</a></li>
+                            <li><a href="#tab-inpt3"
+                                    data-bgtab="/tk_website_rental_management/static/src/images/bg/hero/1.jpg">For
+                                    Buy</a></li>
+                        </ul>
+                        <div class="tabs-container fl-wrap">
+                            <div class="tab">
+                                <div id="tab-inpt1" class="tab-content first-tab">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <form method="GET" action="/properties-list" id="general">
+                                                <input type="hidden" name="st" class="advance_any_status"
+                                                    value="Any Status" />
+                                                <div class="row ml0 margin-right-media">
+                                                    <div
+                                                        class="main-search-input-item location autocomplete-container col-md-4 col-sm-4">
+                                                        <label><i class="fal fa-keyboard"></i></label>
+                                                        <input type="text" placeholder="What you are looking for ?"
+                                                            name="search_term"
+                                                            class="autocomplete-input advance_any_search_term"
+                                                            id="autocompleteid" value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-3 col-sm-3">
+                                                        <label><i class="fal fa-money-bill"></i></label>
+                                                        <input type="number" placeholder="Max Price" name="max_prc"
+                                                            class="advance_any_max_prc" value="" />
+                                                    </div>
+                                                    <div class="main-search-input-item col-md-4 col-sm-3">
+                                                        <select data-placeholder="City" name="cn"
+                                                            class="chosen-select advance_any_city"
+                                                            style="display: none;">
+                                                            <option selected="selected">
+                                                                All Cities</option>
+                                                            <option value="Melbourne">Melbourne</option>
+                                                            <option value="Western Creek">Western Creek</option>
+                                                        </select>
+                                                        <div class="nice-select chosen-select advance_any_city"
+                                                            tabindex="0"><span class="current">All Cities</span>
+                                                            <div class="nice-select-search-box"><input type="text"
+                                                                    class="nice-select-search"
+                                                                    placeholder="Search..." />
+                                                            </div>
+                                                            <ul class="list">
+                                                                <li data-value="All Cities" class="option selected">All
+                                                                    Cities</li>
+                                                                <li data-value="Melbourne" class="option">Melbourne</li>
+                                                                <li data-value="Western Creek" class="option">Western
+                                                                    Creek</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1 col-sm-2 p2p media-width">
+                                                        <button
+                                                            class="color2-bg advance-button modal-open advance_any_filter_button media-width h-97"
+                                                            type="button"><i class="fa fa-sliders fs-5"
+                                                                style="color: #4db7ef;"></i></button>
+                                                    </div>
+                                                    <button type="submit" form="general"
+                                                        class="main-search-button color2-bg">Search
+                                                        <i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-categories fl-wrap">
+                        <h4 class="hero-categories_title" data-oe-model="ir.ui.view" data-oe-id="2309"
+                            data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/section[1]/div[2]/div[3]/h4[1]">Just looking around
+                            ? Use quick search by category :</h4>
+                        <ul class="d-flex flex-wrap justify-content-center no-list-style">
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-sec-link" data-oe-model="ir.ui.view" data-oe-id="2309" data-oe-field="arch"
+                    data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/section[1]/div[3]">
+                    <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
+                </div>
+            </div>
+
+
+            <owl-component name="tk_website_rental_management.dynamic_home_banner" class="home-banner" />
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+</odoo>

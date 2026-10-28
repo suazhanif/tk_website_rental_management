@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- For Popular Properties -->
+    <template id="popular_properties" name="Popular Properties">
+        <section class="s_popular_properties" id="dynamic-popular-properties">
+            <div class="p-container container big-container">
+                <div class="section-title">
+                    <h2>
+                        <span>Popular Properties</span>
+                    </h2>
+                    <div class="section-subtitle">Featured Listings</div>
+                    <span class="section-separator"></span>
+                    <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis
+                        eros sollicitudin turpis.</p>
+                </div>
+                <div class="listing-filters gallery-filters fl-wrap">
+                    <a href="#" class="gallery-filter  gallery-filter-active" data-filter="*">All Categories</a>
+                    <a href="#" class="gallery-filter" data-filter=".residential">Residential</a>
+                    <a href="#" class="gallery-filter" data-filter=".commercial">Commercial</a>
+                    <a href="#" class="gallery-filter" data-filter=".industrial">Industrial</a>
+                    <a href="#" class="gallery-filter" data-filter=".land">Land</a>
+                </div>
+                <div class="grid-item-holder gallery-items fl-wrap" style="position: relative; height: 600px;"
+                    id="static-popular-properties">
+                    <div class="gallery-item industrial"
+                        style="position: absolute; left: 0px; top: 0px; height: 589px;">
+                        <div class="listing-item" style="height: 579px;">
+                            <article class="geodir-category-listing fl-wrap">
+                                <div class="geodir-category-img">
+                                    <div class="geodir-js-favorite_btn "><i class="fal fa-heart"></i>
+                                    </div>
+                                    <a class="geodir-category-img-wrap fl-wrap"
+                                        href="/property-details/urbannest-pro-6">
+                                        <img class="popular_property"
+                                            src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            loading="lazy"
+                                            data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            alt="UrbanNest Pro" />
+                                    </a>
+                                    <div class="listing-avatar">
+                                        <a href="#"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/user.png"
+                                                alt="TEST" /></a>
+                                    </div>
+                                    <div class="geodir_status_date gsd_open">
+                                        Available</div>
+                                    <div class="geodir-category-opt">
+                                        <div class="listing-rating-count-wrap">
+                                            <div class="review-score sale-bg">Buy</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="geodir-category-content fl-wrap title-sin_item" style="height: 299px;">
+                                    <div class="geodir-category-content-title fl-wrap" style="height: 69px;">
+                                        <div class="geodir-category-content-title-item">
+                                            <h3 class="title-sin_map"><a
+                                                    href="/property-details/urbannest-pro-6">UrbanNest Pro</a></h3>
+                                            <div class="geodir-category-location fl-wrap">
+                                                <a target="_blank" href="https://maps.google.com/maps?q=loc:,">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    96 Canterbury Rd, Melbourne, VIC, AU
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-text fl-wrap" style="height: 159px;">
+                                        <p class="small-text" style="height: 58px;">Lorem Ipsum is simply dummy text of
+                                            the printing and typesetting industry.</p>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title p-price">
+                                                $ <span class="oe_currency_value">500,000.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title">
+                                                Facilities : </div>
+                                            <ul class="no-list-style">
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Not Available">
+                                                    <i class="fal fa-ban"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-footer fl-wrap" style="height: 57px;">
+                                        <a class="listing-item-category-wrap">
+                                            <div class="listing-item-category yellow-bg">
+                                                <i class="fal fa-industry"></i>
+                                            </div>
+                                            <span>Warehouses</span>
+                                        </a>
+                                        <div class="geodir-opt-list">
+                                            <ul class="no-list-style">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                        <div class="geodir-category_contacts">
+                                            <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential"
+                        style="position: absolute; left: 367px; top: 0px; height: 589px;">
+                        <div class="listing-item" style="height: 579px;">
+                            <article class="geodir-category-listing fl-wrap">
+                                <div class="geodir-category-img">
+                                    <div class="geodir-js-favorite_btn "><i class="fal fa-heart"></i>
+                                    </div>
+                                    <a class="geodir-category-img-wrap fl-wrap"
+                                        href="/property-details/skywardsails-estates-5">
+                                        <img class="popular_property"
+                                            src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            loading="lazy"
+                                            data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            alt="SkywardSails Estates" />
+                                    </a>
+                                    <div class="listing-avatar">
+                                        <a href="#"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/user.png"
+                                                alt="TEST" /></a>
+                                    </div>
+                                    <div class="geodir_status_date gsd_open">
+                                        Available</div>
+                                    <div class="geodir-category-opt">
+                                        <div class="listing-rating-count-wrap">
+                                            <div class="review-score sale-bg">Buy</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="geodir-category-content fl-wrap title-sin_item" style="height: 299px;">
+                                    <div class="geodir-category-content-title fl-wrap" style="height: 69px;">
+                                        <div class="geodir-category-content-title-item">
+                                            <h3 class="title-sin_map"><a
+                                                    href="/property-details/skywardsails-estates-5">SkywardSails
+                                                    Estates</a></h3>
+                                            <div class="geodir-category-location fl-wrap">
+                                                <a target="_blank" href="https://maps.google.com/maps?q=loc:,">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    855 Springvale Rd, Melbourne, VIC, AU
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-text fl-wrap" style="height: 159px;">
+                                        <p class="small-text" style="height: 58px;">Lorem Ipsum is simply dummy text of
+                                            the printing and typesetting industry.</p>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title p-price">
+                                                $ <span class="oe_currency_value">120,000.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title">
+                                                Facilities : </div>
+                                            <ul class="no-list-style">
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Parking Available">
+                                                    <i class="fal fa-parking"></i>
+                                                </li>
+                                                <li class="tolt" data-microtip-position="top" data-tooltip="Security">
+                                                    <i class="fal fa-cctv"></i>
+                                                </li>
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Laundry Room">
+                                                    <i class="fal fa-washer"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-footer fl-wrap" style="height: 57px;">
+                                        <a class="listing-item-category-wrap">
+                                            <div class="listing-item-category green-gradient-bg ">
+                                                <i class="fal fa-building"></i>
+                                            </div>
+                                            <span>Apartment</span>
+                                        </a>
+                                        <div class="geodir-opt-list">
+                                            <ul class="no-list-style">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                        <div class="geodir-category_contacts">
+                                            <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial"
+                        style="position: absolute; left: 735px; top: 0px; height: 589px;">
+                        <div class="listing-item" style="height: 579px;">
+                            <article class="geodir-category-listing fl-wrap">
+                                <div class="geodir-category-img">
+                                    <div class="geodir-js-favorite_btn "><i class="fal fa-heart"></i>
+                                    </div>
+                                    <a class="geodir-category-img-wrap fl-wrap"
+                                        href="/property-details/excelestate-ventures-4">
+                                        <img class="popular_property"
+                                            src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            loading="lazy"
+                                            data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            alt="ExcelEstate Ventures" />
+                                    </a>
+                                    <div class="listing-avatar">
+                                        <a href="#"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/user.png"
+                                                alt="TEST" /></a>
+                                    </div>
+                                    <div class="geodir_status_date gsd_open">
+                                        Available</div>
+                                    <div class="geodir-category-opt">
+                                        <div class="listing-rating-count-wrap">
+                                            <div class="review-score sale-bg">Buy</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="geodir-category-content fl-wrap title-sin_item" style="height: 299px;">
+                                    <div class="geodir-category-content-title fl-wrap" style="height: 69px;">
+                                        <div class="geodir-category-content-title-item">
+                                            <h3 class="title-sin_map"><a
+                                                    href="/property-details/excelestate-ventures-4">ExcelEstate
+                                                    Ventures</a></h3>
+                                            <div class="geodir-category-location fl-wrap">
+                                                <a target="_blank" href="https://maps.google.com/maps?q=loc:,">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    Springvale Rd, Melbourne, VIC, AU
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-text fl-wrap" style="height: 159px;">
+                                        <p class="small-text" style="height: 58px;">Lorem Ipsum is simply dummy text of
+                                            the printing and typesetting industry.</p>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title p-price">
+                                                $ <span class="oe_currency_value">100,000.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title">
+                                                Facilities : </div>
+                                            <ul class="no-list-style">
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Internet Available">
+                                                    <i class="fal fa-dumbbell"></i>
+                                                </li>
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Internet Available">
+                                                    <i class="fal fa-wifi"></i>
+                                                </li>
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Parking Available">
+                                                    <i class="fal fa-parking"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-footer fl-wrap" style="height: 57px;">
+                                        <a class="listing-item-category-wrap">
+                                            <div class="listing-item-category coral-bg">
+                                                <i class="fal fa-dumpster"></i>
+                                            </div>
+                                            <span>Retail Stores</span>
+                                        </a>
+                                        <div class="geodir-opt-list">
+                                            <ul class="no-list-style">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                        <div class="geodir-category_contacts">
+                                            <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="gallery-item industrial"
+                        style="position: absolute; left: 1102px; top: 0px; height: 589px;">
+                        <div class="listing-item" style="height: 579px;">
+                            <article class="geodir-category-listing fl-wrap">
+                                <div class="geodir-category-img">
+                                    <div class="geodir-js-favorite_btn "><i class="fal fa-heart"></i>
+                                    </div>
+                                    <a class="geodir-category-img-wrap fl-wrap"
+                                        href="/property-details/premierpath-ventures-3">
+                                        <img class="popular_property"
+                                            src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            loading="lazy"
+                                            data-src="/tk_website_rental_management/static/src/images/property-placeholder.jpg"
+                                            alt="PremierPath Ventures" />
+                                    </a>
+                                    <div class="listing-avatar">
+                                        <a href="#"><img loading="lazy"
+                                                src="/tk_website_rental_management/static/src/images/user.png"
+                                                alt="TEST" /></a>
+                                    </div>
+                                    <div class="geodir_status_date gsd_open">
+                                        Available</div>
+                                    <div class="geodir-category-opt">
+                                        <div class="listing-rating-count-wrap">
+                                            <div class="review-score">Rent</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="geodir-category-content fl-wrap title-sin_item" style="height: 299px;">
+                                    <div class="geodir-category-content-title fl-wrap" style="height: 69px;">
+                                        <div class="geodir-category-content-title-item">
+                                            <h3 class="title-sin_map"><a
+                                                    href="/property-details/premierpath-ventures-3">PremierPath
+                                                    Ventures</a></h3>
+                                            <div class="geodir-category-location fl-wrap">
+                                                <a target="_blank" href="https://maps.google.com/maps?q=loc:,">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    348 Brunswick St, Melbourne, VIC, AU
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-text fl-wrap" style="height: 159px;">
+                                        <p class="small-text" style="height: 58px;">Lorem Ipsum is simply dummy text of
+                                            the printing and typesetting industry.</p>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title p-price">
+                                                $ <span class="oe_currency_value">10,000.00</span> / Month
+                                            </div>
+                                        </div>
+                                        <div class="facilities-list fl-wrap">
+                                            <div class="facilities-list-title">
+                                                Facilities : </div>
+                                            <ul class="no-list-style">
+                                                <li class="tolt" data-microtip-position="top"
+                                                    data-tooltip="Not Available">
+                                                    <i class="fal fa-ban"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="geodir-category-footer fl-wrap" style="height: 57px;">
+                                        <a class="listing-item-category-wrap">
+                                            <div class="listing-item-category yellow-bg">
+                                                <i class="fal fa-industry"></i>
+                                            </div>
+                                            <span>Warehouses</span>
+                                        </a>
+                                        <div class="geodir-opt-list">
+                                            <ul class="no-list-style">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                        <div class="geodir-category_contacts">
+                                            <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <owl-component name="tk_website_rental_management.dynamic_popular_properties" id="popular-properties" />
+                <a href="/properties-list" class="btn  dec_btn  color2-bg">Check Out All Listings<i
+                        class="fal fa-arrow-alt-right"></i>
+                </a>
+            </div>
+        </section>
+        <section class="oe_structure oe_empty"></section>
+    </template>
+</odoo>
