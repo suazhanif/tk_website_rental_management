@@ -32,9 +32,9 @@
                             <div class="intro-item fl-wrap">
                                 <span class="section-separator"></span>
                                 <div class="bubbles">
-                                    <h1>Explore Best Property In City</h1>
+                                    <h1>Explore Best Property In Oman</h1>
                                 </div>
-                                <h3>Find some of the best tips from around the city from our partners and friends.</h3>
+                                <h3>Discover waqf properties for lease across Muscat, managed with transparency in line with Islamic Sharia.</h3>
                             </div>
                             <!-- main-search-input-tabs-->
                             <div class="main-search-input-tabs  tabs-act fl-wrap">
@@ -181,7 +181,7 @@
                             <h2>The Latest Listings</h2>
                             <div class="section-subtitle">Newest  Listings</div>
                             <span class="section-separator"></span>
-                            <p>Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi varius, nulla sit amet rutrum elementum.</p>
+                            <p>Recently added lands, buildings and units available for lease.</p>
                         </div>
                         <div class="listing-slider-wrap fl-wrap">
                             <div class="listing-slider fl-wrap">
@@ -274,10 +274,10 @@
                     <section  class="p-section hidden-section particles-wrapper" t-if="home_config.city_ids">
                         <div class="p-container container">
                             <div class="section-title">
-                                <h2>Most Popular Places</h2>
-                                <div class="section-subtitle">Properties In Most Popular Places</div>
+                                <h2>Our Locations</h2>
+                                <div class="section-subtitle">Waqf Across Muscat</div>
                                 <span class="section-separator"></span>
-                                <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus.</p>
+                                <p>Browse our endowment properties by area.</p>
                             </div>
                             <div class="listing-item-grid_container fl-wrap">
                                 <div class="row">
