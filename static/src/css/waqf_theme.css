@@ -1,0 +1,189 @@
+/* ==========================================================================
+   Al Waqf Charitable Foundation — Omani theme layer
+   Loaded LAST in web.assets_frontend so it overrides the TechKhedut styles.
+   Palette taken from the Waqf logo (orchid → royal purple gradient, silver lattice)
+   plus an Omani gold accent (khanjar / frankincense tones).
+   ========================================================================== */
+
+/* Fonts (Marcellus + Tajawal) are loaded by a <link> tag in views/waqf_pages.xml
+   (template waqf_fonts). Never load fonts with a CSS import rule in this file:
+   Odoo's bundler cuts import rules at the first semicolon, and the Google Fonts
+   URL contains semicolons, which breaks the whole frontend bundle. */
+
+:root {
+    --waqf-plum:    #4A1F6E;   /* deepest purple – header, footer        */
+    --waqf-purple:  #6E2C8E;   /* main brand purple – buttons            */
+    --waqf-orchid:  #A0479D;   /* logo's left magenta – links, accents   */
+    --waqf-lilac:   #F5EEF7;   /* soft section background                */
+    --waqf-silver:  #D9D8DC;   /* logo lattice grey                      */
+    --waqf-gold:    #C8A253;   /* Omani gold accent                      */
+    --waqf-sand:    #FBF7F0;   /* warm off-white                         */
+    --waqf-ink:     #2B2233;   /* headings                               */
+    --waqf-text:    #5E5468;   /* body text                              */
+    --waqf-gradient: linear-gradient(90deg, #A0479D 0%, #6E2C8E 100%);
+
+    /* Islamic 8-point star lattice (same spirit as the logo background) */
+    --waqf-pattern-purple: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%236E2C8E' stroke-width='1' opacity='.14'%3E%3Crect x='16' y='16' width='32' height='32'/%3E%3Crect x='16' y='16' width='32' height='32' transform='rotate(45 32 32)'/%3E%3Cpath d='M0 0L16 16M64 0L48 16M0 64L16 48M64 64L48 48M32 0v9M32 64v-9M0 32h9M64 32h-9'/%3E%3C/g%3E%3C/svg%3E");
+    --waqf-pattern-white: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='.10'%3E%3Crect x='16' y='16' width='32' height='32'/%3E%3Crect x='16' y='16' width='32' height='32' transform='rotate(45 32 32)'/%3E%3Cpath d='M0 0L16 16M64 0L48 16M0 64L16 48M64 64L48 48M32 0v9M32 64v-9M0 32h9M64 32h-9'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ---------- Typography ---------- */
+body, p, a, li, input, textarea, select, .btn, span {
+    font-family: 'Tajawal', 'Raleway', sans-serif;
+}
+h1, h2, h3, .section-title h2, .intro-item h1, .video_section-title h2, .waqf-title {
+    font-family: 'Marcellus', 'Tajawal', serif !important;
+    letter-spacing: .3px;
+}
+.section-title h2 { color: var(--waqf-ink); }
+.section-title p, p { color: var(--waqf-text); }
+.section-subtitle { color: var(--waqf-orchid) !important; }
+
+/* gold underline separator instead of the blue dot line */
+.section-separator:before { background: var(--waqf-gold) !important; }
+
+/* ---------- Header & footer: deep plum + white lattice ---------- */
+.main-header, header.main-header {
+    background-color: var(--waqf-plum) !important;
+    background-image: var(--waqf-pattern-white) !important;
+    border-bottom: 3px solid var(--waqf-gold);
+}
+.main-footer {
+    background-color: var(--waqf-plum) !important;
+    background-image: var(--waqf-pattern-white) !important;
+    border-top: 3px solid var(--waqf-gold);
+}
+.sub-footer { background: #3A1758 !important; }
+.nav-holder nav li a:before { background: var(--waqf-gold) !important; }
+.nav-holder nav li a:hover, .nav-holder nav li a.act-link { color: var(--waqf-gold) !important; }
+
+/* ---------- Buttons ---------- */
+.color-bg, .color2-bg, .main-search-button, .btn.color-bg, .btn-primary,
+.s_website_form_send, .contact-redirect-button, .pagination a.current-page {
+    background: var(--waqf-gradient) !important;
+    border-color: var(--waqf-purple) !important;
+    color: #fff !important;
+}
+.color-bg:hover, .color2-bg:hover, .main-search-button:hover, .btn-primary:hover {
+    background: var(--waqf-plum) !important;
+}
+a:hover { color: var(--waqf-orchid); }
+
+/* ---------- Hero & overlays: purple tint instead of navy ---------- */
+.overlay { background: linear-gradient(120deg, rgba(74,31,110,.88), rgba(160,71,157,.70)) !important; }
+.op7 { opacity: 1 !important; }
+.hero-section .intro-item h1 { color: #fff; }
+.hero-section .intro-item h3 { color: rgba(255,255,255,.85); }
+
+/* ---------- Light sections get the faint lattice ---------- */
+.p-section:not(.parallax-section):not(.hero-section):nth-of-type(even) {
+    background-color: var(--waqf-lilac);
+    background-image: var(--waqf-pattern-purple);
+}
+
+/* ---------- Property cards: arch tops like the logo ---------- */
+.geodir-category-img, .listing-item .geodir-category-img img,
+.city-item .city-img, .waqf-arch {
+    border-radius: 120px 120px 10px 10px / 70px 70px 10px 10px;
+    overflow: hidden;
+}
+.geodir-category-listing, .listing-item-container .geodir-category-listing {
+    border-top: 3px solid var(--waqf-gold);
+}
+.rent-bg { background: var(--waqf-purple) !important; }
+.sale-bg { background: var(--waqf-gold) !important; color: #fff !important; }
+.gsd_open, .verified-badge, .green-bg { background: var(--waqf-orchid) !important; }
+
+/* ---------- Map markers / clusters ---------- */
+.cluster div, .pin { background: var(--waqf-purple) !important; border-color: var(--waqf-gold) !important; }
+
+/* ==========================================================================
+   New Waqf pages (About / Our Waqf / Board / Contact)
+   ========================================================================== */
+.waqf-page { background: var(--waqf-sand); }
+.waqf-banner {
+    position: relative; padding: 150px 0 80px; text-align: center; color: #fff;
+    background-color: var(--waqf-plum);
+    background-image: var(--waqf-pattern-white), var(--waqf-gradient);
+}
+.waqf-banner .waqf-kicker { color: var(--waqf-gold); text-transform: uppercase; letter-spacing: 3px; font-size: 13px; font-weight: 700; }
+.waqf-banner h1 { color: #fff; font-size: 44px; margin: 10px 0 14px; }
+.waqf-banner p { color: rgba(255,255,255,.85); max-width: 720px; margin: 0 auto; font-size: 17px; }
+.waqf-banner:after {               /* arch notch at bottom, echoing the logo */
+    content: ""; position: absolute; left: 50%; bottom: -1px; transform: translateX(-50%);
+    width: 140px; height: 40px; background: var(--waqf-sand);
+    border-radius: 70px 70px 0 0;
+}
+.waqf-section { padding: 80px 0; }
+.waqf-section.alt { background-color: var(--waqf-lilac); background-image: var(--waqf-pattern-purple); }
+.waqf-title { color: var(--waqf-ink); font-size: 32px; margin-bottom: 8px; }
+.waqf-title-sep { width: 60px; height: 3px; background: var(--waqf-gold); margin: 12px 0 24px; border-radius: 2px; }
+.text-center .waqf-title-sep { margin-left: auto; margin-right: auto; }
+.waqf-lead { font-size: 17px; line-height: 1.8; color: var(--waqf-text); }
+
+.waqf-card {
+    background: #fff; border-radius: 14px; padding: 32px 28px; height: 100%;
+    box-shadow: 0 10px 30px rgba(74,31,110,.08); border-top: 4px solid var(--waqf-orchid);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.waqf-card:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(74,31,110,.15); }
+.waqf-card .waqf-icon {
+    width: 64px; height: 72px; display: flex; align-items: center; justify-content: center;
+    background: var(--waqf-gradient); color: #fff; font-size: 24px; margin-bottom: 18px;
+    border-radius: 32px 32px 8px 8px;        /* little arch */
+}
+.waqf-card h3 { font-size: 21px; color: var(--waqf-ink); margin-bottom: 10px; }
+.waqf-card p { margin: 0; line-height: 1.75; }
+
+.waqf-quote {
+    background: var(--waqf-gradient); color: #fff; border-radius: 18px; padding: 48px 40px;
+    text-align: center; position: relative; overflow: hidden;
+}
+.waqf-quote:before { content: ""; position: absolute; inset: 0; background-image: var(--waqf-pattern-white); }
+.waqf-quote p { color: #fff; font-size: 20px; line-height: 1.8; position: relative; font-family: 'Marcellus', serif; }
+.waqf-quote small { color: var(--waqf-gold); position: relative; letter-spacing: 1px; }
+
+/* Board / team */
+.waqf-member { text-align: center; }
+.waqf-member .waqf-photo {
+    width: 170px; height: 210px; margin: 0 auto 18px; overflow: hidden;
+    border-radius: 85px 85px 12px 12px;      /* arch frame */
+    background: var(--waqf-gradient); border: 4px solid #fff;
+    box-shadow: 0 0 0 2px var(--waqf-gold);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-family: 'Marcellus', serif; font-size: 44px;
+}
+.waqf-member .waqf-photo img { width: 100%; height: 100%; object-fit: cover; }
+.waqf-member h4 { font-size: 18px; color: var(--waqf-ink); margin-bottom: 4px; font-weight: 700; }
+.waqf-member span { color: var(--waqf-orchid); font-size: 14px; }
+.waqf-member.chair .waqf-photo { width: 200px; height: 245px; border-radius: 100px 100px 12px 12px; }
+
+/* Waqf assets (projects) */
+.waqf-asset { background: #fff; border-radius: 14px; overflow: hidden; height: 100%; box-shadow: 0 10px 30px rgba(74,31,110,.08); }
+.waqf-asset .waqf-asset-img { height: 230px; background: var(--waqf-lilac) center/cover no-repeat; border-radius: 120px 120px 0 0 / 60px 60px 0 0; position: relative; }
+.waqf-asset .waqf-badge { position: absolute; top: 18px; left: 18px; background: var(--waqf-gold); color: #fff; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+.waqf-asset .waqf-asset-body { padding: 24px; }
+.waqf-asset h3 { font-size: 21px; color: var(--waqf-ink); }
+.waqf-asset .waqf-loc { color: var(--waqf-orchid); font-size: 14px; margin-bottom: 10px; display: block; }
+
+/* CTA band */
+.waqf-cta { background-color: var(--waqf-plum); background-image: var(--waqf-pattern-white), var(--waqf-gradient); padding: 60px 0; text-align: center; color: #fff; }
+.waqf-cta h2 { color: #fff; margin-bottom: 18px; }
+.waqf-btn { display: inline-block; padding: 13px 34px; border-radius: 30px; background: var(--waqf-gold); color: #fff !important; font-weight: 700; transition: .2s; }
+.waqf-btn:hover { background: #fff; color: var(--waqf-plum) !important; }
+.waqf-btn.outline { background: transparent; border: 2px solid var(--waqf-purple); color: var(--waqf-purple) !important; }
+
+/* Contact */
+.waqf-contact-item { display: flex; gap: 16px; margin-bottom: 22px; align-items: flex-start; }
+.waqf-contact-item i { width: 46px; height: 52px; flex: 0 0 46px; display: flex; align-items: center; justify-content: center; background: var(--waqf-gradient); color: #fff; border-radius: 23px 23px 6px 6px; }
+.waqf-contact-item strong { display: block; color: var(--waqf-ink); }
+.waqf-map iframe { width: 100%; height: 380px; border: 0; border-radius: 14px; }
+.waqf-form-box { background: #fff; border-radius: 14px; padding: 34px; box-shadow: 0 10px 30px rgba(74,31,110,.08); border-top: 4px solid var(--waqf-gold); }
+.waqf-form-box .form-control { border-radius: 8px; border-color: var(--waqf-silver); padding: 11px 14px; }
+.waqf-form-box .form-control:focus { border-color: var(--waqf-orchid); box-shadow: 0 0 0 .2rem rgba(160,71,157,.15); }
+
+@media (max-width: 767px) {
+    .waqf-banner { padding: 120px 16px 60px; }
+    .waqf-banner h1 { font-size: 32px; }
+    .waqf-section { padding: 56px 0; }
+}
