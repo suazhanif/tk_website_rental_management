@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Al Waqf Charitable Foundation – custom English pages
+    About (/about-us) · Our Waqf (/waqf-projects) · Board & Management (/board) · Contact (/contact)
+    All text sits inside normal sections, so it can also be edited later with the Website editor.
+-->
+<odoo>
+
+    <!-- ===================================================== FONTS (loaded here, not via CSS @import) -->
+    <template id="waqf_fonts" inherit_id="website.layout" name="Waqf Fonts">
+        <xpath expr="//head" position="inside">
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Tajawal:wght@300;400;500;700;800&amp;display=swap"/>
+        </xpath>
+    </template>
+
+    <!-- ===================================================== ABOUT US -->
+    <template id="waqf_about" name="About Al Waqf">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'About Us'"/>
+            <div id="wrap" class="oe_structure waqf-page">
+
+                <section class="waqf-banner">
+                    <div class="container">
+                        <div class="waqf-kicker">About the Foundation</div>
+                        <h1>Al Waqf Charitable Foundation</h1>
+                        <p>Committed to creating positive, lasting change in the management of endowment assets — for the wellbeing of our community and the growth of its future.</p>
+                    </div>
+                </section>
+
+                <section class="waqf-section">
+                    <div class="container">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6">
+                                <h2 class="waqf-title">Who We Are</h2>
+                                <div class="waqf-title-sep"/>
+                                <p class="waqf-lead">Al Waqf Charitable Foundation is a leading institution in the management of endowment (waqf) assets in the Sultanate of Oman. We believe waqf is a powerful instrument for sustainable development and social solidarity.</p>
+                                <p class="waqf-lead">By holding ourselves to the highest standards of transparency and efficiency, we work to improve the quality of life in our community through waqf.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="waqf-quote">
+                                    <p>“When a person dies, all their deeds end except three: ongoing charity, beneficial knowledge, or a righteous child who prays for them.”</p>
+                                    <small>— Prophet Muhammad ﷺ, narrated by Abu Hurairah (Sahih Muslim)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="waqf-section alt">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="waqf-title">Mission, Vision &amp; Values</h2>
+                            <div class="waqf-title-sep"/>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-hands-helping"/></div>
+                                    <h3>Our Mission</h3>
+                                    <p>To be the trusted and preferred partner in the waqf sector — building an effective endowment sector together with our partners in the management, investment and development of waqf assets, guided by the principles of Islamic Sharia and dedicated to community cooperation that benefits all beneficiaries.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-eye"/></div>
+                                    <h3>Our Vision</h3>
+                                    <p>To become the leading institution in waqf asset management, contributing to Oman Vision 2040 through innovation and excellence, and employing waqf as an effective tool for sustainable development and social stability.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-gem"/></div>
+                                    <h3>Our Values</h3>
+                                    <p>Transparency, integrity, responsibility and innovation are the foundation of everything we do. They guide us in achieving our goals and in applying best practice to maximise the benefit of waqf for society.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="waqf-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="waqf-title">Leading with Purpose and Integrity</h2>
+                            <div class="waqf-title-sep"/>
+                            <p class="waqf-lead mx-auto" style="max-width:760px">We strive for excellence in every area of our work, with a firm commitment to transparency and credibility. We believe true leadership comes from sincerely serving the community and achieving our goals with integrity.</p>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-balance-scale"/></div>
+                                    <h3>Our Commitment</h3>
+                                    <p>We apply the highest standards of good governance and full compliance with Islamic Sharia in all our operations, working transparently with our partners and the community to deliver tangible, sustainable results.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-chart-line"/></div>
+                                    <h3>Our Strategy</h3>
+                                    <p>We develop sustainable, innovative short- and long-term strategies focused on financial and social returns — improving waqf income, preserving the long-term value of assets, and strengthening partnerships with government and private entities.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="waqf-card">
+                                    <div class="waqf-icon"><i class="fal fa-handshake"/></div>
+                                    <h3>Our Partnerships</h3>
+                                    <p>Collaboration is the key to success. We build effective strategic partnerships with government bodies and relevant institutions to achieve shared waqf objectives, widen our impact and develop new projects that serve society.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="tk_website_rental_management.waqf_cta"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- ===================================================== OUR WAQF (PROJECTS) -->
+    <template id="waqf_projects" name="Our Waqf Projects">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'Our Waqf'"/>
+            <div id="wrap" class="oe_structure waqf-page">
+
+                <section class="waqf-banner">
+                    <div class="container">
+                        <div class="waqf-kicker">Explore opportunities with us</div>
+                        <h1>Investment Opportunities Map</h1>
+                        <p>Our waqf lands and buildings across Muscat — each one a long-term opportunity to invest, develop and generate returns that serve the community.</p>
+                    </div>
+                </section>
+
+                <section class="waqf-section">
+                    <div class="container">
+                        <div class="row g-4">
+                            <!-- Asset 1 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="waqf-asset">
+                                    <div class="waqf-asset-img" style="background-image:url('/tk_website_rental_management/static/src/img/waqf/al-khoudh.jpg')">
+                                        <span class="waqf-badge">Land</span>
+                                    </div>
+                                    <div class="waqf-asset-body">
+                                        <h3>Al Khoudh Waqf Land</h3>
+                                        <span class="waqf-loc"><i class="fal fa-map-marker-alt"/> Al Khoudh 6, near Mazoon Mosque</span>
+                                        <p>Located in a strategic area of rapid urban growth, this large plot is ideal for residential and commercial development. Its closeness to the mosque and key services, together with Al Khoudh's continuing expansion, makes it a strong long-term investment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Asset 2 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="waqf-asset">
+                                    <div class="waqf-asset-img" style="background-image:url('/tk_website_rental_management/static/src/img/waqf/al-wattayah.jpg')">
+                                        <span class="waqf-badge">Land</span>
+                                    </div>
+                                    <div class="waqf-asset-body">
+                                        <h3>Al Wattayah Waqf Land</h3>
+                                        <span class="waqf-loc"><i class="fal fa-map-marker-alt"/> Sultan Qaboos Street, Al Wattayah</span>
+                                        <p>An exceptional plot in the heart of Al Wattayah on the main Sultan Qaboos Street — beside Ahli Bank and the Omasco Honda showroom, and directly facing the Toyota showrooms. A prime commercial frontage.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Asset 3 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="waqf-asset">
+                                    <div class="waqf-asset-img" style="background-image:url('/tk_website_rental_management/static/src/img/waqf/building.jpg')">
+                                        <span class="waqf-badge">Building</span>
+                                    </div>
+                                    <div class="waqf-asset-body">
+                                        <h3>Waqf Building</h3>
+                                        <span class="waqf-loc"><i class="fal fa-map-marker-alt"/> Muscat</span>
+                                        <p>An income-generating waqf building with residential and commercial units available for lease. Browse the live listings to see which units are currently available.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-5">
+                            <a href="/properties-list" class="waqf-btn me-2">View Available Units</a>
+                            <a href="/map-view" class="waqf-btn outline">See Them on the Map</a>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="tk_website_rental_management.waqf_cta"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- ===================================================== BOARD & MANAGEMENT (TEAM) -->
+    <template id="waqf_member" name="Waqf Member Card">
+        <!-- params: m_name, m_role, m_initials, m_img (optional), m_class (optional) -->
+        <div t-attf-class="waqf-member #{m_class or ''}">
+            <div class="waqf-photo">
+                <img t-if="m_img" t-att-src="m_img" t-att-alt="m_name"/>
+                <t t-else="" t-esc="m_initials"/>
+            </div>
+            <h4 t-esc="m_name"/>
+            <span t-esc="m_role"/>
+        </div>
+    </template>
+
+    <template id="waqf_board" name="Board and Management">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'Board &amp; Management'"/>
+            <t t-set="img_path" t-value="'/tk_website_rental_management/static/src/img/waqf/team/'"/>
+            <div id="wrap" class="oe_structure waqf-page">
+
+                <section class="waqf-banner">
+                    <div class="container">
+                        <div class="waqf-kicker">Our Team</div>
+                        <h1>Board &amp; Executive Management</h1>
+                        <p>The people entrusted with governing and growing the Foundation's endowments.</p>
+                    </div>
+                </section>
+
+                <section class="waqf-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="waqf-title">Board of Directors</h2>
+                            <div class="waqf-title-sep"/>
+                        </div>
+                        <!-- Chair & Vice-chair -->
+                        <div class="row justify-content-center g-5 mb-5">
+                            <div class="col-sm-6 col-lg-4">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Sheikh Saif bin Hilal bin Khalid Al Maawali</t>
+                                    <t t-set="m_role">Chairman of the Board</t>
+                                    <t t-set="m_initials">SM</t>
+                                    <t t-set="m_class">chair</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Sheikh Fahad bin Mohammed Al Khalili</t>
+                                    <t t-set="m_role">Vice Chairman of the Board</t>
+                                    <t t-set="m_initials">FK</t>
+                                    <t t-set="m_class">chair</t>
+                                </t>
+                            </div>
+                        </div>
+                        <!-- Members -->
+                        <div class="row justify-content-center g-5">
+                            <div class="col-sm-6 col-lg-3">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Ishaq bin Zayed Al Maawali</t>
+                                    <t t-set="m_role">Board Member / Executive Committee Member</t>
+                                    <t t-set="m_initials">IM</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Ibrahim bin Abdullah Al Hosni</t>
+                                    <t t-set="m_role">Board Member / Executive Committee Member</t>
+                                    <t t-set="m_initials">IH</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Jameel Ali Sultan</t>
+                                    <t t-set="m_role">Board Member</t>
+                                    <t t-set="m_initials">JS</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Ahmed bin Khamis Al Mahrouqi</t>
+                                    <t t-set="m_role">Board Member</t>
+                                    <t t-set="m_initials">AM</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Muath bin Salim Al Ghazali</t>
+                                    <t t-set="m_role">Board Member</t>
+                                    <t t-set="m_initials">MG</t>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="waqf-section alt">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="waqf-title">Executive Management</h2>
+                            <div class="waqf-title-sep"/>
+                        </div>
+                        <div class="row justify-content-center g-5">
+                            <div class="col-sm-6 col-lg-4">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Mahmood bin Mahfoudh Al Qasmi</t>
+                                    <t t-set="m_role">Executive Director</t>
+                                    <t t-set="m_initials">MQ</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Aflah bin Khalfan Al Ghaithi</t>
+                                    <t t-set="m_role">Legal Officer &amp; Board Secretary</t>
+                                    <t t-set="m_initials">AG</t>
+                                </t>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <t t-call="tk_website_rental_management.waqf_member">
+                                    <t t-set="m_name">Hilal bin Saud Al Siyabi</t>
+                                    <t t-set="m_role">Finance &amp; Administration Officer</t>
+                                    <t t-set="m_initials">HS</t>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="tk_website_rental_management.waqf_cta"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- ===================================================== CONTACT -->
+    <template id="waqf_contact" name="Contact Al Waqf">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'Contact Us'"/>
+            <div id="wrap" class="oe_structure waqf-page">
+
+                <section class="waqf-banner">
+                    <div class="container">
+                        <div class="waqf-kicker">Contact</div>
+                        <h1>Get in Touch Today</h1>
+                        <p>Would you like to benefit from our waqf services? We are here to help you achieve your charitable goals. Reach out and let us work together to realise your vision.</p>
+                    </div>
+                </section>
+
+                <section class="waqf-section">
+                    <div class="container">
+                        <div class="row g-5">
+                            <div class="col-lg-5">
+                                <h2 class="waqf-title">Contact Details</h2>
+                                <div class="waqf-title-sep"/>
+                                <div class="waqf-contact-item">
+                                    <i class="fal fa-map-marker-alt"/>
+                                    <div><strong>Address</strong>Ghala Building, Building No. 705, 3rd Floor, Office 33, Muscat, Sultanate of Oman</div>
+                                </div>
+                                <div class="waqf-contact-item">
+                                    <i class="fal fa-phone"/>
+                                    <div><strong>Phone</strong><a href="tel:+96899338294">+968 9933 8294</a></div>
+                                </div>
+                                <div class="waqf-contact-item">
+                                    <i class="fal fa-envelope"/>
+                                    <div><strong>Email</strong><a href="mailto:mahmood.alqasmi@alwaqfmuscat.om">mahmood.alqasmi@alwaqfmuscat.om</a></div>
+                                </div>
+                                <div class="waqf-contact-item">
+                                    <i class="fal fa-clock"/>
+                                    <div><strong>Working Hours</strong>Sunday – Thursday, 8:00 AM – 3:00 PM</div>
+                                </div>
+                                <div class="waqf-map mt-4">
+                                    <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                            src="https://www.google.com/maps?q=Ghala,Muscat,Oman&amp;output=embed"/>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <div class="waqf-form-box">
+                                    <h3 class="waqf-title" style="font-size:26px">Leave Us a Message</h3>
+                                    <div class="waqf-title-sep"/>
+                                    <!-- Standard Odoo website form (same mechanism as /contactus) -->
+                                    <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                                        <form id="waqf_contact_form" action="/website/form/" method="post"
+                                              enctype="multipart/form-data" class="o_mark_required" data-mark="*"
+                                              data-model_name="mail.mail" data-success-mode="redirect"
+                                              data-success-page="/contactus-thank-you">
+                                            <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                <div class="mb-3 col-md-6 s_website_form_field s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_name"><span class="s_website_form_label_content">Name</span><span class="s_website_form_mark"> *</span></label>
+                                                    <input id="wq_name" type="text" class="form-control s_website_form_input" name="name" required=""/>
+                                                </div>
+                                                <div class="mb-3 col-md-6 s_website_form_field s_website_form_model_required" data-type="email" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_email"><span class="s_website_form_label_content">Email</span><span class="s_website_form_mark"> *</span></label>
+                                                    <input id="wq_email" type="email" class="form-control s_website_form_input" name="email_from" required=""/>
+                                                </div>
+                                                <div class="mb-3 col-md-6 s_website_form_field s_website_form_custom" data-type="tel" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_phone"><span class="s_website_form_label_content">Phone Number</span></label>
+                                                    <input id="wq_phone" type="tel" class="form-control s_website_form_input" name="phone"/>
+                                                </div>
+                                                <div class="mb-3 col-md-6 s_website_form_field s_website_form_custom" data-type="char" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_company"><span class="s_website_form_label_content">Company Name</span></label>
+                                                    <input id="wq_company" type="text" class="form-control s_website_form_input" name="company"/>
+                                                </div>
+                                                <div class="mb-3 col-12 s_website_form_field s_website_form_model_required" data-type="char" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_subject"><span class="s_website_form_label_content">Subject</span><span class="s_website_form_mark"> *</span></label>
+                                                    <input id="wq_subject" type="text" class="form-control s_website_form_input" name="subject" required=""/>
+                                                </div>
+                                                <div class="mb-3 col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field">
+                                                    <label class="s_website_form_label" for="wq_msg"><span class="s_website_form_label_content">Your Message</span><span class="s_website_form_mark"> *</span></label>
+                                                    <textarea id="wq_msg" class="form-control s_website_form_input" name="description" rows="6" required=""/>
+                                                </div>
+                                                <div class="s_website_form_field s_website_form_dnone">
+                                                    <input type="hidden" class="form-control s_website_form_input" name="email_to" t-att-value="res_company.email"/>
+                                                </div>
+                                                <div class="col-12 s_website_form_submit">
+                                                    <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send">Send Message</a>
+                                                    <span id="s_website_form_result"/>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+    <!-- ===================================================== SHARED CTA BAND -->
+    <template id="waqf_cta" name="Waqf CTA">
+        <section class="waqf-cta">
+            <div class="container">
+                <h2>Interested in endowing your property?</h2>
+                <p class="text-white-50 mb-4">Support waqf and become part of goodness that lasts.</p>
+                <a href="/contact" class="waqf-btn">Contact Us</a>
+            </div>
+        </section>
+    </template>
+
+    <!-- ===================================================== PAGES -->
+    <record id="waqf_page_about" model="website.page">
+        <field name="url">/about-us</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="waqf_about"/>
+        <field name="website_indexed">True</field>
+    </record>
+    <record id="waqf_page_projects" model="website.page">
+        <field name="url">/waqf-projects</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="waqf_projects"/>
+        <field name="website_indexed">True</field>
+    </record>
+    <record id="waqf_page_board" model="website.page">
+        <field name="url">/board</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="waqf_board"/>
+        <field name="website_indexed">True</field>
+    </record>
+    <record id="waqf_page_contact" model="website.page">
+        <field name="url">/contact</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="waqf_contact"/>
+        <field name="website_indexed">True</field>
+    </record>
+
+    <!-- ===================================================== MENU (Home=10, Listings=11, Map=12 already exist) -->
+    <record id="waqf_menu_about" model="website.menu">
+        <field name="name">About Us</field>
+        <field name="url">/about-us</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">13</field>
+    </record>
+    <record id="waqf_menu_projects" model="website.menu">
+        <field name="name">Our Waqf</field>
+        <field name="url">/waqf-projects</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">14</field>
+    </record>
+    <record id="waqf_menu_board" model="website.menu">
+        <field name="name">Board &amp; Management</field>
+        <field name="url">/board</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">15</field>
+    </record>
+    <record id="waqf_menu_contact" model="website.menu">
+        <field name="name">Contact Us</field>
+        <field name="url">/contact</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">20</field>
+    </record>
+</odoo>
