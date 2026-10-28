@@ -1,0 +1,49 @@
+.skeleton::before, .home-skeleton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: linear-gradient(90deg, #eee, #f9f9f9, #eee);
+    background-size: 200%;
+    animation: skeleton 1s infinite reverse;
+}
+
+.property-skeleton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, #eee, #f9f9f9, #eee);
+    background-size: 200%;
+    animation: skeleton 1s infinite reverse;
+}
+
+.skeleton-select {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    z-index: 1;
+    line-height: 15px;
+    background: linear-gradient(90deg, #eee, #f9f9f9, #eee);
+    color: transparent;
+    background-size: 200%;
+    border: none;
+    animation: skeleton 1s infinite reverse;
+}
+
+@keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}

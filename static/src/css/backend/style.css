@@ -1,0 +1,39 @@
+.facebook-btn {
+    background-color: #0866FF;
+    border-color: #0866FF;
+    padding: 6px !important;
+}
+
+.facebook-btn:hover {
+    background-color: #0866FF !important;
+    border-color: #0866FF !important;
+}
+
+.x-btn {
+    background-color: #0a0a0a;
+    border-color: #0a0a0a;
+    padding: 6px !important;
+}
+
+.x-btn:hover {
+    background-color: #0a0a0a !important;
+    border-color: #0a0a0a !important;
+}
+
+.linkedin-btn {
+    background-color: #0077B5;
+    border-color: #0077B5;
+    padding: 6px !important;
+}
+
+.linkedin-btn:hover {
+    background-color: #0077B5;
+    border-color: #0077B5;
+}
+
+.facebook-btn i, .x-btn i, .linkedin-btn i {
+    color: #fff !important;
+    font-size: 20px !important;
+    padding: 0 !important;
+    margin-top: 4px !important;
+}
